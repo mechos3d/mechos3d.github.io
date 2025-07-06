@@ -2151,6 +2151,323 @@
         ]
       },
       "verbType": "Τύπος Α"
+    },
+
+    "θέλω": {
+      "sentences": [
+        ["Θέλω", "Θέλω έναν καφέ τώρα", "I want a coffee now", "s", "present"],
+        ["Θέλεις", "Θέλεις να έρθεις μαζί μου;", "Do you want to come with me?", "s", "present"],
+        ["Θέλει", "Θέλει να μάθει ελληνικά", "He/she wants to learn Greek", "s", "present"],
+        ["Θέλουμε", "Θέλουμε να πάμε στη θάλασσα", "We want to go to the sea", "p", "present"],
+        ["Θέλετε", "Θέλετε βοήθεια με τη δουλειά;", "Do you want help with the work?", "p", "present"],
+        ["Θέλουν", "Θέλουν να δουν την ταινία απόψε", "They want to watch the movie tonight", "p", "present"],
+
+        ["Ήθελα", "Ήθελα να σου μιλήσω χτες", "I wanted to talk to you yesterday", "s", "past"],
+        ["Ήθελες", "Ήθελες κάτι από το μαγαζί;", "Did you want something from the store?", "s", "past"],
+        ["Ήθελε", "Ήθελε να μείνει περισσότερο", "He/she wanted to stay longer", "s", "past"],
+        ["Ήθελαμε", "Ήθελαμε να κάνουμε ταξίδι το καλοκαίρι", "We wanted to travel in the summer", "p", "past"],
+        ["Ήθελετε", "Ήθελετε να φάτε μαζί μας;", "Did you want to eat with us?", "p", "past"],
+        ["Ήθελαν", "Ήθελαν να τελειώσουν γρήγορα", "They wanted to finish quickly", "p", "past"],
+
+        ["Θα θέλω", "Θα θέλω να σε δω αύριο", "I will want to see you tomorrow", "s", "future"],
+        ["Θα θέλεις", "Θα θέλεις να έρθεις στο πάρτι;", "Will you want to come to the party?", "s", "future"],
+        ["Θα θέλει", "Θα θέλει να αγοράσει το βιβλίο", "He/she will want to buy the book", "s", "future"],
+        ["Θα θέλουμε", "Θα θέλουμε περισσότερες πληροφορίες", "We will want more information", "p", "future"],
+        ["Θα θέλετε", "Θα θέλετε να με βοηθήσετε;", "Will you want to help me?", "p", "future"],
+        ["Θα θέλουν", "Θα θέλουν να ταξιδέψουν σύντομα", "They will want to travel soon", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "θέλω",
+          "θέλεις",
+          "θέλει",
+          "θέλουμε",
+          "θέλετε",
+          "θέλουν"
+        ],
+        "past": [
+          "ήθελα",
+          "ήθελες",
+          "ήθελε",
+          "ήθελαμε",
+          "ήθελετε",
+          "ήθελαν"
+        ],
+        "future": [
+          "θα θέλω",
+          "θα θέλεις",
+          "θα θέλει",
+          "θα θέλουμε",
+          "θα θέλετε",
+          "θα θέλουν"
+        ]
+      },
+      "verbType": "Τύπος Β"
+    },
+
+    "ακούω": {
+      "sentences": [
+        ["Ακούω", "Ακούω μουσική κάθε μέρα", "I listen to music every day", "s", "present"],
+        ["Ακούς", "Ακούς τι λέει ο καθηγητής", "You hear what the teacher says", "s", "present"],
+        ["Ακούει", "Ακούει προσεκτικά την ομιλία", "He/she listens carefully to the speech", "s", "present"],
+        ["Ακούμε", "Ακούμε τους ήχους της φύσης", "We listen to the sounds of nature", "p", "present"],
+        ["Ακούτε", "Ακούτε την εκπομπή στο ραδιόφωνο", "You listen to the show on the radio", "p", "present"],
+        ["Ακούνε", "Ακούνε τον θόρυβο από το δρόμο", "They hear the noise from the street", "p", "present"],
+
+        ["Άκουσα", "Άκουσα την ειδηση στο δελτίο", "I heard the news on the bulletin", "s", "past"],
+        ["Άκουσες", "Άκουσες την ιστορία που σου είπα;", "Did you hear the story I told you?", "s", "past"],
+        ["Άκουσε", "Άκουσε το τραγούδι που του άρεσε", "He/she heard the song he/she liked", "s", "past"],
+        ["Άκουσε", "Άκουσε τον ήχο του ανέμου", "He/she heard the sound of the wind", "s", "past"],
+        ["Ακούσαμε", "Ακούσαμε την ανακοίνωση στο σταθμό", "We heard the announcement at the station", "p", "past"],
+        ["Ακούσατε", "Ακούσατε τα νέα από την τηλεόραση", "You heard the news from the television", "p", "past"],
+        ["Άκουσαν", "Άκουσαν το κουδούνι να χτυπά", "They heard the bell ringing", "p", "past"],
+
+        ["Θα ακούσω", "Θα ακούσω την πρότασή σου", "I will listen to your proposal", "s", "future"],
+        ["Θα ακούσεις", "Θα ακούσεις τη συμβουλή μου", "You will listen to my advice", "s", "future"],
+        ["Θα ακούσει", "Θα ακούσει τη φωνή σου αύριο", "He/she will hear your voice tomorrow", "s", "future"],
+        ["Θα ακούσουμε", "Θα ακούσουμε τη συναυλία μαζί", "We will listen to the concert together", "p", "future"],
+        ["Θα ακούσετε", "Θα ακούσετε το νέο τραγούδι σύντομα", "You will hear the new song soon", "p", "future"],
+        ["Θα ακούσουν", "Θα ακούσουν τις οδηγίες προσεκτικά", "They will listen carefully to the instructions", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "ακούω",
+          "ακούς",
+          "ακούει",
+          "ακούμε",
+          "ακούτε",
+          "ακούνε"
+        ],
+        "past": [
+          "άκουσα",
+          "άκουσες",
+          "άκουσε",
+          "ακούσαμε",
+          "ακούσατε",
+          "άκουσαν"
+        ],
+        "future": [
+          "θα ακούσω",
+          "θα ακούσεις",
+          "θα ακούσει",
+          "θα ακούσουμε",
+          "θα ακούσετε",
+          "θα ακούσουν"
+        ]
+      },
+      "verbType": "Τύπος Β"
+    },
+
+    "δουλεύω": {
+      "sentences": [
+        ["Δουλεύω", "Δουλεύω στο γραφείο κάθε μέρα", "I work at the office every day", "s", "present"],
+        ["Δουλεύεις", "Δουλεύεις πολύ σκληρά τελευταία", "You have been working very hard lately", "s", "present"],
+        ["Δουλεύει", "Δουλεύει σε μια μεγάλη εταιρεία", "He/she works in a big company", "s", "present"],
+        ["Δουλεύουμε", "Δουλεύουμε μαζί σε αυτό το πρότζεκτ", "We work together on this project", "p", "present"],
+        ["Δουλεύετε", "Δουλεύετε μέχρι αργά το βράδυ", "You work until late at night", "p", "present"],
+        ["Δουλεύουν", "Δουλεύουν καθημερινά στον κήπο", "They work daily in the garden", "p", "present"],
+
+        ["Δούλεψα", "Δούλεψα όλη μέρα χτες", "I worked all day yesterday", "s", "past"],
+        ["Δούλεψες", "Δούλεψες σκληρά για την παρουσίαση", "You worked hard for the presentation", "s", "past"],
+        ["Δούλεψε", "Δούλεψε μέχρι αργά το βράδυ", "He/she worked until late at night", "s", "past"],
+        ["Δούλεψε", "Δούλεψε πολύ για να πετύχει", "He/she worked a lot to succeed", "s", "past"],
+        ["Δουλέψαμε", "Δουλέψαμε μαζί στο νέο έργο", "We worked together on the new project", "p", "past"],
+        ["Δουλέψατε", "Δουλέψατε υπέροχα στην εκδήλωση", "You worked wonderfully at the event", "p", "past"],
+        ["Δούλεψαν", "Δούλεψαν σκληρά όλο το μήνα", "They worked hard all month", "p", "past"],
+
+        ["Θα δουλέψω", "Θα δουλέψω αύριο το πρωί", "I will work tomorrow morning", "s", "future"],
+        ["Θα δουλέψεις", "Θα δουλέψεις στο καινούργιο πρότζεκτ", "You will work on the new project", "s", "future"],
+        ["Θα δουλέψει", "Θα δουλέψει σε αυτή την εταιρεία", "He/she will work in this company", "s", "future"],
+        ["Θα δουλέψουμε", "Θα δουλέψουμε όλοι μαζί", "We will all work together", "p", "future"],
+        ["Θα δουλέψετε", "Θα δουλέψετε για να ολοκληρώσετε το έργο", "You will work to complete the project", "p", "future"],
+        ["Θα δουλέψουν", "Θα δουλέψουν σκληρά για την επιτυχία", "They will work hard for success", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "δουλεύω",
+          "δουλεύεις",
+          "δουλεύει",
+          "δουλεύουμε",
+          "δουλεύετε",
+          "δουλεύουν"
+        ],
+        "past": [
+          "δούλεψα",
+          "δούλεψες",
+          "δούλεψε",
+          "δουλέψαμε",
+          "δουλέψατε",
+          "δούλεψαν"
+        ],
+        "future": [
+          "θα δουλέψω",
+          "θα δουλέψεις",
+          "θα δουλέψει",
+          "θα δουλέψουμε",
+          "θα δουλέψετε",
+          "θα δουλέψουν"
+        ]
+      },
+      "verbType": "Τύπος Β"
+    },
+
+    "καταλαβαίνω": {
+      "sentences": [
+        ["Καταλαβαίνω", "Καταλαβαίνω τι λες", "I understand what you say", "s", "present"],
+        ["Καταλαβαίνεις", "Καταλαβαίνεις το μάθημα καλά", "You understand the lesson well", "s", "present"],
+        ["Καταλαβαίνει", "Καταλαβαίνει το πρόβλημα", "He/she understands the problem", "s", "present"],
+        ["Καταλαβαίνουμε", "Καταλαβαίνουμε τη σημασία του θέματος", "We understand the importance of the issue", "p", "present"],
+        ["Καταλαβαίνετε", "Καταλαβαίνετε τις οδηγίες;", "Do you understand the instructions?", "p", "present"],
+        ["Καταλαβαίνουν", "Καταλαβαίνουν την κατάσταση", "They understand the situation", "p", "present"],
+
+        ["Κατάλαβα", "Κατάλαβα το λάθος μου", "I understood my mistake", "s", "past"],
+        ["Κατάλαβες", "Κατάλαβες τι εννοούσα;", "Did you understand what I meant?", "s", "past"],
+        ["Κατάλαβε", "Κατάλαβε τη δυσκολία του έργου", "He/she understood the difficulty of the task", "s", "past"],
+        ["Κατάλαβε", "Κατάλαβε την κατάσταση γρήγορα", "He/she understood the situation quickly", "s", "past"],
+        ["Καταλάβαμε", "Καταλάβαμε το νόημα της συζήτησης", "We understood the meaning of the discussion", "p", "past"],
+        ["Καταλάβατε", "Καταλάβατε την αλλαγή στο πρόγραμμα", "You understood the change in the schedule", "p", "past"],
+        ["Κατάλαβαν", "Κατάλαβαν την αλήθεια μετά από καιρό", "They understood the truth after a long time", "p", "past"],
+
+        ["Θα καταλάβω", "Θα καταλάβω την εξήγηση σου", "I will understand your explanation", "s", "future"],
+        ["Θα καταλάβεις", "Θα καταλάβεις γιατί το έκανα", "You will understand why I did it", "s", "future"],
+        ["Θα καταλάβει", "Θα καταλάβει τη σημασία σύντομα", "He/she will understand the importance soon", "s", "future"],
+        ["Θα καταλάβουμε", "Θα καταλάβουμε το πρόβλημα μαζί", "We will understand the problem together", "p", "future"],
+        ["Θα καταλάβετε", "Θα καταλάβετε το νόημα της ιστορίας", "You will understand the meaning of the story", "p", "future"],
+        ["Θα καταλάβουν", "Θα καταλάβουν την κατάσταση τελικά", "They will understand the situation eventually", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "καταλαβαίνω",
+          "καταλαβαίνεις",
+          "καταλαβαίνει",
+          "καταλαβαίνουμε",
+          "καταλαβαίνετε",
+          "καταλαβαίνουν"
+        ],
+        "past": [
+          "κατάλαβα",
+          "κατάλαβες",
+          "κατάλαβε",
+          "καταλάβαμε",
+          "καταλάβατε",
+          "κατάλαβαν"
+        ],
+        "future": [
+          "θα καταλάβω",
+          "θα καταλάβεις",
+          "θα καταλάβει",
+          "θα καταλάβουμε",
+          "θα καταλάβετε",
+          "θα καταλάβουν"
+        ]
+      },
+      "verbType": "Τύπος Β"
+    },
+
+    "γνωρίζω": {
+      "sentences": [
+        ["Γνωρίζω", "Γνωρίζω τον καινούργιο σου φίλο", "I know your new friend", "s", "present"],
+        ["Γνωρίζεις", "Γνωρίζεις καλά την πόλη μας", "You know our city well", "s", "present"],
+        ["Γνωρίζει", "Γνωρίζει την αλήθεια", "He/she knows the truth", "s", "present"],
+        ["Γνωρίζουμε", "Γνωρίζουμε πολλούς ανθρώπους εδώ", "We know many people here", "p", "present"],
+        ["Γνωρίζετε", "Γνωρίζετε τους κανόνες;", "Do you know the rules?", "p", "present"],
+        ["Γνωρίζουν", "Γνωρίζουν τα μυστικά της επιτυχίας", "They know the secrets of success", "p", "present"],
+
+        ["Γνώρισα", "Γνώρισα τον δάσκαλο χτες", "I met the teacher yesterday", "s", "past"],
+        ["Γνώρισες", "Γνώρισες την καινούργια συνάδελφο", "You met the new colleague", "s", "past"],
+        ["Γνώρισε", "Γνώρισε πολλούς νέους φίλους", "He/she met many new friends", "s", "past"],
+        ["Γνώρισε", "Γνώρισε την πραγματικότητα", "He/she realized the reality", "s", "past"],
+        ["Γνωρίσαμε", "Γνωρίσαμε ωραία μέρη στις διακοπές", "We visited nice places on vacation", "p", "past"],
+        ["Γνωρίσατε", "Γνωρίσατε νέους ανθρώπους στην εκδήλωση", "You met new people at the event", "p", "past"],
+        ["Γνώρισαν", "Γνώρισαν τις δυσκολίες από κοντά", "They experienced the difficulties firsthand", "p", "past"],
+
+        ["Θα γνωρίσω", "Θα γνωρίσω τον νέο διευθυντή αύριο", "I will meet the new manager tomorrow", "s", "future"],
+        ["Θα γνωρίσεις", "Θα γνωρίσεις τη φίλη μου σύντομα", "You will meet my friend soon", "s", "future"],
+        ["Θα γνωρίσει", "Θα γνωρίσει πολλές νέες κουλτούρες", "He/she will experience many new cultures", "s", "future"],
+        ["Θα γνωρίσουμε", "Θα γνωρίσουμε καλύτερα την ομάδα", "We will get to know the team better", "p", "future"],
+        ["Θα γνωρίσετε", "Θα γνωρίσετε τους καλεσμένους", "You will meet the guests", "p", "future"],
+        ["Θα γνωρίσουν", "Θα γνωρίσουν νέες εμπειρίες φέτος", "They will have new experiences this year", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "γνωρίζω",
+          "γνωρίζεις",
+          "γνωρίζει",
+          "γνωρίζουμε",
+          "γνωρίζετε",
+          "γνωρίζουν"
+        ],
+        "past": [
+          "γνώρισα",
+          "γνώρισες",
+          "γνώρισε",
+          "γνωρίσαμε",
+          "γνωρίσατε",
+          "γνώρισαν"
+        ],
+        "future": [
+          "θα γνωρίσω",
+          "θα γνωρίσεις",
+          "θα γνωρίσει",
+          "θα γνωρίσουμε",
+          "θα γνωρίσετε",
+          "θα γνωρίσουν"
+        ]
+      },
+      "verbType": "Τύπος Β"
+    },
+
+    "ανοίγω": {
+      "sentences": [
+        ["Ανοίγω", "Ανοίγω το παράθυρο κάθε πρωί", "I open the window every morning", "s", "present"],
+        ["Ανοίγεις", "Ανοίγεις την πόρτα για τους επισκέπτες", "You open the door for the guests", "s", "present"],
+        ["Ανοίγει", "Ανοίγει το βιβλίο για να διαβάσει", "He/she opens the book to read", "s", "present"],
+        ["Ανοίγουμε", "Ανοίγουμε το κατάστημα στις οκτώ", "We open the store at eight", "p", "present"],
+        ["Ανοίγετε", "Ανοίγετε τα πακέτα με προσοχή", "You open the packages carefully", "p", "present"],
+        ["Ανοίγουν", "Ανοίγουν τα παράθυρα για αερισμό", "They open the windows for ventilation", "p", "present"],
+
+        ["Άνοιξα", "Άνοιξα το δώρο που πήρα", "I opened the gift I received", "s", "past"],
+        ["Άνοιξες", "Άνοιξες την επιστολή χθες", "You opened the letter yesterday", "s", "past"],
+        ["Άνοιξε", "Άνοιξε την πόρτα για να μπει", "He/she opened the door to come in", "s", "past"],
+        ["Άνοιξε", "Άνοιξε το παράθυρο γιατί έκανε ζέστη", "He/she opened the window because it was hot", "s", "past"],
+        ["Ανοίξαμε", "Ανοίξαμε το μουσείο για το κοινό", "We opened the museum to the public", "p", "past"],
+        ["Ανοίξατε", "Ανοίξατε το νέο κατάστημα στην πόλη", "You opened the new store in town", "p", "past"],
+        ["Άνοιξαν", "Άνοιξαν τις πόρτες νωρίς το πρωί", "They opened the doors early in the morning", "p", "past"],
+
+        ["Θα ανοίξω", "Θα ανοίξω το παράθυρο αργότερα", "I will open the window later", "s", "future"],
+        ["Θα ανοίξεις", "Θα ανοίξεις το δώρο αύριο", "You will open the gift tomorrow", "s", "future"],
+        ["Θα ανοίξει", "Θα ανοίξει το βιβλίο για να διαβάσει", "He/she will open the book to read", "s", "future"],
+        ["Θα ανοίξουμε", "Θα ανοίξουμε το μαγαζί στις εννιά", "We will open the shop at nine", "p", "future"],
+        ["Θα ανοίξετε", "Θα ανοίξετε την πόρτα για τους πελάτες", "You will open the door for the customers", "p", "future"],
+        ["Θα ανοίξουν", "Θα ανοίξουν τα παράθυρα για αερισμό", "They will open the windows for ventilation", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "ανοίγω",
+          "ανοίγεις",
+          "ανοίγει",
+          "ανοίγουμε",
+          "ανοίγετε",
+          "ανοίγουν"
+        ],
+        "past": [
+          "άνοιξα",
+          "άνοιξες",
+          "άνοιξε",
+          "ανοίξαμε",
+          "ανοίξατε",
+          "άνοιξαν"
+        ],
+        "future": [
+          "θα ανοίξω",
+          "θα ανοίξεις",
+          "θα ανοίξει",
+          "θα ανοίξουμε",
+          "θα ανοίξετε",
+          "θα ανοίξουν"
+        ]
+      },
+      "verbType": "Τύπος Β"
     }
 
   }

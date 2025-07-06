@@ -1,1 +1,106 @@
-Hello World
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="/one.js"></script>
+  <style>
+    div {
+      margin: 0 auto;
+      width: 70%;
+      text-align: left;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #main-text-input {
+      width: 100%;
+    }
+
+    .conjugations-container {
+      display: flex;
+      width: 100%;
+      max-width: 1200px;
+      font-size: 1.5em;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ccc;
+      <!-- text-align: center; -->
+      text-align: left;
+    }
+
+    .column:nth-child(2) {
+      background-color: #f8d7da;
+    }
+
+    .column:nth-child(3) {
+      background-color: #d1ecf1;
+    }
+
+    .column:nth-child(4) {
+      background-color: #d4edda;
+    }
+  </style>
+</head>
+<body>
+  <div id="verb-show" style="font-size: 4em; font-family: Helvetica"></div>
+  <div id="verb-real" style="display: none"></div>
+  <div id="greek-sentence-show" style="font-size: 2.5em; font-family: Helvetica"></div>
+  <div id="greek-sentence-real" style="display: none"></div>
+  <div id="eng-sentence-show" style="font-size: 2.5em; font-family: Helvetica; color: #999999"></div>
+
+  <div style="margin: 10 0 20 0">
+    <form >
+      <div>
+        <input type="text" style="font-size: 1.5em" id="main-text-input" name="main-text-size">
+        </input>
+      </div>
+    </form>
+  </div>
+
+  <div class="conjugations-container">
+    <div class="column" id="conjugation-persons">
+      εγώ</br>
+      εσύ</br>
+      αθτός / αυτή / αυτό </br>
+      εμείς</br>
+      εσείς</br>
+      αυτοί / αυτές / αυτά </br>
+    </div>
+    <div class="column" id="conjugation-present"></div>
+    <div class="column" id="conjugation-past"></div>
+    <div class="column" id="conjugation-future"></div>
+  </div>
+
+  <div id="verb-type" style="font-size: 1.2em; width: 85%">
+    Τυπος Α
+  </div>
+  <div style="height: 10"></div>
+  <div style="font-size: 1em; width: 85%">
+    <input id="enable-present-tense" type="checkbox" checked>Include present tense verbs</input>
+  </div>
+  <div style="font-size: 1em; width: 85%">
+    <input id="enable-past-tense" type="checkbox" checked>Include past tense verbs</input>
+  </div>
+  <div style="font-size: 1em; width: 85%">
+    <input id="enable-future-tense" type="checkbox" checked>Include future tense verbs</input>
+  </div>
+  <div style="height: 10"></div>
+  <div style="font-size: 0.8em; width: 85%">
+    To show the verb type any three identical symbols ( for example 'ααα' )
+  </div>
+  <div style="font-size: 0.8em; width: 85%">
+    To skip to the next one type 'σκιπ'
+  </div>
+
+</body>
+</html>

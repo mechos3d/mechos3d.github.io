@@ -315,6 +315,11 @@ function runApplication(externalData) {
       removeTense("future");
     }
   });
+
+  const skipBtn = document.getElementById('skip-example-btn');
+  skipBtn.addEventListener('click', () => {
+    nextWord("skip");
+  });
 };
 
 window.onload = (event) => {

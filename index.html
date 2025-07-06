@@ -5,6 +5,7 @@
   <style>
     div {
       margin: 0 auto;
+      /* TODO: Adding 70% to ALL the divs is stupid, need to remove it here, and add only to divs that really need it: */
       width: 70%;
       text-align: left;
     }
@@ -34,7 +35,7 @@
       flex: 1;
       padding: 20px;
       border: 1px solid #ccc;
-      <!-- text-align: center; -->
+      /* text-align: center; */
       text-align: left;
     }
 
@@ -86,6 +87,7 @@
   </div>
   <div style="height: 10"></div>
   <div style="font-size: 1em; width: 85%">
+    <!-- TODO: use labels with input fields instead of adding text into it : -->
     <input id="enable-present-tense" type="checkbox" checked>Include present tense verbs</input>
   </div>
   <div style="font-size: 1em; width: 85%">
@@ -100,6 +102,15 @@
   </div>
   <div style="font-size: 0.8em; width: 85%">
     To skip to the next one type 'σκιπ'
+  </div>
+  </br>
+  <div id="verbs-list-container" style="width: 85%">
+    <p style="font-size: 1.2em" >All used verbs list:</p>
+    </br>
+  </div>
+  <div>
+    <button id="disabled-verbs-enable-all">Enable all</button>
+    <button id="disabled-verbs-disable-all">Disable all</button>
   </div>
 
 </body>

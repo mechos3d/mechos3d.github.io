@@ -24,7 +24,9 @@ const sentenceObjEng = 3;
 const sentenceObjPluralIndicator = 4;
 const sentenceObjTenseIndicator = 5;
 
+// TODO: change this to Set instead of an array :
 const enabledTenses = ["present", "past", "future"];
+const disabledVerbs = new Set([]);
 
 function setupSentenceIndexes(sentences) {
   sentenceIndexes.length = 0;
@@ -51,6 +53,7 @@ function hideVerbInSentence(sentence, verb, replacement) {
 function runApplication(externalData) {
   const allSentences = [];
   const sentences = [];
+  const allVerbs = new Set([]);
 
   // TODO: probably better to rename these variables to something more descriptive
   const inputField = document.getElementById('main-text-input');
@@ -66,12 +69,67 @@ function runApplication(externalData) {
   const divConjugationFuture = document.getElementById('conjugation-future');
   const divVerbType = document.getElementById('verb-type');
 
+  const divAllVerbsListContainer = document.getElementById('verbs-list-container');
+
+  const buttonDisableAllVerbs = document.getElementById('disabled-verbs-disable-all');
+  const buttonEnableAllVerbs = document.getElementById('disabled-verbs-enable-all');
+
   for (let key in externalData.verbs) {
     externalData.verbs[key].sentences.forEach(sntc => {
       let arr = [key, ...sntc];
       allSentences.push(arr);
+
+      allVerbs.add(key);
     });
   }
+
+  // Draw checkboxes to allow enable/disable verbs :
+  allVerbs.forEach(verbID => {
+    const el = 'foo-bar: ' + verbID;
+
+    // 1. Create the checkbox for including/excluding the verb
+    const newCheckbox = document.createElement('input');
+    newCheckbox.type = 'checkbox';
+    newCheckbox.id = `disable-verb-checkbox-${verbID}`;
+    newCheckbox.checked = true;
+    newCheckbox.setAttribute('data-verb-id', verbID);
+
+    newCheckbox.addEventListener('change', function (event) {
+      const el = event.target;
+      const verbID = el.getAttribute('data-verb-id');
+      if (el.checked) {
+        disabledVerbs.delete(verbID);
+        fillSentences();
+      } else {
+        disabledVerbs.add(verbID);
+        fillSentences();
+      };
+    });
+    // 1-end
+
+    // 2. Create the label
+    const label = document.createElement('label');
+    label.appendChild(newCheckbox);
+    label.append(verbID);
+    // 2-end
+
+    divAllVerbsListContainer.appendChild(label);
+    divAllVerbsListContainer.insertAdjacentHTML('beforeend', '</br>');
+  });
+
+  buttonDisableAllVerbs.addEventListener('click', function (event) {
+    divAllVerbsListContainer.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+      checkbox.checked = false; // disable all verbs
+      checkbox.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  });
+
+  buttonEnableAllVerbs.addEventListener('click', function (event) {
+    divAllVerbsListContainer.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+      checkbox.checked = true; // enable all verbs
+      checkbox.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  });
 
   let currentSentencesIndex = 0;
 
@@ -82,6 +140,9 @@ function runApplication(externalData) {
     allSentences.forEach(sntc => {
       const tense = sntc[sentenceObjTenseIndicator];
       if (enabledTenses.includes(tense)) {
+        if (disabledVerbs.size > 0 && disabledVerbs.has(sntc[sentenceObjVerbID])) {
+          return; // skip this sentence
+        }
         sentences.push(sntc);
       };
     });
@@ -110,7 +171,16 @@ function runApplication(externalData) {
   function updateTextFieldValue(idx, forceNoHidingVerb) {
     inputField.value = "";
 
+    if (sentences.length === 0) {
+      return;
+    };
+
     const val = sentences[sentenceIndexes[idx]]
+    if (!val) {
+      console.error("No sentence found at index " + idx);
+      console.error("sentences length is: " + sentences.length);
+      return;
+    }
 
     const realVerb = val[sentenceObjVerb].toLowerCase();
     let showVerb = realVerb;
@@ -210,29 +280,22 @@ function runApplication(externalData) {
 
   function addTense(tenseName) {
     let index = enabledTenses.indexOf(tenseName);
-
     if (index !== -1) {
       return;
     }
-
     enabledTenses.push(tenseName);
-
     fillSentences();
   };
 
   function removeTense(tenseName) {
     let index = enabledTenses.indexOf(tenseName);
-
     if (index !== -1) {
       enabledTenses.splice(index, 1);
     }
-
-    console.log("removed " + tenseName);
-    console.log("xxx: " + JSON.stringify(enabledTenses));
-
     fillSentences();
   };
 
+  // gTODO: change event-listeners to function(event) --> event.target.checked
   presentTenseSwitch.addEventListener("change", function() {
     if (presentTenseSwitch.checked) {
       addTense("present");
@@ -269,5 +332,3 @@ window.onload = (event) => {
       console.error('There was a problem with the fetch operation:', error);
     });
 };
-
-

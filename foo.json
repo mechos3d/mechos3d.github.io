@@ -21,9 +21,9 @@
         ["Θα κάνεις", "Θα κάνεις προσπάθεια να βοηθήσεις;", "Will you make an effort to help?", "s","future"],
         ["Θα κάνει", "Θα κάνει όμορφο καιρό αύριο", "The weather will be nice tomorrow", "s","future"],
         ["Θα κάνει", "Θα κάνει όμορφο καιρό αύριο", "The weather will be nice tomorrow", "s","future"],
+        ["Θα κάνουμε", "Θα κάνουμε μια βόλτα στο πάρκο", "We will take a walk in the park", "p","future"],
         ["Θα κάνετε", "Θα κάνετε κράτηση για δύο άτομα;", "Will you make a reservation for two?", "p","future"],
-        ["Θα κάνουν", "Θα κάνουν ό,τι μπορούν για να βοηθήσουν", "They will do whatever they can to help", "p","future"],
-        ["Θα κάνουμε", "Θα κάνουμε μια βόλτα στο πάρκο", "We will take a walk in the park", "p","future"]
+        ["Θα κάνουν", "Θα κάνουν ό,τι μπορούν για να βοηθήσουν", "They will do whatever they can to help", "p","future"]
       ],
       "conjugation": {
         "present": [
@@ -1070,9 +1070,9 @@
         ["Φοβάστε", "Φοβάστε να μιλήσετε δημόσια;", "Are you afraid to speak in public?", "p","present"],
         ["Φοβούνται", "Φοβούνται τα φίδια", "They are afraid of snakes", "p","present"],
 
-        ["Φόβησα", "Φόβησα όταν άκουσα τον θόρυβο", "I got scared when I heard the noise", "s","past"],
-        ["Φόβησες", "Φόβησες από την ταινία;", "Did you get scared from the movie?", "s","past"],
-        ["Φόβησε", "Φόβησε με το ατύχημα", "He/She got scared by the accident", "s","past"],
+        ["φοβήθηκα", "Φοβήθηκα όταν άκουσα τον θόρυβο", "I got scared when I heard the noise", "s","past"],
+        ["φοβήθηκες", "Φοβήθηκες από την ταινία;", "Did you get scared from the movie?", "s","past"],
+        ["φοβήθηκε", "Φοβήθηκε με το ατύχημα", "He/She got scared by the accident", "s","past"],
         ["Φοβηθήκαμε", "Φοβηθήκαμε τον σκύλο", "We got scared of the dog", "p","past"],
         ["Φοβηθήκατε", "Φοβηθήκατε την καταιγίδα;", "Did you get scared of the storm?", "p","past"],
         ["Φοβήθηκαν", "Φοβήθηκαν το σκοτάδι", "They got scared of the dark", "p","past"],
@@ -1094,9 +1094,9 @@
           "φοβούνται"
         ],
         "past": [
-          "φόβησα",
-          "φόβησες",
-          "φόβησε",
+          "φοβήθηκα",
+          "φοβήθηκες",
+          "φοβήθηκε",
           "φοβηθήκαμε",
           "φοβηθήκατε",
           "φοβήθηκαν"
@@ -1330,12 +1330,12 @@
         ["Πίνετε", "Πίνετε χυμό φρούτων;", "Do you drink fruit juice?", "p","present"],
         ["Πίνουν", "Πίνουν πάντα το πρωί γάλα", "They always drink milk in the morning", "p","present"],
 
-        ["Έπιανα", "Έπιανα νερό από τη βρύση", "I drank water from the tap", "s","past"],
-        ["Έπινες", "Έπινες καφέ χθες;", "Did you drink coffee yesterday?", "s","past"],
-        ["Έπινε", "Έπινε πολύ νερό μετά το τρέξιμο", "He/She drank a lot of water after running", "s","past"],
-        ["Πήναμε", "Πήναμε κρασί για το δείπνο", "We took (drank) wine for dinner", "p","past"],
-        ["Πήνατε", "Πήνατε νερό στο ταξίδι;", "Did you drink water on the trip?", "p","past"],
-        ["Έπιαναν", "Έπιαναν πάντα χυμό στο πρωινό", "They always drank juice at breakfast", "p","past"],
+        ["ήπια", "Ήπια νερό από τη βρύση", "I drank water from the tap", "s","past"],
+        ["ήπιες", "Ήπιες καφέ χθες;", "Did you drink coffee yesterday?", "s","past"],
+        ["ήπιε", "Ήπιε πολύ νερό μετά το τρέξιμο", "He/She drank a lot of water after running", "s","past"],
+        ["ήπιαμε", "Ήπιαμε κρασί για το δείπνο", "We took (drank) wine for dinner", "p","past"],
+        ["ήπιατε", "Ήπιατε νερό στο ταξίδι;", "Did you drink water on the trip?", "p","past"],
+        ["ήπιαν", "Ήπιαν πάντα χυμό στο πρωινό", "They always drank juice at breakfast", "p","past"],
 
         ["Θα πιω", "Θα πιω ένα ποτήρι νερό", "I will drink a glass of water", "s","future"],
         ["Θα πιεις", "Θα πιεις καφέ μαζί μου;", "Will you drink coffee with me?", "s","future"],
@@ -1354,12 +1354,12 @@
           "πίνουν"
         ],
         "past": [
-          "έπινα",
-          "έπινες",
-          "έπινε",
-          "πίναμε",
-          "πίνατε",
-          "έπιναν"
+          "ήπια",
+          "ήπιες",
+          "ήπιε",
+          "ήπιαμε",
+          "ήπιατε",
+          "ήπιαν"
         ],
         "future": [
           "θα πιω",
@@ -1556,7 +1556,7 @@
         "present": [
           "φέρνω",
           "φέρνεις",
-          "φέρει",
+          "φέρνει",
           "φέρνουμε",
           "φέρνετε",
           "φέρνουν"
@@ -1645,8 +1645,8 @@
         ["Έπεσα", "Έπεσα χθες στο δρόμο", "I fell yesterday on the street", "s","past"],
         ["Έπεσες", "Έπεσες από τη σκάλα;", "Did you fall from the ladder?", "s","past"],
         ["Έπεσε", "Έπεσε το ποτήρι και έσπασε", "The glass fell and broke", "s","past"],
-        ["Επέσαμε", "Επέσαμε σε παγίδα", "We fell into a trap", "p","past"],
-        ["Έπεσατε", "Έπεσατε σε λάθος υπολογισμό", "You made a wrong calculation", "p","past"],
+        ["Πέσαμε", "Πέσαμε σε παγίδα", "We fell into a trap", "p","past"],
+        ["Πέσατε", "Πέσατε σε λάθος υπολογισμό", "You made a wrong calculation", "p","past"],
         ["Έπεσαν", "Έπεσαν τα κλειδιά κάτω", "The keys fell down", "p","past"],
 
         ["Θα πέσω", "Θα πέσω αν δεν προσέχω", "I will fall if I don’t pay attention", "s","future"],
@@ -1669,8 +1669,8 @@
           "έπεσα",
           "έπεσες",
           "έπεσε",
-          "επέσαμε",
-          "έπεσατε",
+          "πέσαμε",
+          "πέσατε",
           "έπεσαν"
         ],
         "future": [
@@ -1964,8 +1964,8 @@
         ["Θα ανέβω", "Θα ανέβω στο βουνό το καλοκαίρι", "I will climb the mountain in summer", "s","future"],
         ["Θα ανέβεις", "Θα ανέβεις στη σκάλα;", "Will you go up the stairs?", "s","future"],
         ["Θα ανέβει", "Θα ανέβει στην ταράτσα", "He/She will go up to the terrace", "s","future"],
-        ["Θα ανεβούμε", "Θα ανεβούμε στο λεωφορείο", "We will get on the bus", "p","future"],
-        ["Θα ανεβείτε", "Θα ανεβείτε στο πλοίο;", "Will you get on the ship?", "p","future"],
+        ["Θα ανέβούμε", "Θα ανέβουμε στο λεωφορείο", "We will get on the bus", "p","future"],
+        ["Θα ανέβετε", "Θα ανέβετε στο πλοίο;", "Will you get on the ship?", "p","future"],
         ["Θα ανέβουν", "Θα ανέβουν στο βουνό", "They will climb the mountain", "p","future"]
       ],
       "conjugation": {
@@ -1989,8 +1989,8 @@
           "θα ανέβω",
           "θα ανέβεις",
           "θα ανέβει",
-          "θα ανεβούμε",
-          "θα ανεβείτε",
+          "θα ανέβουμε",
+          "θα ανέβετε",
           "θα ανέβουν"
         ]
       },
@@ -2016,8 +2016,8 @@
         ["Θα κατέβω", "Θα κατέβω στη στάση μετά", "I will get off at the next stop", "s","future"],
         ["Θα κατέβεις", "Θα κατέβεις από το λεωφορείο;", "Will you get off the bus?", "s","future"],
         ["Θα κατέβει", "Θα κατέβει από το βουνό σύντομα", "He/She will come down from the mountain soon", "s","future"],
-        ["Θα κατεβούμε", "Θα κατεβούμε στην πόλη", "We will go down to the city", "p","future"],
-        ["Θα κατεβείτε", "Θα κατεβείτε από το τρένο;", "Will you get off the train?", "p","future"],
+        ["Θα κατέβουμε", "Θα κατέβουμε στην πόλη", "We will go down to the city", "p","future"],
+        ["Θα κατέβετε", "Θα κατέβετε από το τρένο;", "Will you get off the train?", "p","future"],
         ["Θα κατέβουν", "Θα κατέβουν από το λεωφορείο", "They will get off the bus", "p","future"]
       ],
       "conjugation": {
@@ -2041,8 +2041,8 @@
           "θα κατέβω",
           "θα κατέβεις",
           "θα κατέβει",
-          "θα κατεβούμε",
-          "θα κατεβείτε",
+          "θα κατέβουμε",
+          "θα κατέβετε",
           "θα κατέβουν"
         ]
       },
@@ -2113,8 +2113,8 @@
         ["Ήξερα", "Ήξερα την απάντηση πριν", "I knew the answer before", "s","past"],
         ["Ήξερες", "Ήξερες τι συνέβη;", "Did you know what happened?", "s","past"],
         ["Ήξερε", "Ήξερε την αλήθεια", "He/She knew the truth", "s","past"],
-        ["Ήξεραμε", "Ήξεραμε το σχέδιο", "We knew the plan", "p","past"],
-        ["Ήξερεςτε", "Ήξερεςτε τα νέα;", "Did you know the news?", "p","past"],
+        ["Ξεραμε", "Ξεραμε το σχέδιο", "We knew the plan", "p","past"],
+        ["Ξέρατε", "Ξέρατε τα νέα;", "Did you know the news?", "p","past"],
         ["Ήξεραν", "Ήξεραν την απάντηση", "They knew the answer", "p","past"],
 
         ["Θα ξέρω", "Θα ξέρω περισσότερα αύριο", "I will know more tomorrow", "s","future"],
@@ -2137,8 +2137,8 @@
           "ήξερα",
           "ήξερες",
           "ήξερε",
-          "ήξερουμε",
-          "ήξερεςτε",
+          "ξεραμε",
+          "ξέρατε",
           "ήξεραν"
         ],
         "future": [
@@ -2160,21 +2160,7 @@
         ["Θέλει", "Θέλει να μάθει ελληνικά", "He/she wants to learn Greek", "s", "present"],
         ["Θέλουμε", "Θέλουμε να πάμε στη θάλασσα", "We want to go to the sea", "p", "present"],
         ["Θέλετε", "Θέλετε βοήθεια με τη δουλειά;", "Do you want help with the work?", "p", "present"],
-        ["Θέλουν", "Θέλουν να δουν την ταινία απόψε", "They want to watch the movie tonight", "p", "present"],
-
-        ["Ήθελα", "Ήθελα να σου μιλήσω χτες", "I wanted to talk to you yesterday", "s", "past"],
-        ["Ήθελες", "Ήθελες κάτι από το μαγαζί;", "Did you want something from the store?", "s", "past"],
-        ["Ήθελε", "Ήθελε να μείνει περισσότερο", "He/she wanted to stay longer", "s", "past"],
-        ["Ήθελαμε", "Ήθελαμε να κάνουμε ταξίδι το καλοκαίρι", "We wanted to travel in the summer", "p", "past"],
-        ["Ήθελετε", "Ήθελετε να φάτε μαζί μας;", "Did you want to eat with us?", "p", "past"],
-        ["Ήθελαν", "Ήθελαν να τελειώσουν γρήγορα", "They wanted to finish quickly", "p", "past"],
-
-        ["Θα θέλω", "Θα θέλω να σε δω αύριο", "I will want to see you tomorrow", "s", "future"],
-        ["Θα θέλεις", "Θα θέλεις να έρθεις στο πάρτι;", "Will you want to come to the party?", "s", "future"],
-        ["Θα θέλει", "Θα θέλει να αγοράσει το βιβλίο", "He/she will want to buy the book", "s", "future"],
-        ["Θα θέλουμε", "Θα θέλουμε περισσότερες πληροφορίες", "We will want more information", "p", "future"],
-        ["Θα θέλετε", "Θα θέλετε να με βοηθήσετε;", "Will you want to help me?", "p", "future"],
-        ["Θα θέλουν", "Θα θέλουν να ταξιδέψουν σύντομα", "They will want to travel soon", "p", "future"]
+        ["Θέλουν", "Θέλουν να δουν την ταινία απόψε", "They want to watch the movie tonight", "p", "present"]
       ],
       "conjugation": {
         "present": [
@@ -2186,20 +2172,20 @@
           "θέλουν"
         ],
         "past": [
-          "ήθελα",
-          "ήθελες",
-          "ήθελε",
-          "ήθελαμε",
-          "ήθελετε",
-          "ήθελαν"
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
         ],
         "future": [
-          "θα θέλω",
-          "θα θέλεις",
-          "θα θέλει",
-          "θα θέλουμε",
-          "θα θέλετε",
-          "θα θέλουν"
+          "?",
+          "?",
+          "?",
+          "?",
+          "?",
+          "?"
         ]
       },
       "verbType": "Τύπος Β"

@@ -12,7 +12,7 @@ function shuffle(array) {
 const hideVerbProbability = 1.00; // always hide the verb.
 
 // NOTE: possible values: 'full_sentence_match', 'only_verb_match'
-const matchMode = "full_sentence_match";
+let matchMode = "full_sentence_match";
 const skipWord = "σκιπ";
 
 const sentenceIndexes = [];
@@ -278,6 +278,8 @@ function runApplication(externalData) {
   const pastTenseSwitch = document.getElementById('enable-past-tense');
   const futureTenseSwitch = document.getElementById('enable-future-tense');
 
+  const matchModeSwitch = document.getElementById('only-verb-match-mode');
+
   function addTense(tenseName) {
     let index = enabledTenses.indexOf(tenseName);
     if (index !== -1) {
@@ -313,6 +315,15 @@ function runApplication(externalData) {
       addTense("future");
     } else {
       removeTense("future");
+    }
+  });
+
+  matchModeSwitch.addEventListener("change", function(event) {
+    const el = event.target;
+    if (el.checked) {
+      matchMode = "only_verb_match";
+    } else {
+      matchMode = "full_sentence_match";
     }
   });
 

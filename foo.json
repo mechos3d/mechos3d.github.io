@@ -11,7 +11,7 @@
 
         ["Έκανα", "Δεν έκανα τίποτα όλη μέρα", "I didn’t do anything all day", "s","past"],
         ["Έκανες", "Έκανες λάθος χθες", "You made a mistake yesterday", "s","past"],
-        ["Έκανε", "Έκανε πολλή δουλειά σήμερα", "He/she did a lot of work today", "s","past"],
+        ["Έκανε", "Έκανε πολλή δουλειά σήμερα", "He did a lot of work today", "s","past"],
         ["Έκανε", "Έκανε ζέστη και χθες", "It was hot yesterday too", "s","past"],
         ["Κάναμε", "Κάναμε πάρτι το Σάββατο", "We had a party on Saturday", "p","past"],
         ["Κάνατε", "Κάνατε μια υπέροχη παρουσίαση", "You gave a great presentation", "p","past"],
@@ -87,43 +87,11 @@
       "specialType": "special"
     },
 
-    "πάω": {
-      "sentences": [
-        ["πάω", "Πάω στο σχολείο κάθε μέρα", "I go to school every day", "s","present"],
-        ["πας", "Πας στο γυμναστήριο συχνά;", "Do you go to the gym often?", "s","present"],
-        ["πάει", "Πάει στη δουλειά με το λεωφορείο", "He/She goes to work by bus", "s","present"],
-        ["πάμε", "Πάμε για καφέ το απόγευμα", "We are going for coffee in the afternoon", "p","present"],
-        ["πάτε", "Πάτε συχνά στο εξωτερικό;", "Do you often go abroad?", "p","present"],
-        ["πάνε", "Πάνε στην παραλία κάθε Σαββατοκύριακο", "They go to the beach every weekend", "p","present"],
-
-        ["πήγα", "Πήγα στο σούπερ μάρκετ χθες", "I went to the supermarket yesterday", "s","past"],
-        ["πήγες", "Πήγες στον γιατρό;", "Did you go to the doctor?", "s","past"],
-        ["πήγε", "Πήγε διακοπές στην Κρήτη", "He/She went on vacation to Crete", "s","past"],
-        ["πήγαμε", "Πήγαμε σινεμά το Σάββατο", "We went to the cinema on Saturday", "p","past"],
-        ["πήγατε", "Πήγατε στο πάρτι τελικά;", "Did you go to the party after all?", "p","past"],
-        ["πήγαν", "Πήγαν για ψάρεμα το πρωί", "They went fishing in the morning", "p","past"],
-
-        ["θα πάω", "Θα πάω στο πανεπιστήμιο του χρόνου", "I will go to university next year", "s","future"],
-        ["θα πας", "Θα πας στην έκθεση αύριο;", "Will you go to the exhibition tomorrow?", "s","future"],
-        ["θα πάει", "Θα πάει στο νοσοκομείο αργότερα", "He/She will go to the hospital later", "s","future"],
-        ["θα πάμε", "Θα πάμε εκδρομή το Σαββατοκύριακο", "We will go on a trip this weekend", "p","future"],
-        ["θα πάτε", "Θα πάτε στην Αθήνα το καλοκαίρι;", "Will you go to Athens in the summer?", "p","future"],
-        ["θα πάνε", "Θα πάνε στο μουσείο με το σχολείο", "They will go to the museum with the school", "p","future"]
-      ],
-      "conjugation": {
-        "present": ["πάω", "πας", "πάει", "πάμε", "πάτε", "πάνε"],
-        "past": ["πήγα", "πήγες", "πήγε", "πήγαμε", "πήγατε", "πήγαν"],
-        "future": ["θα πάω", "θα πας", "θα πάει", "θα πάμε", "θα πάτε", "θα πάνε"]
-      },
-      "verbType": "Τύπος B1",
-      "specialType": "special"
-    },
-
     "έμαι": {
       "sentences": [
         ["είμαι", "Είμαι χαρούμενος σήμερα", "I am happy today", "s","present"],
         ["είσαι", "Είσαι καλός φίλος", "You are a good friend", "s","present"],
-        ["είναι", "Είναι στο σπίτι τώρα", "He/She is at home now", "s","present"],
+        ["είναι", "Είναι στο σπίτι τώρα", "He is at home now", "s","present"],
         ["είμαστε", "Είμαστε έτοιμοι για το ταξίδι", "We are ready for the trip", "p","present"],
         ["είστε", "Είστε πολύ καλοί δάσκαλοι", "You are very good teachers", "p","present"],
         ["είναι", "Είναι ευγενικοί άνθρωποι", "They are polite people", "p","present"],
@@ -137,7 +105,7 @@
 
         ["θα είμαι", "Θα είμαι στο γραφείο αύριο", "I will be at the office tomorrow", "s","future"],
         ["θα είσαι", "Θα είσαι καλύτερα σύντομα", "You will be better soon", "s","future"],
-        ["θα είναι", "Θα είναι στο πάρτι το βράδυ", "He/She will be at the party tonight", "s","future"],
+        ["θα είναι", "Θα είναι στο πάρτι το βράδυ", "He will be at the party tonight", "s","future"],
         ["θα είμαστε", "Θα είμαστε έτοιμοι μέχρι τότε", "We will be ready by then", "p","future"],
         ["θα είστε", "Θα είστε στην τάξη στις εννιά", "You will be in class at nine", "p","future"],
         ["θα είναι", "Θα είναι χαρούμενοι με τα νέα", "They will be happy with the news", "p","future"]
@@ -155,21 +123,21 @@
       "sentences": [
         ["λέω", "Λέω την αλήθεια πάντα", "I always tell the truth", "s","present"],
         ["λες", "Λες ενδιαφέροντα πράγματα", "You say interesting things", "s","present"],
-        ["λέει", "Λέει ένα αστείο τώρα", "He/She is telling a joke now", "s","present"],
+        ["λέει", "Λέει ένα αστείο τώρα", "She is telling a joke now", "s","present"],
         ["λέμε", "Λέμε ιστορίες γύρω από τη φωτιά", "We tell stories around the fire", "p","present"],
         ["λέτε", "Λέτε την ίδια ιστορία κάθε φορά", "You tell the same story every time", "p","present"],
         ["λένε", "Λένε ότι θα βρέξει αύριο", "They say it will rain tomorrow", "p","present"],
 
         ["είπα", "Είπα κάτι σημαντικό χτες", "I said something important yesterday", "s","past"],
         ["είπες", "Είπες την απάντηση σωστά", "You said the answer correctly", "s","past"],
-        ["είπε", "Είπε το όνομά του δυνατά", "He/She said his/her name out loud", "s","past"],
+        ["είπε", "Είπε το όνομά του δυνατά", "He said his name out loud", "s","past"],
         ["είπαμε", "Είπαμε την αλήθεια στο τέλος", "We told the truth in the end", "p","past"],
         ["είπατε", "Είπατε πολλά για το θέμα", "You said a lot about the topic", "p","past"],
         ["είπαν", "Είπαν ότι φεύγουν αύριο", "They said they are leaving tomorrow", "p","past"],
 
         ["θα πω", "Θα πω τη γνώμη μου αύριο", "I will say my opinion tomorrow", "s","future"],
         ["θα πεις", "Θα πεις κάτι στον δάσκαλο;", "Will you say something to the teacher?", "s","future"],
-        ["θα πει", "Θα πει μια ιστορία στα παιδιά", "He/She will tell a story to the children", "s","future"],
+        ["θα πει", "Θα πει μια ιστορία στα παιδιά", "He will tell a story to the children", "s","future"],
         ["θα πούμε", "Θα πούμε την αλήθεια στον διευθυντή", "We will tell the truth to the principal", "p","future"],
         ["θα πείτε", "Θα πείτε κάτι στη συνάντηση;", "Will you say something at the meeting?", "p","future"],
         ["θα πουν", "Θα πουν τα νέα στους φίλους τους", "They will tell the news to their friends", "p","future"]
@@ -201,7 +169,7 @@
 
         ["θα δω", "Θα δω τη γιαγιά μου το Σάββατο", "I will see my grandmother on Saturday", "s","future"],
         ["θα δεις", "Θα δεις την παράσταση μαζί μας;", "Will you see the show with us?", "s","future"],
-        ["θα δει", "Θα δει τον γιατρό αύριο", "He/She will see the doctor tomorrow", "s","future"],
+        ["θα δει", "Θα δει τον γιατρό αύριο", "She will see the doctor tomorrow", "s","future"],
         ["θα δούμε", "Θα δούμε τη νέα ταινία το βράδυ", "We will watch the new movie tonight", "p","future"],
         ["θα δείτε", "Θα δείτε τα αποτελέσματα σύντομα", "You will see the results soon", "p","future"],
         ["θα δουν", "Θα δουν τους φίλους τους στις διακοπές", "They will see their friends on the holidays", "p","future"]
@@ -233,7 +201,7 @@
 
         ["θα έρθω", "Θα έρθω αύριο στο ραντεβού", "I will come to the appointment tomorrow", "s","future"],
         ["θα έρθεις", "Θα έρθεις μαζί μας στον κινηματογράφο;", "Will you come with us to the cinema?", "s","future"],
-        ["θα έρθει", "Θα έρθει όταν τελειώσει τη δουλειά", "He/She will come when he/she finishes work", "s","future"],
+        ["θα έρθει", "Θα έρθει όταν τελειώσει τη δουλειά", "He will come when he finishes work", "s","future"],
         ["θα έρθουμε", "Θα έρθουμε στις πέντε ακριβώς", "We will come at exactly five", "p","future"],
         ["θα έρθετε", "Θα έρθετε κι εσείς στο ταξίδι;", "Will you also come on the trip?", "p","future"],
         ["θα έρθουν", "Θα έρθουν όλοι οι συγγενείς στο γάμο", "All the relatives will come to the wedding", "p","future"]
@@ -389,14 +357,14 @@
       "sentences": [
         ["Ανοίγω", "Ανοίγω το παράθυρο κάθε πρωί", "I open the window every morning", "s","present"],
         ["Ανοίγεις", "Ανοίγεις την τηλεόραση όταν γυρίζεις σπίτι", "You open the TV when you come home", "s","present"],
-        ["Ανοίγει", "Ανοίγει το κατάστημα στις 9", "He/She opens the store at 9", "s","present"],
+        ["Ανοίγει", "Ανοίγει το κατάστημα στις 9", "She opens the store at 9", "s","present"],
         ["Ανοίγουμε", "Ανοίγουμε τα δώρα τα Χριστούγεννα", "We open the presents at Christmas", "p","present"],
         ["Ανοίγετε", "Ανοίγετε τα βιβλία σας στην τάξη", "You open your books in class", "p","present"],
         ["Ανοίγουν", "Ανοίγουν τα μαγαζιά κάθε μέρα εκτός Κυριακής", "They open the shops every day except Sunday", "p","present"],
 
         ["Άνοιξα", "Άνοιξα την πόρτα για τον σκύλο", "I opened the door for the dog", "s","past"],
         ["Άνοιξες", "Άνοιξες το φως;", "Did you turn on the light?", "s","past"],
-        ["Άνοιξε", "Άνοιξε το παράθυρο για να μπει φρέσκος αέρας", "He/She opened the window to let fresh air in", "s","past"],
+        ["Άνοιξε", "Άνοιξε το παράθυρο για να μπει φρέσκος αέρας", "She opened the window to let fresh air in", "s","past"],
         ["Ανοίξαμε", "Ανοίξαμε τα δώρα το πρωί", "We opened the presents in the morning", "p","past"],
         ["Ανοίξατε", "Ανοίξατε τον υπολογιστή πριν φύγετε;", "Did you turn on the computer before you left?", "p","past"],
         ["Άνοιξαν", "Άνοιξαν την πόρτα χωρίς να χτυπήσουν", "They opened the door without knocking", "p","past"],
@@ -448,14 +416,14 @@
 
         ["Έφτιαξα", "Έφτιαξα ένα γλυκό για το πάρτι", "I made a dessert for the party", "s","past"],
         ["Έφτιαξες", "Έφτιαξες τον υπολογιστή σου τελικά;", "Did you finally fix your computer?", "s","past"],
-        ["Έφτιαξε", "Έφτιαξε το χαλασμένο ψυγείο", "He/She fixed the broken fridge", "s","past"],
+        ["Έφτιαξε", "Έφτιαξε το χαλασμένο ψυγείο", "He fixed the broken fridge", "s","past"],
         ["Φτιάξαμε", "Φτιάξαμε μια σκηνή για την κατασκήνωση", "We built a tent for the camping trip", "p","past"],
         ["Φτιάξατε", "Φτιάξατε σούπα για όλους;", "Did you make soup for everyone?", "p","past"],
         ["Έφτιαξαν", "Έφτιαξαν το δρόμο έξω από το σπίτι", "They repaired the road outside the house", "p","past"],
 
         ["Θα φτιάξω", "Θα φτιάξω το πρωινό αύριο", "I will make breakfast tomorrow", "s","future"],
         ["Θα φτιάξεις", "Θα φτιάξεις τη βρύση το Σαββατοκύριακο;", "Will you fix the faucet this weekend?", "s","future"],
-        ["Θα φτιάξει", "Θα φτιάξει μια τούρτα γενεθλίων", "He/She will make a birthday cake", "s","future"],
+        ["Θα φτιάξει", "Θα φτιάξει μια τούρτα γενεθλίων", "She will make a birthday cake", "s","future"],
         ["Θα φτιάξουμε", "Θα φτιάξουμε έναν χαρταετό για την Καθαρά Δευτέρα", "We will make a kite for Clean Monday", "p","future"],
         ["Θα φτιάξετε", "Θα φτιάξετε την εργασία μαζί;", "Will you do the assignment together?", "p","future"],
         ["Θα φτιάξουν", "Θα φτιάξουν νέο δρόμο στην περιοχή", "They will build a new road in the area", "p","future"]
@@ -500,7 +468,7 @@
 
         ["Έκλεισα", "Έκλεισα το παράθυρο γιατί έκανε κρύο", "I closed the window because it was cold", "s","past"],
         ["Έκλεισες", "Έκλεισες ραντεβού με τον γιατρό;", "Did you book an appointment with the doctor?", "s","past"],
-        ["Έκλεισε", "Έκλεισε το φως και έφυγε", "He/She turned off the light and left", "s","past"],
+        ["Έκλεισε", "Έκλεισε το φως και έφυγε", "He turned off the light and left", "s","past"],
         ["Κλείσαμε", "Κλείσαμε εισιτήρια για την παράσταση", "We booked tickets for the show", "p","past"],
         ["Κλείσατε", "Κλείσατε την τηλεόραση;", "Did you turn off the TV?", "p","past"],
         ["Έκλεισαν", "Έκλεισαν την επιχείρηση πέρυσι", "They shut down the business last year", "p","past"],
@@ -545,21 +513,21 @@
       "sentences": [
         ["Γράφω", "Γράφω ένα γράμμα στη γιαγιά μου", "I’m writing a letter to my grandmother", "s","present"],
         ["Γράφεις", "Γράφεις πολύ ωραία ποιήματα", "You write very beautiful poems", "s","present"],
-        ["Γράφει", "Γράφει ένα άρθρο για την εφημερίδα", "He/She is writing an article for the newspaper", "s","present"],
+        ["Γράφει", "Γράφει ένα άρθρο για την εφημερίδα", "She is writing an article for the newspaper", "s","present"],
         ["Γράφουμε", "Γράφουμε εργασίες για το σχολείο", "We are writing assignments for school", "p","present"],
         ["Γράφετε", "Γράφετε με καθαρά γράμματα", "You write in clear handwriting", "p","present"],
         ["Γράφουν", "Γράφουν ιστορίες για παιδιά", "They write stories for children", "p","present"],
 
         ["Έγραψα", "Έγραψα όλες τις απαντήσεις σωστά", "I wrote all the answers correctly", "s","past"],
         ["Έγραψες", "Έγραψες ημερολόγιο χθες;", "Did you write a diary yesterday?", "s","past"],
-        ["Έγραψε", "Έγραψε ένα μυθιστόρημα πέρσι", "He/She wrote a novel last year", "s","past"],
+        ["Έγραψε", "Έγραψε ένα μυθιστόρημα πέρσι", "She wrote a novel last year", "s","past"],
         ["Γράψαμε", "Γράψαμε κάρτες για τα Χριστούγεννα", "We wrote Christmas cards", "p","past"],
         ["Γράψατε", "Γράψατε την έκθεση σας;", "Did you write your essay?", "p","past"],
         ["Έγραψαν", "Έγραψαν τις σημειώσεις από το μάθημα", "They wrote the notes from class", "p","past"],
 
         ["Θα γράψω", "Θα γράψω ένα email στον δάσκαλο", "I will write an email to the teacher", "s","future"],
         ["Θα γράψεις", "Θα γράψεις μια κάρτα γενεθλίων;", "Will you write a birthday card?", "s","future"],
-        ["Θα γράψει", "Θα γράψει ένα νέο τραγούδι", "He/She will write a new song", "s","future"],
+        ["Θα γράψει", "Θα γράψει ένα νέο τραγούδι", "He will write a new song", "s","future"],
         ["Θα γράψουμε", "Θα γράψουμε το τεστ την Παρασκευή", "We will take the test on Friday", "p","future"],
         ["Θα γράψετε", "Θα γράψετε την αναφορά αύριο;", "Will you write the report tomorrow?", "p","future"],
         ["Θα γράψουν", "Θα γράψουν μια επιστολή διαμαρτυρίας", "They will write a letter of complaint", "p","future"]
@@ -597,21 +565,21 @@
       "sentences": [
         ["Αλλάζω", "Αλλάζω γνώμη συχνά", "I change my mind often", "s","present"],
         ["Αλλάζεις", "Αλλάζεις το νερό στα λουλούδια;", "Do you change the water for the flowers?", "s","present"],
-        ["Αλλάζει", "Αλλάζει συνέχεια το πρόγραμμά του", "He/She constantly changes their schedule", "s","present"],
+        ["Αλλάζει", "Αλλάζει συνέχεια το πρόγραμμά του", "He constantly changes their schedule", "s","present"],
         ["Αλλάζουμε", "Αλλάζουμε τα σεντόνια κάθε εβδομάδα", "We change the sheets every week", "p","present"],
         ["Αλλάζετε", "Αλλάζετε τις συνήθειές σας;", "Do you change your habits?", "p","present"],
         ["Αλλάζουν", "Αλλάζουν τα ρούχα τους μετά τη δουλειά", "They change their clothes after work", "p","present"],
 
         ["Άλλαξα", "Άλλαξα θέση στο γραφείο", "I changed seats at the office", "s","past"],
         ["Άλλαξες", "Άλλαξες γνώμη για το ταξίδι;", "Did you change your mind about the trip?", "s","past"],
-        ["Άλλαξε", "Άλλαξε το σχέδιο της τελευταίας στιγμής", "He/She changed the plan last minute", "s","past"],
+        ["Άλλαξε", "Άλλαξε το σχέδιο της τελευταίας στιγμής", "She changed the plan last minute", "s","past"],
         ["Αλλάξαμε", "Αλλάξαμε το πρόγραμμα λόγω βροχής", "We changed the schedule due to rain", "p","past"],
         ["Αλλάξατε", "Αλλάξατε τον κωδικό πρόσβασης;", "Did you change the password?", "p","past"],
         ["Άλλαξαν", "Άλλαξαν τη διακόσμηση του σπιτιού", "They changed the house decor", "p","past"],
 
         ["Θα αλλάξω", "Θα αλλάξω δουλειά σύντομα", "I will change jobs soon", "s","future"],
         ["Θα αλλάξεις", "Θα αλλάξεις κανάλι;", "Will you change the channel?", "s","future"],
-        ["Θα αλλάξει", "Θα αλλάξει το σχέδιο αν χρειαστεί", "He/She will change the plan if needed", "s","future"],
+        ["Θα αλλάξει", "Θα αλλάξει το σχέδιο αν χρειαστεί", "He will change the plan if needed", "s","future"],
         ["Θα αλλάξουμε", "Θα αλλάξουμε το ραντεβού για την Πέμπτη", "We will reschedule the appointment for Thursday", "p","future"],
         ["Θα αλλάξετε", "Θα αλλάξετε τα εισιτήρια σας;", "Will you change your tickets?", "p","future"],
         ["Θα αλλάξουν", "Θα αλλάξουν τους κανόνες του παιχνιδιού", "They will change the rules of the game", "p","future"]
@@ -649,14 +617,14 @@
       "sentences": [
         ["Περνάω", "Περνάω πολύ χρόνο με την οικογένειά μου", "I spend a lot of time with my family", "s","present"],
         ["Περνάς", "Περνάς καλά στο πάρτι;", "Are you having a good time at the party?", "s","present"],
-        ["Περνάει", "Περνάει κάθε μέρα από το σπίτι μου", "He/She passes by my house every day", "s","present"],
+        ["Περνάει", "Περνάει κάθε μέρα από το σπίτι μου", "She passes by my house every day", "s","present"],
         ["Περνάμε", "Περνάμε τις διακοπές στο νησί", "We spend the holidays on the island", "p","present"],
         ["Περνάτε", "Περνάτε τον δρόμο πάντα από τη διάβαση;", "Do you always cross at the crosswalk?", "p","present"],
         ["Περνάνε", "Περνάνε όμορφα στις διακοπές τους", "They are having a great time on their vacation", "p","present"],
 
         ["Πέρασα", "Πέρασα δύσκολες στιγμές πέρσι", "I went through hard times last year", "s","past"],
         ["Πέρασες", "Πέρασες από το φαρμακείο;", "Did you stop by the pharmacy?", "s","past"],
-        ["Πέρασε", "Πέρασε τις εξετάσεις με άριστα", "He/She passed the exams with excellence", "s","past"],
+        ["Πέρασε", "Πέρασε τις εξετάσεις με άριστα", "He passed the exams with excellence", "s","past"],
         ["Περάσαμε", "Περάσαμε υπέροχα στο ταξίδι", "We had a great time on the trip", "p","past"],
         ["Περάσατε", "Περάσατε από το γραφείο μου το πρωί;", "Did you come by my office this morning?", "p","past"],
         ["Πέρασαν", "Πέρασαν τη γραμμή χωρίς να σταματήσουν", "They crossed the line without stopping", "p","past"],
@@ -701,21 +669,21 @@
       "sentences": [
         ["Μπορώ", "Μπορώ να σε βοηθήσω αν θέλεις", "I can help you if you want", "s","present"],
         ["Μπορείς", "Μπορείς να οδηγήσεις;", "Can you drive?", "s","present"],
-        ["Μπορεί", "Μπορεί να έρθει αργότερα", "He/She might come later", "s","present"],
+        ["Μπορεί", "Μπορεί να έρθει αργότερα", "She might come later", "s","present"],
         ["Μπορούμε", "Μπορούμε να το λύσουμε μαζί", "We can solve it together", "p","present"],
         ["Μπορείτε", "Μπορείτε να μιλήσετε πιο αργά;", "Can you speak more slowly?", "p","present"],
         ["Μπορούν", "Μπορούν να φύγουν τώρα", "They can leave now", "p","present"],
 
         ["Μπόρεσα", "Μπόρεσα να τελειώσω την εργασία μου εγκαίρως", "I managed to finish my assignment on time", "s","past"],
         ["Μπόρεσες", "Μπόρεσες να τον βρεις;", "Were you able to find him?", "s","past"],
-        ["Μπόρεσε", "Μπόρεσε να τρέξει μέχρι τον τερματισμό", "He/She was able to run to the finish line", "s","past"],
+        ["Μπόρεσε", "Μπόρεσε να τρέξει μέχρι τον τερματισμό", "He was able to run to the finish line", "s","past"],
         ["Μπορέσαμε", "Μπορέσαμε να πάρουμε εισιτήρια τελικά", "We were able to get tickets after all", "p","past"],
         ["Μπορέσατε", "Μπορέσατε να λύσετε το πρόβλημα;", "Were you able to solve the problem?", "p","past"],
         ["Μπόρεσαν", "Μπόρεσαν να επικοινωνήσουν μαζί μας", "They managed to contact us", "p","past"],
 
         ["Θα μπορέσω", "Θα μπορέσω να έρθω αύριο", "I will be able to come tomorrow", "s","future"],
         ["Θα μπορέσεις", "Θα μπορέσεις να μείνεις για δείπνο;", "Will you be able to stay for dinner?", "s","future"],
-        ["Θα μπορέσει", "Θα μπορέσει να συμμετάσχει στη συνάντηση", "He/She will be able to attend the meeting", "s","future"],
+        ["Θα μπορέσει", "Θα μπορέσει να συμμετάσχει στη συνάντηση", "He will be able to attend the meeting", "s","future"],
         ["Θα μπορέσουμε", "Θα μπορέσουμε να συναντηθούμε το απόγευμα", "We will be able to meet in the afternoon", "p","future"],
         ["Θα μπορέσετε", "Θα μπορέσετε να μας εξηγήσετε τι έγινε;", "Will you be able to explain what happened?", "p","future"],
         ["Θα μπορέσουν", "Θα μπορέσουν να ταξιδέψουν τον Αύγουστο", "They will be able to travel in August", "p","future"]
@@ -753,21 +721,21 @@
       "sentences": [
         ["Καλώ", "Καλώ τους φίλους μου για δείπνο", "I invite my friends for dinner", "s","present"],
         ["Καλείς", "Καλείς συχνά τους γονείς σου;", "Do you often call your parents?", "s","present"],
-        ["Καλεί", "Καλεί τον γιατρό κάθε φορά που πονάει", "He/She calls the doctor every time they are in pain", "s","present"],
+        ["Καλεί", "Καλεί τον γιατρό κάθε φορά που πονάει", "He calls the doctor every time they are in pain", "s","present"],
         ["Καλούμε", "Καλούμε όλη την οικογένεια στη γιορτή", "We invite the whole family to the celebration", "p","present"],
         ["Καλείτε", "Καλείτε κάποιον για βοήθεια;", "Are you calling someone for help?", "p","present"],
         ["Καλούν", "Καλούν συχνά πελάτες για συνεντεύξεις", "They often call clients for interviews", "p","present"],
 
         ["Κάλεσα", "Κάλεσα την Ελένη στο πάρτι", "I invited Eleni to the party", "s","past"],
         ["Κάλεσες", "Κάλεσες ποτέ τον θείο σου στο σπίτι;", "Have you ever invited your uncle to the house?", "s","past"],
-        ["Κάλεσε", "Κάλεσε ασθενοφόρο αμέσως", "He/She called an ambulance immediately", "s","past"],
+        ["Κάλεσε", "Κάλεσε ασθενοφόρο αμέσως", "He called an ambulance immediately", "s","past"],
         ["Καλέσαμε", "Καλέσαμε όλο το γραφείο στην εκδήλωση", "We invited the whole office to the event", "p","past"],
         ["Καλέσατε", "Καλέσατε τον υδραυλικό;", "Did you call the plumber?", "p","past"],
         ["Κάλεσαν", "Κάλεσαν τους μαθητές στη σκηνή", "They invited the students on stage", "p","past"],
 
         ["Θα καλέσω", "Θα καλέσω την Άννα για καφέ", "I will call Anna for coffee", "s","future"],
         ["Θα καλέσεις", "Θα καλέσεις τον ξάδερφό σου στο γάμο;", "Will you invite your cousin to the wedding?", "s","future"],
-        ["Θα καλέσει", "Θα καλέσει τεχνικό αύριο", "He/She will call a technician tomorrow", "s","future"],
+        ["Θα καλέσει", "Θα καλέσει τεχνικό αύριο", "She will call a technician tomorrow", "s","future"],
         ["Θα καλέσουμε", "Θα καλέσουμε μερικούς φίλους για φαγητό", "We will invite some friends for dinner", "p","future"],
         ["Θα καλέσετε", "Θα καλέσετε όλους τους συναδέλφους;", "Will you invite all your colleagues?", "p","future"],
         ["Θα καλέσουν", "Θα καλέσουν την αστυνομία αν συνεχιστεί ο θόρυβος", "They will call the police if the noise continues", "p","future"]
@@ -812,14 +780,14 @@
 
         ["Άργησα", "Άργησα στο μάθημα σήμερα", "I was late to class today", "s","past"],
         ["Άργησες", "Άργησες πάλι στο ραντεβού", "You were late again for the appointment", "s","past"],
-        ["Άργησε", "Άργησε να έρθει στο γραφείο", "He/She was late to come to the office", "s","past"],
+        ["Άργησε", "Άργησε να έρθει στο γραφείο", "She was late to come to the office", "s","past"],
         ["Αργήσαμε", "Αργήσαμε εξαιτίας της βροχής", "We were late because of the rain", "p","past"],
         ["Αργήσατε", "Αργήσατε στην παράσταση;", "Were you late to the performance?", "p","past"],
         ["Άργησαν", "Άργησαν να ξεκινήσουν το έργο", "They were late starting the project", "p","past"],
 
         ["Θα αργήσω", "Θα αργήσω λίγο απόψε", "I will be a bit late tonight", "s","future"],
         ["Θα αργήσεις", "Θα αργήσεις να φτάσεις;", "Will you be late arriving?", "s","future"],
-        ["Θα αργήσει", "Θα αργήσει λόγω δουλειάς", "He/She will be late because of work", "s","future"],
+        ["Θα αργήσει", "Θα αργήσει λόγω δουλειάς", "He will be late because of work", "s","future"],
         ["Θα αργήσουμε", "Θα αργήσουμε αν δεν φύγουμε τώρα", "We will be late if we don’t leave now", "p","future"],
         ["Θα αργήσετε", "Θα αργήσετε στο μάθημα;", "Will you be late to class?", "p","future"],
         ["Θα αργήσουν", "Θα αργήσουν γιατί χάλασε το αυτοκίνητο", "They will be late because the car broke down", "p","future"]
@@ -857,21 +825,21 @@
       "sentences": [
         ["Τρώω", "Τρώω πρωινό κάθε μέρα", "I eat breakfast every day", "s","present"],
         ["Τρως", "Τρως πολλά γλυκά;", "Do you eat a lot of sweets?", "s","present"],
-        ["Τρώει", "Τρώει πάντα υγιεινά", "He/She always eats healthy", "s","present"],
+        ["Τρώει", "Τρώει πάντα υγιεινά", "He always eats healthy", "s","present"],
         ["Τρώμε", "Τρώμε μαζί τα Σαββατοκύριακα", "We eat together on weekends", "p","present"],
         ["Τρώτε", "Τρώτε συχνά έξω;", "Do you often eat out?", "p","present"],
         ["Τρώνε", "Τρώνε πίτσα κάθε Παρασκευή", "They eat pizza every Friday", "p","present"],
 
         ["Έφαγα", "Έφαγα μακαρόνια για μεσημεριανό", "I ate pasta for lunch", "s","past"],
         ["Έφαγες", "Έφαγες όλο το γλυκό;", "Did you eat all the dessert?", "s","past"],
-        ["Έφαγε", "Έφαγε αργά το βράδυ", "He/She ate late at night", "s","past"],
+        ["Έφαγε", "Έφαγε αργά το βράδυ", "She ate late at night", "s","past"],
         ["Φάγαμε", "Φάγαμε σε ένα καλό εστιατόριο", "We ate at a nice restaurant", "p","past"],
         ["Φάγατε", "Φάγατε πριν έρθετε;", "Did you eat before coming?", "p","past"],
         ["Έφαγαν", "Έφαγαν πολύ και χόρτασαν", "They ate a lot and were full", "p","past"],
 
         ["Θα φάω", "Θα φάω κάτι ελαφρύ το βράδυ", "I will eat something light tonight", "s","future"],
         ["Θα φας", "Θα φας με εμάς;", "Will you eat with us?", "s","future"],
-        ["Θα φάει", "Θα φάει πριν τη συνάντηση", "He/She will eat before the meeting", "s","future"],
+        ["Θα φάει", "Θα φάει πριν τη συνάντηση", "He will eat before the meeting", "s","future"],
         ["Θα φάμε", "Θα φάμε στην ταβέρνα αύριο", "We will eat at the taverna tomorrow", "p","future"],
         ["Θα φάτε", "Θα φάτε πρωινό μαζί μας;", "Will you eat breakfast with us?", "p","future"],
         ["Θα φάνε", "Θα φάνε μόλις φτάσουν", "They will eat as soon as they arrive", "p","future"]
@@ -961,21 +929,21 @@
       "sentences": [
         ["Βρίσκομαι", "Βρίσκομαι στο σπίτι τώρα", "I am at home now", "s","present"],
         ["Βρίσκεσαι", "Βρίσκεσαι κοντά στο κέντρο;", "Are you located near the center?", "s","present"],
-        ["Βρίσκεται", "Βρίσκεται στο γραφείο του", "He/She is at his/her office", "s","present"],
+        ["Βρίσκεται", "Βρίσκεται στο γραφείο του", "He is at his office", "s","present"],
         ["Βρισκόμαστε", "Βρισκόμαστε στο πάρκο το απόγευμα", "We are at the park in the afternoon", "p","present"],
         ["Βρίσκεστε", "Βρίσκεστε στην ίδια τάξη;", "Are you in the same class?", "p","present"],
         ["Βρίσκονται", "Βρίσκονται σε διακοπές τώρα", "They are on vacation now", "p","present"],
 
         ["Βρέθηκα", "Βρέθηκα σε μια δύσκολη κατάσταση", "I found myself in a difficult situation", "s","past"],
         ["Βρέθηκες", "Βρέθηκες στην Αθήνα για δουλειά;", "Did you find yourself in Athens for work?", "s","past"],
-        ["Βρέθηκε", "Βρέθηκε στο σημείο του ατυχήματος", "He/She was found at the accident site", "s","past"],
+        ["Βρέθηκε", "Βρέθηκε στο σημείο του ατυχήματος", "He was found at the accident site", "s","past"],
         ["Βρεθήκαμε", "Βρεθήκαμε τυχαία στο ίδιο μέρος", "We happened to be in the same place", "p","past"],
         ["Βρεθήκατε", "Βρεθήκατε στο πάρτι χθες;", "Did you find yourselves at the party yesterday?", "p","past"],
         ["Βρέθηκαν", "Βρέθηκαν μετά από πολλή αναζήτηση", "They were found after a long search", "p","past"],
 
         ["Θα βρεθώ", "Θα βρεθώ στη δουλειά αργότερα", "I will be at work later", "s","future"],
         ["Θα βρεθείς", "Θα βρεθείς στο αεροδρόμιο στις 6", "You will be at the airport at 6", "s","future"],
-        ["Θα βρεθεί", "Θα βρεθεί στο σπίτι σύντομα", "He/She will be at home soon", "s","future"],
+        ["Θα βρεθεί", "Θα βρεθεί στο σπίτι σύντομα", "She will be at home soon", "s","future"],
         ["Θα βρεθούμε", "Θα βρεθούμε στο μουσείο αύριο", "We will meet at the museum tomorrow", "p","future"],
         ["Θα βρεθείτε", "Θα βρεθείτε στο συνέδριο την Παρασκευή", "You will be at the conference on Friday", "p","future"],
         ["Θα βρεθούν", "Θα βρεθούν στο ξενοδοχείο αργά το βράδυ", "They will be at the hotel late at night", "p","future"]
@@ -1013,21 +981,21 @@
       "sentences": [
         ["Θυμάμαι", "Θυμάμαι το πρώτο μου σχολείο", "I remember my first school", "s","present"],
         ["Θυμάσαι", "Θυμάσαι το όνομα του καθηγητή;", "Do you remember the teacher’s name?", "s","present"],
-        ["Θυμάται", "Θυμάται την πρώτη μας συνάντηση", "He/She remembers our first meeting", "s","present"],
+        ["Θυμάται", "Θυμάται την πρώτη μας συνάντηση", "She remembers our first meeting", "s","present"],
         ["Θυμόμαστε", "Θυμόμαστε τα παιδικά μας χρόνια", "We remember our childhood", "p","present"],
         ["Θυμάστε", "Θυμάστε το τραγούδι αυτό;", "Do you remember this song?", "p","present"],
         ["Θυμούνται", "Θυμούνται τις διακοπές στο χωριό", "They remember the holidays in the village", "p","present"],
 
         ["Θυμήθηκα", "Θυμήθηκα το ραντεβού την τελευταία στιγμή", "I remembered the appointment at the last moment", "s","past"],
         ["Θυμήθηκες", "Θυμήθηκες να πάρεις το κλειδί;", "Did you remember to take the key?", "s","past"],
-        ["Θυμήθηκε", "Θυμήθηκε την απάντηση αμέσως", "He/She remembered the answer immediately", "s","past"],
+        ["Θυμήθηκε", "Θυμήθηκε την απάντηση αμέσως", "He remembered the answer immediately", "s","past"],
         ["Θυμηθήκαμε", "Θυμηθήκαμε τα παλιά μας αστεία", "We remembered our old jokes", "p","past"],
         ["Θυμηθήκατε", "Θυμηθήκατε το όνομα του δρόμου;", "Did you remember the street name?", "p","past"],
         ["Θυμήθηκαν", "Θυμήθηκαν τη γιορτή αργότερα", "They remembered the celebration later", "p","past"],
 
         ["Θα θυμηθώ", "Θα θυμηθώ να πάρω τα βιβλία", "I will remember to take the books", "s","future"],
         ["Θα θυμηθείς", "Θα θυμηθείς το μάθημα;", "Will you remember the lesson?", "s","future"],
-        ["Θα θυμηθεί", "Θα θυμηθεί την υπόσχεσή του", "He/She will remember his/her promise", "s","future"],
+        ["Θα θυμηθεί", "Θα θυμηθεί την υπόσχεσή του", "He will remember his promise", "s","future"],
         ["Θα θυμηθούμε", "Θα θυμηθούμε να τηλεφωνήσουμε", "We will remember to call", "p","future"],
         ["Θα θυμηθείτε", "Θα θυμηθείτε το ραντεβού σας;", "Will you remember your appointment?", "p","future"],
         ["Θα θυμηθούν", "Θα θυμηθούν τα λόγια σου", "They will remember your words", "p","future"]
@@ -1065,21 +1033,21 @@
       "sentences": [
         ["Φοβάμαι", "Φοβάμαι τα σκυλιά", "I am afraid of dogs", "s","present"],
         ["Φοβάσαι", "Φοβάσαι το σκοτάδι;", "Are you afraid of the dark?", "s","present"],
-        ["Φοβάται", "Φοβάται τα ύψη", "He/She is afraid of heights", "s","present"],
+        ["Φοβάται", "Φοβάται τα ύψη", "She is afraid of heights", "s","present"],
         ["Φοβόμαστε", "Φοβόμαστε τις καταιγίδες", "We are afraid of thunderstorms", "p","present"],
         ["Φοβάστε", "Φοβάστε να μιλήσετε δημόσια;", "Are you afraid to speak in public?", "p","present"],
         ["Φοβούνται", "Φοβούνται τα φίδια", "They are afraid of snakes", "p","present"],
 
         ["φοβήθηκα", "Φοβήθηκα όταν άκουσα τον θόρυβο", "I got scared when I heard the noise", "s","past"],
         ["φοβήθηκες", "Φοβήθηκες από την ταινία;", "Did you get scared from the movie?", "s","past"],
-        ["φοβήθηκε", "Φοβήθηκε με το ατύχημα", "He/She got scared by the accident", "s","past"],
+        ["φοβήθηκε", "Φοβήθηκε με το ατύχημα", "He got scared by the accident", "s","past"],
         ["Φοβηθήκαμε", "Φοβηθήκαμε τον σκύλο", "We got scared of the dog", "p","past"],
         ["Φοβηθήκατε", "Φοβηθήκατε την καταιγίδα;", "Did you get scared of the storm?", "p","past"],
         ["Φοβήθηκαν", "Φοβήθηκαν το σκοτάδι", "They got scared of the dark", "p","past"],
 
         ["Θα φοβηθώ", "Θα φοβηθώ αν δεν είσαι εδώ", "I will be afraid if you are not here", "s","future"],
         ["Θα φοβηθείς", "Θα φοβηθείς να μιλήσεις;", "Will you be afraid to speak?", "s","future"],
-        ["Θα φοβηθεί", "Θα φοβηθεί από τον θόρυβο", "He/She will be afraid of the noise", "s","future"],
+        ["Θα φοβηθεί", "Θα φοβηθεί από τον θόρυβο", "She will be afraid of the noise", "s","future"],
         ["Θα φοβηθούμε", "Θα φοβηθούμε τη βροντή", "We will be afraid of the thunder", "p","future"],
         ["Θα φοβηθείτε", "Θα φοβηθείτε το σκοτάδι;", "Will you be afraid of the dark?", "p","future"],
         ["Θα φοβηθούν", "Θα φοβηθούν τα φίδια", "They will be afraid of snakes", "p","future"]
@@ -1117,21 +1085,21 @@
       "sentences": [
         ["Κοιμάμαι", "Κοιμάμαι οκτώ ώρες κάθε βράδυ", "I sleep eight hours every night", "s","present"],
         ["Κοιμάσαι", "Κοιμάσαι νωρίς τα βράδια;", "Do you sleep early at night?", "s","present"],
-        ["Κοιμάται", "Κοιμάται βαθιά τώρα", "He/She is sleeping deeply now", "s","present"],
+        ["Κοιμάται", "Κοιμάται βαθιά τώρα", "He is sleeping deeply now", "s","present"],
         ["Κοιμόμαστε", "Κοιμόμαστε μετά από μια κουραστική μέρα", "We sleep after a tiring day", "p","present"],
         ["Κοιμάστε", "Κοιμάστε καλά τελευταία;", "Are you sleeping well lately?", "p","present"],
         ["Κοιμούνται", "Κοιμούνται νωρίς τα παιδιά", "They sleep early, the children", "p","present"],
 
         ["Κοιμήθηκα", "Κοιμήθηκα αργά χθες το βράδυ", "I slept late last night", "s","past"],
         ["Κοιμήθηκες", "Κοιμήθηκες καλά;", "Did you sleep well?", "s","past"],
-        ["Κοιμήθηκε", "Κοιμήθηκε μετά το δείπνο", "He/She slept after dinner", "s","past"],
+        ["Κοιμήθηκε", "Κοιμήθηκε μετά το δείπνο", "She slept after dinner", "s","past"],
         ["Κοιμηθήκαμε", "Κοιμηθήκαμε γρήγορα μετά τη δουλειά", "We fell asleep quickly after work", "p","past"],
         ["Κοιμηθήκατε", "Κοιμηθήκατε αρκετά;", "Did you sleep enough?", "p","past"],
         ["Κοιμήθηκαν", "Κοιμήθηκαν νωρίς το Σαββατοκύριακο", "They slept early on the weekend", "p","past"],
 
         ["Θα κοιμηθώ", "Θα κοιμηθώ νωρίς απόψε", "I will sleep early tonight", "s","future"],
         ["Θα κοιμηθείς", "Θα κοιμηθείς καλά;", "Will you sleep well?", "s","future"],
-        ["Θα κοιμηθεί", "Θα κοιμηθεί μετά το μάθημα", "He/She will sleep after the lesson", "s","future"],
+        ["Θα κοιμηθεί", "Θα κοιμηθεί μετά το μάθημα", "He will sleep after the lesson", "s","future"],
         ["Θα κοιμηθούμε", "Θα κοιμηθούμε όταν φτάσουμε", "We will sleep when we arrive", "p","future"],
         ["Θα κοιμηθείτε", "Θα κοιμηθείτε καλά στο νέο κρεβάτι;", "Will you sleep well in the new bed?", "p","future"],
         ["Θα κοιμηθούν", "Θα κοιμηθούν σύντομα", "They will sleep soon", "p","future"]
@@ -1169,21 +1137,21 @@
       "sentences": [
         ["Βάζω", "Βάζω το βιβλίο στο ράφι", "I put the book on the shelf", "s","present"],
         ["Βάζεις", "Βάζεις ζάχαρη στον καφέ;", "Do you put sugar in your coffee?", "s","present"],
-        ["Βάζει", "Βάζει τα κλειδιά στο τραπέζι", "He/She puts the keys on the table", "s","present"],
+        ["Βάζει", "Βάζει τα κλειδιά στο τραπέζι", "She puts the keys on the table", "s","present"],
         ["Βάζουμε", "Βάζουμε φώτα στο σπίτι", "We put lights in the house", "p","present"],
         ["Βάζετε", "Βάζετε μουσική στο πάρτι", "You put music on at the party", "p","present"],
         ["Βάζουν", "Βάζουν πάντα τάξη στο δωμάτιο", "They always put the room in order", "p","present"],
 
         ["Έβαλα", "Έβαλα το φόρεμα στο ντουλάπι", "I put the dress in the wardrobe", "s","past"],
         ["Έβαλες", "Έβαλες τα παπούτσια σου;", "Did you put your shoes on?", "s","past"],
-        ["Έβαλε", "Έβαλε το τηλέφωνο στην τσέπη", "He/She put the phone in the pocket", "s","past"],
+        ["Έβαλε", "Έβαλε το τηλέφωνο στην τσέπη", "He put the phone in the pocket", "s","past"],
         ["Βάλαμε", "Βάλαμε φαγητό στο ψυγείο", "We put food in the fridge", "p","past"],
         ["Βάλατε", "Βάλατε τα πιάτα στο τραπέζι", "You put the dishes on the table", "p","past"],
         ["Έβαλαν", "Έβαλαν τα βιβλία στη βιβλιοθήκη", "They put the books in the bookshelf", "p","past"],
 
         ["Θα βάλω", "Θα βάλω τα λουλούδια στο βάζο", "I will put the flowers in the vase", "s","future"],
         ["Θα βάλεις", "Θα βάλεις τη ζώνη;", "Will you put on the belt?", "s","future"],
-        ["Θα βάλει", "Θα βάλει το φαγητό στο φούρνο", "He/She will put the food in the oven", "s","future"],
+        ["Θα βάλει", "Θα βάλει το φαγητό στο φούρνο", "She will put the food in the oven", "s","future"],
         ["Θα βάλουμε", "Θα βάλουμε το τραπέζι για το δείπνο", "We will set the table for dinner", "p","future"],
         ["Θα βάλετε", "Θα βάλετε την τηλεόραση;", "Will you turn on the TV?", "p","future"],
         ["Θα βάλουν", "Θα βάλουν τα παιδιά για ύπνο", "They will put the kids to sleep", "p","future"]
@@ -1221,21 +1189,21 @@
       "sentences": [
         ["Βγάζω", "Βγάζω το σκύλο βόλτα κάθε πρωί", "I take the dog for a walk every morning", "s","present"],
         ["Βγάζεις", "Βγάζεις τα παπούτσια σου;", "Do you take off your shoes?", "s","present"],
-        ["Βγάζει", "Βγάζει τα γάντια πριν φάει", "He/She takes off the gloves before eating", "s","present"],
+        ["Βγάζει", "Βγάζει τα γάντια πριν φάει", "He takes off the gloves before eating", "s","present"],
         ["Βγάζουμε", "Βγάζουμε φωτογραφίες στις διακοπές", "We take pictures on vacation", "p","present"],
         ["Βγάζετε", "Βγάζετε το σκύλο έξω;", "Do you take the dog outside?", "p","present"],
         ["Βγάζουν", "Βγάζουν το σκουπίδι κάθε μέρα", "They take out the trash every day", "p","present"],
 
         ["Έβγαλα", "Έβγαλα το παλτό πριν μπω στο σπίτι", "I took off the coat before entering the house", "s","past"],
         ["Έβγαλες", "Έβγαλες τα βιβλία από την τσάντα;", "Did you take the books out of the bag?", "s","past"],
-        ["Έβγαλε", "Έβγαλε το κινητό από την τσέπη", "He/She took the phone out of the pocket", "s","past"],
+        ["Έβγαλε", "Έβγαλε το κινητό από την τσέπη", "He took the phone out of the pocket", "s","past"],
         ["Βγάλαμε", "Βγάλαμε τις φωτογραφίες από την κάμερα", "We took the photos from the camera", "p","past"],
         ["Βγάλατε", "Βγάλατε τα σκουπίδια χθες;", "Did you take out the trash yesterday?", "p","past"],
         ["Έβγαλαν", "Έβγαλαν τα παιδιά από το σχολείο", "They took the kids out of school", "p","past"],
 
         ["Θα βγάλω", "Θα βγάλω τα σκουπίδια σήμερα", "I will take out the trash today", "s","future"],
         ["Θα βγάλεις", "Θα βγάλεις το κινητό σου;", "Will you take your phone out?", "s","future"],
-        ["Θα βγάλει", "Θα βγάλει το αυτοκίνητο έξω", "He/She will take the car outside", "s","future"],
+        ["Θα βγάλει", "Θα βγάλει το αυτοκίνητο έξω", "He will take the car outside", "s","future"],
         ["Θα βγάλουμε", "Θα βγάλουμε τις φωτογραφίες σύντομα", "We will take the photos soon", "p","future"],
         ["Θα βγάλετε", "Θα βγάλετε την αποστολή;", "Will you take out the shipment?", "p","future"],
         ["Θα βγάλουν", "Θα βγάλουν τα παιδιά βόλτα", "They will take the kids for a walk", "p","future"]
@@ -1273,21 +1241,21 @@
       "sentences": [
         ["Δίνω", "Δίνω δώρο στη φίλη μου", "I give a gift to my friend", "s","present"],
         ["Δίνεις", "Δίνεις χρήματα στον φιλανθρωπικό οργανισμό;", "Do you give money to the charity?", "s","present"],
-        ["Δίνει", "Δίνει συμβουλές στους νέους", "He/She gives advice to young people", "s","present"],
+        ["Δίνει", "Δίνει συμβουλές στους νέους", "She gives advice to young people", "s","present"],
         ["Δίνουμε", "Δίνουμε βοήθεια στους συνανθρώπους μας", "We give help to our fellow humans", "p","present"],
         ["Δίνετε", "Δίνετε εξετάσεις την επόμενη εβδομάδα;", "Are you taking exams next week?", "p","present"],
         ["Δίνουν", "Δίνουν σημασία στη λεπτομέρεια", "They pay attention to detail", "p","present"],
 
         ["Έδωσα", "Έδωσα το βιβλίο στον αδερφό μου", "I gave the book to my brother", "s","past"],
         ["Έδωσες", "Έδωσες τα κλειδιά;", "Did you give the keys?", "s","past"],
-        ["Έδωσε", "Έδωσε ένα μήνυμα στον καθηγητή", "He/She gave a message to the teacher", "s","past"],
+        ["Έδωσε", "Έδωσε ένα μήνυμα στον καθηγητή", "He gave a message to the teacher", "s","past"],
         ["Δώσαμε", "Δώσαμε τα χρήματα στην τράπεζα", "We gave the money to the bank", "p","past"],
         ["Δώσατε", "Δώσατε τις απαντήσεις στην ώρα τους;", "Did you give the answers on time?", "p","past"],
         ["Έδωσαν", "Έδωσαν τα δώρα στα παιδιά", "They gave the gifts to the children", "p","past"],
 
         ["Θα δώσω", "Θα δώσω το πακέτο στην ταχυδρόμο", "I will give the package to the mail carrier", "s","future"],
         ["Θα δώσεις", "Θα δώσεις το μήνυμα;", "Will you give the message?", "s","future"],
-        ["Θα δώσει", "Θα δώσει την άδεια αύριο", "He/She will give the permission tomorrow", "s","future"],
+        ["Θα δώσει", "Θα δώσει την άδεια αύριο", "She will give the permission tomorrow", "s","future"],
         ["Θα δώσουμε", "Θα δώσουμε βοήθεια στους γείτονες", "We will give help to the neighbors", "p","future"],
         ["Θα δώσετε", "Θα δώσετε το βιβλίο στο σχολείο;", "Will you give the book to the school?", "p","future"],
         ["Θα δώσουν", "Θα δώσουν την απάντηση σύντομα", "They will give the answer soon", "p","future"]
@@ -1325,21 +1293,21 @@
       "sentences": [
         ["Πίνω", "Πίνω καφέ κάθε πρωί", "I drink coffee every morning", "s","present"],
         ["Πίνεις", "Πίνεις νερό μετά την άσκηση;", "Do you drink water after exercise?", "s","present"],
-        ["Πίνει", "Πίνει τσάι χωρίς ζάχαρη", "He/She drinks tea without sugar", "s","present"],
+        ["Πίνει", "Πίνει τσάι χωρίς ζάχαρη", "She drinks tea without sugar", "s","present"],
         ["Πίνουμε", "Πίνουμε κρασί στο δείπνο", "We drink wine at dinner", "p","present"],
         ["Πίνετε", "Πίνετε χυμό φρούτων;", "Do you drink fruit juice?", "p","present"],
         ["Πίνουν", "Πίνουν πάντα το πρωί γάλα", "They always drink milk in the morning", "p","present"],
 
         ["ήπια", "Ήπια νερό από τη βρύση", "I drank water from the tap", "s","past"],
         ["ήπιες", "Ήπιες καφέ χθες;", "Did you drink coffee yesterday?", "s","past"],
-        ["ήπιε", "Ήπιε πολύ νερό μετά το τρέξιμο", "He/She drank a lot of water after running", "s","past"],
-        ["ήπιαμε", "Ήπιαμε κρασί για το δείπνο", "We took (drank) wine for dinner", "p","past"],
+        ["ήπιε", "Ήπιε πολύ νερό μετά το τρέξιμο", "She drank a lot of water after running", "s","past"],
+        ["ήπιαμε", "Ήπιαμε κρασί για το δείπνο", "We drank wine for dinner", "p","past"],
         ["ήπιατε", "Ήπιατε νερό στο ταξίδι;", "Did you drink water on the trip?", "p","past"],
         ["ήπιαν", "Ήπιαν πάντα χυμό στο πρωινό", "They always drank juice at breakfast", "p","past"],
 
         ["Θα πιω", "Θα πιω ένα ποτήρι νερό", "I will drink a glass of water", "s","future"],
         ["Θα πιεις", "Θα πιεις καφέ μαζί μου;", "Will you drink coffee with me?", "s","future"],
-        ["Θα πιει", "Θα πιει τσάι μετά το φαγητό", "He/She will drink tea after the meal", "s","future"],
+        ["Θα πιει", "Θα πιει τσάι μετά το φαγητό", "He will drink tea after the meal", "s","future"],
         ["Θα πιούμε", "Θα πιούμε κρασί απόψε", "We will drink wine tonight", "p","future"],
         ["Θα πιείτε", "Θα πιείτε χυμό φρούτων;", "Will you drink fruit juice?", "p","future"],
         ["Θα πιουν", "Θα πιουν νερό όταν διψάσουν", "They will drink water when they are thirsty", "p","future"]
@@ -1377,21 +1345,21 @@
       "sentences": [
         ["Μαθαίνω", "Μαθαίνω ελληνικά κάθε μέρα", "I learn Greek every day", "s","present"],
         ["Μαθαίνεις", "Μαθαίνεις γρήγορα", "You learn quickly", "s","present"],
-        ["Μαθαίνει", "Μαθαίνει κάτι καινούργιο", "He/She learns something new", "s","present"],
+        ["Μαθαίνει", "Μαθαίνει κάτι καινούργιο", "He learns something new", "s","present"],
         ["Μαθαίνουμε", "Μαθαίνουμε μαζί στο σχολείο", "We learn together at school", "p","present"],
         ["Μαθαίνετε", "Μαθαίνετε εύκολα γλώσσες", "You learn languages easily", "p","present"],
         ["Μαθαίνουν", "Μαθαίνουν πολλά από τους δασκάλους", "They learn a lot from the teachers", "p","present"],
 
         ["Έμαθα", "Έμαθα καλά το μάθημα", "I learned the lesson well", "s","past"],
         ["Έμαθες", "Έμαθες νέα για το ταξίδι;", "Did you learn news about the trip?", "s","past"],
-        ["Έμαθε", "Έμαθε την αλήθεια", "He/She learned the truth", "s","past"],
+        ["Έμαθε", "Έμαθε την αλήθεια", "She learned the truth", "s","past"],
         ["Μάθαμε", "Μάθαμε για το πρότζεκτ", "We learned about the project", "p","past"],
         ["Μάθατε", "Μάθατε τις οδηγίες;", "Did you learn the instructions?", "p","past"],
         ["Έμαθαν", "Έμαθαν πολλά από την εμπειρία", "They learned a lot from the experience", "p","past"],
 
         ["Θα μάθω", "Θα μάθω να παίζω κιθάρα", "I will learn to play guitar", "s","future"],
         ["Θα μάθεις", "Θα μάθεις τα νέα τραγούδια;", "Will you learn the new songs?", "s","future"],
-        ["Θα μάθει", "Θα μάθει γρήγορα", "He/She will learn quickly", "s","future"],
+        ["Θα μάθει", "Θα μάθει γρήγορα", "He will learn quickly", "s","future"],
         ["Θα μάθουμε", "Θα μάθουμε την αλήθεια σύντομα", "We will learn the truth soon", "p","future"],
         ["Θα μάθετε", "Θα μάθετε όλα τα μυστικά;", "Will you learn all the secrets?", "p","future"],
         ["Θα μάθουν", "Θα μάθουν να μιλάνε γρήγορα", "They will learn to speak quickly", "p","future"]
@@ -1429,21 +1397,21 @@
       "sentences": [
         ["Μένω", "Μένω στην Αθήνα", "I live in Athens", "s","present"],
         ["Μένεις", "Μένεις κοντά στη δουλειά;", "Do you live close to work?", "s","present"],
-        ["Μένει", "Μένει με την οικογένειά του", "He/She lives with his/her family", "s","present"],
+        ["Μένει", "Μένει με την οικογένειά του", "He lives with his family", "s","present"],
         ["Μένουμε", "Μένουμε σε ένα ωραίο σπίτι", "We live in a nice house", "p","present"],
         ["Μένετε", "Μένετε σε ξενοδοχείο τώρα;", "Are you staying in a hotel now?", "p","present"],
         ["Μένουν", "Μένουν στην επαρχία", "They live in the countryside", "p","present"],
 
         ["Έμεινα", "Έμεινα στο σπίτι όλη μέρα", "I stayed home all day", "s","past"],
         ["Έμεινες", "Έμεινες ξύπνιος μέχρι αργά;", "Did you stay awake late?", "s","past"],
-        ["Έμεινε", "Έμεινε στην πόλη για το Σαββατοκύριακο", "He/She stayed in the city for the weekend", "s","past"],
+        ["Έμεινε", "Έμεινε στην πόλη για το Σαββατοκύριακο", "She stayed in the city for the weekend", "s","past"],
         ["Μείναμε", "Μείναμε σε ξενοδοχείο στην Κρήτη", "We stayed at a hotel in Crete", "p","past"],
         ["Μείνατε", "Μείνατε στο διαμέρισμα των φίλων;", "Did you stay at your friends' apartment?", "p","past"],
         ["Έμειναν", "Έμειναν εκεί για αρκετές μέρες", "They stayed there for several days", "p","past"],
 
         ["Θα μείνω", "Θα μείνω στο σπίτι σήμερα", "I will stay home today", "s","future"],
         ["Θα μείνεις", "Θα μείνεις μαζί μας;", "Will you stay with us?", "s","future"],
-        ["Θα μείνει", "Θα μείνει στην πόλη", "He/She will stay in the city", "s","future"],
+        ["Θα μείνει", "Θα μείνει στην πόλη", "He will stay in the city", "s","future"],
         ["Θα μείνουμε", "Θα μείνουμε στο ξενοδοχείο", "We will stay at the hotel", "p","future"],
         ["Θα μείνετε", "Θα μείνετε στο σπίτι των γονιών;", "Will you stay at your parents' house?", "p","future"],
         ["Θα μείνουν", "Θα μείνουν εκεί για λίγο", "They will stay there for a while", "p","future"]
@@ -1481,21 +1449,21 @@
       "sentences": [
         ["Παίρνω", "Παίρνω το λεωφορείο κάθε πρωί", "I take the bus every morning", "s","present"],
         ["Παίρνεις", "Παίρνεις το βιβλίο από το ράφι;", "Do you take the book from the shelf?", "s","present"],
-        ["Παίρνει", "Παίρνει τον καφέ του μαζί", "He/She takes his coffee with him/her", "s","present"],
+        ["Παίρνει", "Παίρνει τον καφέ του μαζί", "He takes his coffee with him", "s","present"],
         ["Παίρνουμε", "Παίρνουμε τα εισιτήρια μαζί", "We take the tickets together", "p","present"],
         ["Παίρνετε", "Παίρνετε την ευθύνη για το έργο;", "Do you take responsibility for the project?", "p","present"],
         ["Παίρνουν", "Παίρνουν πάντα ταξί μετά τη δουλειά", "They always take a taxi after work", "p","present"],
 
         ["Πήρα", "Πήρα το δώρο που ήθελες", "I took the gift you wanted", "s","past"],
         ["Πήρες", "Πήρες το μήνυμα μου;", "Did you get my message?", "s","past"],
-        ["Πήρε", "Πήρε το λάπτοπ μαζί του", "He/She took the laptop with him/her", "s","past"],
+        ["Πήρε", "Πήρε το λάπτοπ μαζί του", "He took the laptop with him", "s","past"],
         ["Πήραμε", "Πήραμε τις αποφάσεις χθες", "We made the decisions yesterday", "p","past"],
         ["Πήρατε", "Πήρατε το αυτοκίνητο;", "Did you take the car?", "p","past"],
         ["Πήραν", "Πήραν τα παιδιά από το σχολείο", "They took the children from school", "p","past"],
 
         ["Θα πάρω", "Θα πάρω έναν καφέ", "I will take a coffee", "s","future"],
         ["Θα πάρεις", "Θα πάρεις μέρος στο παιχνίδι;", "Will you take part in the game?", "s","future"],
-        ["Θα πάρει", "Θα πάρει την ευκαιρία", "He/She will take the opportunity", "s","future"],
+        ["Θα πάρει", "Θα πάρει την ευκαιρία", "She will take the opportunity", "s","future"],
         ["Θα πάρουμε", "Θα πάρουμε ταξί για το αεροδρόμιο", "We will take a taxi to the airport", "p","future"],
         ["Θα πάρετε", "Θα πάρετε τηλέφωνο;", "Will you call?", "p","future"],
         ["Θα πάρουν", "Θα πάρουν όλα τα πράγματα μαζί", "They will take all the things together", "p","future"]
@@ -1533,21 +1501,21 @@
       "sentences": [
         ["Φέρνω", "Φέρνω τα παιδιά από το σχολείο", "I bring the kids from school", "s","present"],
         ["Φέρνεις", "Φέρνεις νερό στο τραπέζι;", "Do you bring water to the table?", "s","present"],
-        ["Φέρνει", "Φέρνει πάντα δώρα στις γιορτές", "He/She always brings gifts on holidays", "s","present"],
+        ["Φέρνει", "Φέρνει πάντα δώρα στις γιορτές", "She always brings gifts on holidays", "s","present"],
         ["Φέρνουμε", "Φέρνουμε το φαγητό στην ώρα του", "We bring the food on time", "p","present"],
         ["Φέρνετε", "Φέρνετε τα έγγραφα μαζί σας;", "Do you bring the documents with you?", "p","present"],
         ["Φέρνουν", "Φέρνουν πάντα τους φίλους τους", "They always bring their friends", "p","present"],
 
         ["Έφερα", "Έφερα το βιβλίο που ζήτησες", "I brought the book you asked for", "s","past"],
         ["Έφερες", "Έφερες το φαγητό;", "Did you bring the food?", "s","past"],
-        ["Έφερε", "Έφερε τα νέα από τη δουλειά", "He/She brought the news from work", "s","past"],
+        ["Έφερε", "Έφερε τα νέα από τη δουλειά", "She brought the news from work", "s","past"],
         ["Φέραμε", "Φέραμε τα ποτά στο πάρτι", "We brought the drinks to the party", "p","past"],
         ["Φέρατε", "Φέρατε τους καλεσμένους;", "Did you bring the guests?", "p","past"],
         ["Έφεραν", "Έφεραν τις βαλίτσες στο δωμάτιο", "They brought the suitcases to the room", "p","past"],
 
         ["Θα φέρω", "Θα φέρω γλυκά στο σπίτι", "I will bring sweets home", "s","future"],
         ["Θα φέρεις", "Θα φέρεις τη μουσική;", "Will you bring the music?", "s","future"],
-        ["Θα φέρει", "Θα φέρει τον καφέ σύντομα", "He/She will bring the coffee soon", "s","future"],
+        ["Θα φέρει", "Θα φέρει τον καφέ σύντομα", "He will bring the coffee soon", "s","future"],
         ["Θα φέρουμε", "Θα φέρουμε τα παιδιά στο πάρκο", "We will bring the kids to the park", "p","future"],
         ["Θα φέρετε", "Θα φέρετε τα δώρα στο σχολείο;", "Will you bring the gifts to school?", "p","future"],
         ["Θα φέρουν", "Θα φέρουν την τούρτα στο πάρτι", "They will bring the cake to the party", "p","future"]
@@ -1585,21 +1553,21 @@
       "sentences": [
         ["Φεύγω", "Φεύγω από το σπίτι στις 8", "I leave the house at 8", "s","present"],
         ["Φεύγεις", "Φεύγεις νωρίς σήμερα;", "Are you leaving early today?", "s","present"],
-        ["Φεύγει", "Φεύγει για διακοπές αύριο", "He/She leaves for vacation tomorrow", "s","present"],
+        ["Φεύγει", "Φεύγει για διακοπές αύριο", "She leaves for vacation tomorrow", "s","present"],
         ["Φεύγουμε", "Φεύγουμε μαζί για το ταξίδι", "We leave together for the trip", "p","present"],
         ["Φεύγετε", "Φεύγετε αργά το βράδυ;", "Do you leave late at night?", "p","present"],
         ["Φεύγουν", "Φεύγουν πάντα πριν το δείπνο", "They always leave before dinner", "p","present"],
 
         ["Έφυγα", "Έφυγα νωρίς από τη δουλειά", "I left work early", "s","past"],
         ["Έφυγες", "Έφυγες χωρίς να πεις αντίο;", "Did you leave without saying goodbye?", "s","past"],
-        ["Έφυγε", "Έφυγε για το αεροδρόμιο", "He/She left for the airport", "s","past"],
+        ["Έφυγε", "Έφυγε για το αεροδρόμιο", "She left for the airport", "s","past"],
         ["Φύγαμε", "Φύγαμε μετά το πάρτι", "We left after the party", "p","past"],
         ["Φύγατε", "Φύγατε από το ξενοδοχείο;", "Did you leave the hotel?", "p","past"],
         ["Έφυγαν", "Έφυγαν χωρίς να περιμένουν", "They left without waiting", "p","past"],
 
         ["Θα φύγω", "Θα φύγω νωρίς αύριο", "I will leave early tomorrow", "s","future"],
         ["Θα φύγεις", "Θα φύγεις μαζί μας;", "Will you leave with us?", "s","future"],
-        ["Θα φύγει", "Θα φύγει αργότερα", "He/She will leave later", "s","future"],
+        ["Θα φύγει", "Θα φύγει αργότερα", "He will leave later", "s","future"],
         ["Θα φύγουμε", "Θα φύγουμε μετά το γεύμα", "We will leave after the meal", "p","future"],
         ["Θα φύγετε", "Θα φύγετε από την πόλη;", "Will you leave the city?", "p","future"],
         ["Θα φύγουν", "Θα φύγουν το Σαββατοκύριακο", "They will leave on the weekend", "p","future"]
@@ -1689,21 +1657,21 @@
       "sentences": [
         ["Πλένω", "Πλένω τα χέρια μου πριν το φαγητό", "I wash my hands before eating", "s","present"],
         ["Πλένεις", "Πλένεις τα πιάτα μετά το δείπνο;", "Do you wash the dishes after dinner?", "s","present"],
-        ["Πλένει", "Πλένει το αυτοκίνητο κάθε Σάββατο", "He/She washes the car every Saturday", "s","present"],
+        ["Πλένει", "Πλένει το αυτοκίνητο κάθε Σάββατο", "She washes the car every Saturday", "s","present"],
         ["Πλένουμε", "Πλένουμε τα ρούχα κάθε Κυριακή", "We wash the clothes every Sunday", "p","present"],
         ["Πλένετε", "Πλένετε τα παράθυρα τακτικά;", "Do you wash the windows regularly?", "p","present"],
         ["Πλένουν", "Πλένουν τα ζώα κάθε μήνα", "They wash the animals every month", "p","present"],
 
         ["Έπλυνα", "Έπλυνα τα πιάτα μετά το γεύμα", "I washed the dishes after the meal", "s","past"],
         ["Έπλυνες", "Έπλυνες τα χέρια σου;", "Did you wash your hands?", "s","past"],
-        ["Έπλυνε", "Έπλυνε το αυτοκίνητο χθες", "He/She washed the car yesterday", "s","past"],
+        ["Έπλυνε", "Έπλυνε το αυτοκίνητο χθες", "He washed the car yesterday", "s","past"],
         ["Πλύναμε", "Πλύναμε τα ρούχα στο πλυντήριο", "We washed the clothes in the washing machine", "p","past"],
         ["Πλύνατε", "Πλύνατε τα παράθυρα;", "Did you wash the windows?", "p","past"],
         ["Έπλυναν", "Έπλυναν τα σκυλιά τους", "They washed their dogs", "p","past"],
 
         ["Θα πλύνω", "Θα πλύνω τα πιάτα μετά το δείπνο", "I will wash the dishes after dinner", "s","future"],
         ["Θα πλύνεις", "Θα πλύνεις τα ρούχα σήμερα;", "Will you wash the clothes today?", "s","future"],
-        ["Θα πλύνει", "Θα πλύνει το αυτοκίνητο αύριο", "He/She will wash the car tomorrow", "s","future"],
+        ["Θα πλύνει", "Θα πλύνει το αυτοκίνητο αύριο", "He will wash the car tomorrow", "s","future"],
         ["Θα πλύνουμε", "Θα πλύνουμε τα παράθυρα την Κυριακή", "We will wash the windows on Sunday", "p","future"],
         ["Θα πλύνετε", "Θα πλύνετε τα πιάτα μετά το γεύμα;", "Will you wash the dishes after the meal?", "p","future"],
         ["Θα πλύνουν", "Θα πλύνουν τα ζώα την επόμενη εβδομάδα", "They will wash the animals next week", "p","future"]
@@ -1741,21 +1709,21 @@
       "sentences": [
         ["Στέλνω", "Στέλνω email κάθε πρωί", "I send emails every morning", "s","present"],
         ["Στέλνεις", "Στέλνεις τα πακέτα στο γραφείο;", "Do you send the packages to the office?", "s","present"],
-        ["Στέλνει", "Στέλνει τα γράμματα ταχυδρομικά", "He/She sends the letters by mail", "s","present"],
+        ["Στέλνει", "Στέλνει τα γράμματα ταχυδρομικά", " sends the letters by mail", "s","present"],
         ["Στέλνουμε", "Στέλνουμε τις προσκλήσεις τώρα", "We are sending the invitations now", "p","present"],
         ["Στέλνετε", "Στέλνετε τα έγγραφα έγκαιρα;", "Do you send the documents on time?", "p","present"],
         ["Στέλνουν", "Στέλνουν δέματα στο εξωτερικό", "They send parcels abroad", "p","present"],
 
         ["Έστειλα", "Έστειλα το μήνυμα πριν από λίγο", "I sent the message a little while ago", "s","past"],
         ["Έστειλες", "Έστειλες το πακέτο;", "Did you send the package?", "s","past"],
-        ["Έστειλε", "Έστειλε την επιστολή χθες", "He/She sent the letter yesterday", "s","past"],
+        ["Έστειλε", "Έστειλε την επιστολή χθες", "She sent the letter yesterday", "s","past"],
         ["Στείλαμε", "Στείλαμε τα εισιτήρια με courier", "We sent the tickets by courier", "p","past"],
         ["Στείλατε", "Στείλατε τα αρχεία;", "Did you send the files?", "p","past"],
         ["Έστειλαν", "Έστειλαν την παραγγελία", "They sent the order", "p","past"],
 
         ["Θα στείλω", "Θα στείλω την πρόσκληση αργότερα", "I will send the invitation later", "s","future"],
         ["Θα στείλεις", "Θα στείλεις το email;", "Will you send the email?", "s","future"],
-        ["Θα στείλει", "Θα στείλει το δέμα αύριο", "He/She will send the parcel tomorrow", "s","future"],
+        ["Θα στείλει", "Θα στείλει το δέμα αύριο", "He will send the parcel tomorrow", "s","future"],
         ["Θα στείλουμε", "Θα στείλουμε τις πληροφορίες σύντομα", "We will send the information soon", "p","future"],
         ["Θα στείλετε", "Θα στείλετε τα έγγραφα;", "Will you send the documents?", "p","future"],
         ["Θα στείλουν", "Θα στείλουν τις προσκλήσεις σήμερα", "They will send the invitations today", "p","future"]
@@ -1793,21 +1761,21 @@
       "sentences": [
         ["Μπαίνω", "Μπαίνω στο δωμάτιο κάθε πρωί", "I enter the room every morning", "s","present"],
         ["Μπαίνεις", "Μπαίνεις στην τάξη εγκαίρως;", "Do you enter the classroom on time?", "s","present"],
-        ["Μπαίνει", "Μπαίνει στο σπίτι σιωπηλά", "He/She enters the house quietly", "s","present"],
+        ["Μπαίνει", "Μπαίνει στο σπίτι σιωπηλά", "He enters the house quietly", "s","present"],
         ["Μπαίνουμε", "Μπαίνουμε στο λεωφορείο μαζί", "We enter the bus together", "p","present"],
         ["Μπαίνετε", "Μπαίνετε στο γραφείο μετά τις 9;", "Do you enter the office after 9?", "p","present"],
         ["Μπαίνουν", "Μπαίνουν πάντα πρώτοι", "They always enter first", "p","present"],
 
         ["Μπήκα", "Μπήκα στο σπίτι χωρίς φώτα", "I entered the house without lights", "s","past"],
         ["Μπήκες", "Μπήκες στην αίθουσα;", "Did you enter the room?", "s","past"],
-        ["Μπήκε", "Μπήκε στο δωμάτιο γρήγορα", "He/She entered the room quickly", "s","past"],
+        ["Μπήκε", "Μπήκε στο δωμάτιο γρήγορα", "She entered the room quickly", "s","past"],
         ["Μπήκαμε", "Μπήκαμε στην εκκλησία", "We entered the church", "p","past"],
         ["Μπήκατε", "Μπήκατε στο λεωφορείο;", "Did you enter the bus?", "p","past"],
         ["Μπήκαν", "Μπήκαν στη σύσκεψη νωρίς", "They entered the meeting early", "p","past"],
 
         ["Θα μπω", "Θα μπω στο σπίτι σύντομα", "I will enter the house soon", "s","future"],
         ["Θα μπεις", "Θα μπεις στην αίθουσα;", "Will you enter the room?", "s","future"],
-        ["Θα μπει", "Θα μπει στο αυτοκίνητο", "He/She will enter the car", "s","future"],
+        ["Θα μπει", "Θα μπει στο αυτοκίνητο", "He will enter the car", "s","future"],
         ["Θα μπούμε", "Θα μπούμε στο λεωφορείο μαζί", "We will enter the bus together", "p","future"],
         ["Θα μπείτε", "Θα μπείτε στο γραφείο μετά τις 10;", "Will you enter the office after 10?", "p","future"],
         ["Θα μπουν", "Θα μπουν στην τάξη αργά", "They will enter the classroom late", "p","future"]
@@ -1845,21 +1813,21 @@
       "sentences": [
         ["Βγαίνω", "Βγαίνω βόλτα κάθε απόγευμα", "I go out for a walk every afternoon", "s","present"],
         ["Βγαίνεις", "Βγαίνεις από το σπίτι συχνά;", "Do you go out from the house often?", "s","present"],
-        ["Βγαίνει", "Βγαίνει από το αυτοκίνητο", "He/She gets out of the car", "s","present"],
+        ["Βγαίνει", "Βγαίνει από το αυτοκίνητο", "She gets out of the car", "s","present"],
         ["Βγαίνουμε", "Βγαίνουμε μαζί το βράδυ", "We go out together at night", "p","present"],
         ["Βγαίνετε", "Βγαίνετε νωρίς από τη δουλειά;", "Do you leave work early?", "p","present"],
         ["Βγαίνουν", "Βγαίνουν από το σχολείο στις 3", "They leave school at 3", "p","present"],
 
         ["Βγήκα", "Βγήκα για καφέ χθες", "I went out for coffee yesterday", "s","past"],
         ["Βγήκες", "Βγήκες με τους φίλους;", "Did you go out with friends?", "s","past"],
-        ["Βγήκε", "Βγήκε από το δωμάτιο", "He/She came out of the room", "s","past"],
+        ["Βγήκε", "Βγήκε από το δωμάτιο", "He came out of the room", "s","past"],
         ["Βγήκαμε", "Βγήκαμε στην ταράτσα", "We went out on the terrace", "p","past"],
         ["Βγήκατε", "Βγήκατε από την αίθουσα;", "Did you leave the room?", "p","past"],
         ["Βγήκαν", "Βγήκαν από το κτίριο νωρίς", "They left the building early", "p","past"],
 
         ["Θα βγω", "Θα βγω βόλτα αργότερα", "I will go out for a walk later", "s","future"],
         ["Θα βγεις", "Θα βγεις με τους φίλους;", "Will you go out with friends?", "s","future"],
-        ["Θα βγει", "Θα βγει από το σπίτι σύντομα", "He/She will leave the house soon", "s","future"],
+        ["Θα βγει", "Θα βγει από το σπίτι σύντομα", "She will leave the house soon", "s","future"],
         ["Θα βγούμε", "Θα βγούμε έξω για φαγητό", "We will go out for food", "p","future"],
         ["Θα βγείτε", "Θα βγείτε από τη δουλειά νωρίς;", "Will you leave work early?", "p","future"],
         ["Θα βγουν", "Θα βγουν από το σχολείο στις 3", "They will leave school at 3", "p","future"]
@@ -1897,21 +1865,21 @@
       "sentences": [
         ["Βρίσκω", "Βρίσκω τα κλειδιά μου πάντα στον καναπέ", "I always find my keys on the sofa", "s","present"],
         ["Βρίσκεις", "Βρίσκεις το βιβλίο που ψάχνεις;", "Do you find the book you’re looking for?", "s","present"],
-        ["Βρίσκει", "Βρίσκει λύσεις στα προβλήματα εύκολα", "He/She finds solutions to problems easily", "s","present"],
+        ["Βρίσκει", "Βρίσκει λύσεις στα προβλήματα εύκολα", "She finds solutions to problems easily", "s","present"],
         ["Βρίσκουμε", "Βρίσκουμε χρόνο για χαλάρωση", "We find time to relax", "p","present"],
         ["Βρίσκετε", "Βρίσκετε αυτό το μέρος ωραίο;", "Do you find this place nice?", "p","present"],
         ["Βρίσκουν", "Βρίσκουν πάντα τρόπους να βοηθούν", "They always find ways to help", "p","present"],
 
         ["Βρήκα", "Βρήκα τα γυαλιά μου στο τραπέζι", "I found my glasses on the table", "s","past"],
         ["Βρήκες", "Βρήκες το τηλέφωνό σου;", "Did you find your phone?", "s","past"],
-        ["Βρήκε", "Βρήκε το κλειδί που έχασε", "He/She found the key he/she lost", "s","past"],
+        ["Βρήκε", "Βρήκε το κλειδί που έχασε", "He found the key he lost", "s","past"],
         ["Βρήκαμε", "Βρήκαμε μια λύση στο πρόβλημα", "We found a solution to the problem", "p","past"],
         ["Βρήκατε", "Βρήκατε το δρόμο;", "Did you find the way?", "p","past"],
         ["Βρήκαν", "Βρήκαν το σπίτι τους", "They found their home", "p","past"],
 
         ["Θα βρω", "Θα βρω την απάντηση σύντομα", "I will find the answer soon", "s","future"],
         ["Θα βρεις", "Θα βρεις τα κλειδιά σου;", "Will you find your keys?", "s","future"],
-        ["Θα βρει", "Θα βρει λύση στο πρόβλημα", "He/She will find a solution to the problem", "s","future"],
+        ["Θα βρει", "Θα βρει λύση στο πρόβλημα", "She will find a solution to the problem", "s","future"],
         ["Θα βρούμε", "Θα βρούμε το σωστό δρόμο", "We will find the right way", "p","future"],
         ["Θα βρείτε", "Θα βρείτε την έξοδο;", "Will you find the exit?", "p","future"],
         ["Θα βρουν", "Θα βρουν το σπίτι τους σύντομα", "They will find their home soon", "p","future"]
@@ -1949,21 +1917,21 @@
       "sentences": [
         ["Ανεβαίνω", "Ανεβαίνω τη σκάλα κάθε μέρα", "I go up the stairs every day", "s","present"],
         ["Ανεβαίνεις", "Ανεβαίνεις στο βουνό συχνά;", "Do you climb the mountain often?", "s","present"],
-        ["Ανεβαίνει", "Ανεβαίνει στην ταράτσα", "He/She goes up to the terrace", "s","present"],
+        ["Ανεβαίνει", "Ανεβαίνει στην ταράτσα", "He goes up to the terrace", "s","present"],
         ["Ανεβαίνουμε", "Ανεβαίνουμε στο λεωφορείο", "We get on the bus", "p","present"],
         ["Ανεβαίνετε", "Ανεβαίνετε στο λεωφορείο με την κάρτα;", "Do you get on the bus with the card?", "p","present"],
         ["Ανεβαίνουν", "Ανεβαίνουν στον πύργο κάθε καλοκαίρι", "They climb the tower every summer", "p","present"],
 
         ["Ανέβηκα", "Ανέβηκα στο βουνό χθες", "I climbed the mountain yesterday", "s","past"],
         ["Ανέβηκες", "Ανέβηκες στη σκάλα;", "Did you go up the stairs?", "s","past"],
-        ["Ανέβηκε", "Ανέβηκε στην ταράτσα νωρίτερα", "He/She went up to the terrace earlier", "s","past"],
+        ["Ανέβηκε", "Ανέβηκε στην ταράτσα νωρίτερα", "He went up to the terrace earlier", "s","past"],
         ["Ανεβήκαμε", "Ανεβήκαμε στο λεωφορείο", "We got on the bus", "p","past"],
         ["Ανεβήκατε", "Ανεβήκατε στο πλοίο;", "Did you get on the ship?", "p","past"],
         ["Ανέβηκαν", "Ανέβηκαν στο βουνό", "They climbed the mountain", "p","past"],
 
         ["Θα ανέβω", "Θα ανέβω στο βουνό το καλοκαίρι", "I will climb the mountain in summer", "s","future"],
         ["Θα ανέβεις", "Θα ανέβεις στη σκάλα;", "Will you go up the stairs?", "s","future"],
-        ["Θα ανέβει", "Θα ανέβει στην ταράτσα", "He/She will go up to the terrace", "s","future"],
+        ["Θα ανέβει", "Θα ανέβει στην ταράτσα", "He will go up to the terrace", "s","future"],
         ["Θα ανέβούμε", "Θα ανέβουμε στο λεωφορείο", "We will get on the bus", "p","future"],
         ["Θα ανέβετε", "Θα ανέβετε στο πλοίο;", "Will you get on the ship?", "p","future"],
         ["Θα ανέβουν", "Θα ανέβουν στο βουνό", "They will climb the mountain", "p","future"]
@@ -2001,21 +1969,21 @@
       "sentences": [
         ["Κατεβαίνω", "Κατεβαίνω τη σκάλα προσεκτικά", "I go down the stairs carefully", "s","present"],
         ["Κατεβαίνεις", "Κατεβαίνεις από το λεωφορείο εδώ;", "Do you get off the bus here?", "s","present"],
-        ["Κατεβαίνει", "Κατεβαίνει από το βουνό αργά", "He/She goes down the mountain slowly", "s","present"],
+        ["Κατεβαίνει", "Κατεβαίνει από το βουνό αργά", "She goes down the mountain slowly", "s","present"],
         ["Κατεβαίνουμε", "Κατεβαίνουμε στο κέντρο της πόλης", "We go down to the city center", "p","present"],
         ["Κατεβαίνετε", "Κατεβαίνετε από το τρένο;", "Do you get off the train?", "p","present"],
         ["Κατεβαίνουν", "Κατεβαίνουν από το βουνό το απόγευμα", "They come down from the mountain in the afternoon", "p","present"],
 
         ["Κατέβηκα", "Κατέβηκα τις σκάλες γρήγορα", "I went down the stairs quickly", "s","past"],
         ["Κατέβηκες", "Κατέβηκες από το λεωφορείο;", "Did you get off the bus?", "s","past"],
-        ["Κατέβηκε", "Κατέβηκε από το βουνό χθες", "He/She came down from the mountain yesterday", "s","past"],
+        ["Κατέβηκε", "Κατέβηκε από το βουνό χθες", "She came down from the mountain yesterday", "s","past"],
         ["Κατεβήκαμε", "Κατεβήκαμε στην πλατεία", "We went down to the square", "p","past"],
         ["Κατεβήκατε", "Κατεβήκατε από το τρένο;", "Did you get off the train?", "p","past"],
         ["Κατέβηκαν", "Κατέβηκαν από το λεωφορείο", "They got off the bus", "p","past"],
 
         ["Θα κατέβω", "Θα κατέβω στη στάση μετά", "I will get off at the next stop", "s","future"],
         ["Θα κατέβεις", "Θα κατέβεις από το λεωφορείο;", "Will you get off the bus?", "s","future"],
-        ["Θα κατέβει", "Θα κατέβει από το βουνό σύντομα", "He/She will come down from the mountain soon", "s","future"],
+        ["Θα κατέβει", "Θα κατέβει από το βουνό σύντομα", "She will come down from the mountain soon", "s","future"],
         ["Θα κατέβουμε", "Θα κατέβουμε στην πόλη", "We will go down to the city", "p","future"],
         ["Θα κατέβετε", "Θα κατέβετε από το τρένο;", "Will you get off the train?", "p","future"],
         ["Θα κατέβουν", "Θα κατέβουν από το λεωφορείο", "They will get off the bus", "p","future"]
@@ -2053,21 +2021,21 @@
       "sentences": [
         ["Περιμένω", "Περιμένω το λεωφορείο κάθε πρωί", "I wait for the bus every morning", "s","present"],
         ["Περιμένεις", "Περιμένεις την απάντηση;", "Are you waiting for the answer?", "s","present"],
-        ["Περιμένει", "Περιμένει τον φίλο της στο σταθμό", "He/She waits for his/her friend at the station", "s","present"],
+        ["Περιμένει", "Περιμένει τον φίλο της στο σταθμό", "She waits for her friend at the station", "s","present"],
         ["Περιμένουμε", "Περιμένουμε το δείπνο", "We are waiting for dinner", "p","present"],
         ["Περιμένετε", "Περιμένετε το ταξί;", "Are you waiting for the taxi?", "p","present"],
         ["Περιμένουν", "Περιμένουν τα παιδιά να τελειώσει το μάθημα", "The kids are waiting for the class to end", "p","present"],
 
         ["Περίμενα", "Περίμενα στη στάση πολύ ώρα", "I waited at the stop for a long time", "s","past"],
         ["Περίμενες", "Περίμενες το λεωφορείο;", "Did you wait for the bus?", "s","past"],
-        ["Περίμενε", "Περίμενε τον φίλο του", "He/She waited for his/her friend", "s","past"],
+        ["Περίμενε", "Περίμενε τον φίλο του", "He waited for his friend", "s","past"],
         ["Περιμέναμε", "Περιμέναμε το τραίνο μαζί", "We waited for the train together", "p","past"],
         ["Περιμένατε", "Περιμένατε πολύ ώρα;", "Did you wait for a long time?", "p","past"],
         ["Περίμεναν", "Περίμεναν μέχρι αργά το βράδυ", "They waited until late at night", "p","past"],
 
         ["Θα περιμένω", "Θα περιμένω το λεωφορείο", "I will wait for the bus", "s","future"],
         ["Θα περιμένεις", "Θα περιμένεις εδώ;", "Will you wait here?", "s","future"],
-        ["Θα περιμένει", "Θα περιμένει τον φίλο της", "He/She will wait for his/her friend", "s","future"],
+        ["Θα περιμένει", "Θα περιμένει τον φίλο της", "She will wait for her friend", "s","future"],
         ["Θα περιμένουμε", "Θα περιμένουμε μαζί", "We will wait together", "p","future"],
         ["Θα περιμένετε", "Θα περιμένετε το τραίνο;", "Will you wait for the train?", "p","future"],
         ["Θα περιμένουν", "Θα περιμένουν μέχρι το βράδυ", "They will wait until the evening", "p","future"]
@@ -2105,21 +2073,21 @@
       "sentences": [
         ["Ξέρω", "Ξέρω την απάντηση στην ερώτηση", "I know the answer to the question", "s","present"],
         ["Ξέρεις", "Ξέρεις τι ώρα είναι;", "Do you know what time it is?", "s","present"],
-        ["Ξέρει", "Ξέρει καλά τα μαθηματικά", "He/She knows math well", "s","present"],
+        ["Ξέρει", "Ξέρει καλά τα μαθηματικά", "She knows math well", "s","present"],
         ["Ξέρουμε", "Ξέρουμε το δρόμο για το μουσείο", "We know the way to the museum", "p","present"],
         ["Ξέρετε", "Ξέρετε πού είναι το ξενοδοχείο;", "Do you know where the hotel is?", "p","present"],
         ["Ξέρουν", "Ξέρουν την απάντηση", "They know the answer", "p","present"],
 
         ["Ήξερα", "Ήξερα την απάντηση πριν", "I knew the answer before", "s","past"],
         ["Ήξερες", "Ήξερες τι συνέβη;", "Did you know what happened?", "s","past"],
-        ["Ήξερε", "Ήξερε την αλήθεια", "He/She knew the truth", "s","past"],
+        ["Ήξερε", "Ήξερε την αλήθεια", "He knew the truth", "s","past"],
         ["Ξεραμε", "Ξεραμε το σχέδιο", "We knew the plan", "p","past"],
         ["Ξέρατε", "Ξέρατε τα νέα;", "Did you know the news?", "p","past"],
         ["Ήξεραν", "Ήξεραν την απάντηση", "They knew the answer", "p","past"],
 
         ["Θα ξέρω", "Θα ξέρω περισσότερα αύριο", "I will know more tomorrow", "s","future"],
         ["Θα ξέρεις", "Θα ξέρεις τι να κάνεις", "You will know what to do", "s","future"],
-        ["Θα ξέρει", "Θα ξέρει την απάντηση", "He/She will know the answer", "s","future"],
+        ["Θα ξέρει", "Θα ξέρει την απάντηση", "He will know the answer", "s","future"],
         ["Θα ξέρουμε", "Θα ξέρουμε το δρόμο", "We will know the way", "p","future"],
         ["Θα ξέρετε", "Θα ξέρετε τι να κάνετε", "You will know what to do", "p","future"],
         ["Θα ξέρουν", "Θα ξέρουν την αλήθεια", "They will know the truth", "p","future"]
@@ -2157,7 +2125,7 @@
       "sentences": [
         ["Θέλω", "Θέλω έναν καφέ τώρα", "I want a coffee now", "s", "present"],
         ["Θέλεις", "Θέλεις να έρθεις μαζί μου;", "Do you want to come with me?", "s", "present"],
-        ["Θέλει", "Θέλει να μάθει ελληνικά", "He/she wants to learn Greek", "s", "present"],
+        ["Θέλει", "Θέλει να μάθει ελληνικά", "She wants to learn Greek", "s", "present"],
         ["Θέλουμε", "Θέλουμε να πάμε στη θάλασσα", "We want to go to the sea", "p", "present"],
         ["Θέλετε", "Θέλετε βοήθεια με τη δουλειά;", "Do you want help with the work?", "p", "present"],
         ["Θέλουν", "Θέλουν να δουν την ταινία απόψε", "They want to watch the movie tonight", "p", "present"]
@@ -2195,22 +2163,22 @@
       "sentences": [
         ["Ακούω", "Ακούω μουσική κάθε μέρα", "I listen to music every day", "s", "present"],
         ["Ακούς", "Ακούς τι λέει ο καθηγητής", "You hear what the teacher says", "s", "present"],
-        ["Ακούει", "Ακούει προσεκτικά την ομιλία", "He/she listens carefully to the speech", "s", "present"],
+        ["Ακούει", "Ακούει προσεκτικά την ομιλία", "He listens carefully to the speech", "s", "present"],
         ["Ακούμε", "Ακούμε τους ήχους της φύσης", "We listen to the sounds of nature", "p", "present"],
         ["Ακούτε", "Ακούτε την εκπομπή στο ραδιόφωνο", "You listen to the show on the radio", "p", "present"],
         ["Ακούνε", "Ακούνε τον θόρυβο από το δρόμο", "They hear the noise from the street", "p", "present"],
 
         ["Άκουσα", "Άκουσα την ειδηση στο δελτίο", "I heard the news on the bulletin", "s", "past"],
         ["Άκουσες", "Άκουσες την ιστορία που σου είπα;", "Did you hear the story I told you?", "s", "past"],
-        ["Άκουσε", "Άκουσε το τραγούδι που του άρεσε", "He/she heard the song he/she liked", "s", "past"],
-        ["Άκουσε", "Άκουσε τον ήχο του ανέμου", "He/she heard the sound of the wind", "s", "past"],
+        ["Άκουσε", "Άκουσε το τραγούδι που του άρεσε", "He heard the song he liked", "s", "past"],
+        ["Άκουσε", "Άκουσε τον ήχο του ανέμου", "She heard the sound of the wind", "s", "past"],
         ["Ακούσαμε", "Ακούσαμε την ανακοίνωση στο σταθμό", "We heard the announcement at the station", "p", "past"],
         ["Ακούσατε", "Ακούσατε τα νέα από την τηλεόραση", "You heard the news from the television", "p", "past"],
         ["Άκουσαν", "Άκουσαν το κουδούνι να χτυπά", "They heard the bell ringing", "p", "past"],
 
         ["Θα ακούσω", "Θα ακούσω την πρότασή σου", "I will listen to your proposal", "s", "future"],
         ["Θα ακούσεις", "Θα ακούσεις τη συμβουλή μου", "You will listen to my advice", "s", "future"],
-        ["Θα ακούσει", "Θα ακούσει τη φωνή σου αύριο", "He/she will hear your voice tomorrow", "s", "future"],
+        ["Θα ακούσει", "Θα ακούσει τη φωνή σου αύριο", "She will hear your voice tomorrow", "s", "future"],
         ["Θα ακούσουμε", "Θα ακούσουμε τη συναυλία μαζί", "We will listen to the concert together", "p", "future"],
         ["Θα ακούσετε", "Θα ακούσετε το νέο τραγούδι σύντομα", "You will hear the new song soon", "p", "future"],
         ["Θα ακούσουν", "Θα ακούσουν τις οδηγίες προσεκτικά", "They will listen carefully to the instructions", "p", "future"]
@@ -2248,22 +2216,22 @@
       "sentences": [
         ["Δουλεύω", "Δουλεύω στο γραφείο κάθε μέρα", "I work at the office every day", "s", "present"],
         ["Δουλεύεις", "Δουλεύεις πολύ σκληρά τελευταία", "You have been working very hard lately", "s", "present"],
-        ["Δουλεύει", "Δουλεύει σε μια μεγάλη εταιρεία", "He/she works in a big company", "s", "present"],
+        ["Δουλεύει", "Δουλεύει σε μια μεγάλη εταιρεία", "He works in a big company", "s", "present"],
         ["Δουλεύουμε", "Δουλεύουμε μαζί σε αυτό το πρότζεκτ", "We work together on this project", "p", "present"],
         ["Δουλεύετε", "Δουλεύετε μέχρι αργά το βράδυ", "You work until late at night", "p", "present"],
         ["Δουλεύουν", "Δουλεύουν καθημερινά στον κήπο", "They work daily in the garden", "p", "present"],
 
         ["Δούλεψα", "Δούλεψα όλη μέρα χτες", "I worked all day yesterday", "s", "past"],
         ["Δούλεψες", "Δούλεψες σκληρά για την παρουσίαση", "You worked hard for the presentation", "s", "past"],
-        ["Δούλεψε", "Δούλεψε μέχρι αργά το βράδυ", "He/she worked until late at night", "s", "past"],
-        ["Δούλεψε", "Δούλεψε πολύ για να πετύχει", "He/she worked a lot to succeed", "s", "past"],
+        ["Δούλεψε", "Δούλεψε μέχρι αργά το βράδυ", "He worked until late at night", "s", "past"],
+        ["Δούλεψε", "Δούλεψε πολύ για να πετύχει", "She worked a lot to succeed", "s", "past"],
         ["Δουλέψαμε", "Δουλέψαμε μαζί στο νέο έργο", "We worked together on the new project", "p", "past"],
         ["Δουλέψατε", "Δουλέψατε υπέροχα στην εκδήλωση", "You worked wonderfully at the event", "p", "past"],
         ["Δούλεψαν", "Δούλεψαν σκληρά όλο το μήνα", "They worked hard all month", "p", "past"],
 
         ["Θα δουλέψω", "Θα δουλέψω αύριο το πρωί", "I will work tomorrow morning", "s", "future"],
         ["Θα δουλέψεις", "Θα δουλέψεις στο καινούργιο πρότζεκτ", "You will work on the new project", "s", "future"],
-        ["Θα δουλέψει", "Θα δουλέψει σε αυτή την εταιρεία", "He/she will work in this company", "s", "future"],
+        ["Θα δουλέψει", "Θα δουλέψει σε αυτή την εταιρεία", "She will work in this company", "s", "future"],
         ["Θα δουλέψουμε", "Θα δουλέψουμε όλοι μαζί", "We will all work together", "p", "future"],
         ["Θα δουλέψετε", "Θα δουλέψετε για να ολοκληρώσετε το έργο", "You will work to complete the project", "p", "future"],
         ["Θα δουλέψουν", "Θα δουλέψουν σκληρά για την επιτυχία", "They will work hard for success", "p", "future"]
@@ -2301,22 +2269,22 @@
       "sentences": [
         ["Καταλαβαίνω", "Καταλαβαίνω τι λες", "I understand what you say", "s", "present"],
         ["Καταλαβαίνεις", "Καταλαβαίνεις το μάθημα καλά", "You understand the lesson well", "s", "present"],
-        ["Καταλαβαίνει", "Καταλαβαίνει το πρόβλημα", "He/she understands the problem", "s", "present"],
+        ["Καταλαβαίνει", "Καταλαβαίνει το πρόβλημα", "He understands the problem", "s", "present"],
         ["Καταλαβαίνουμε", "Καταλαβαίνουμε τη σημασία του θέματος", "We understand the importance of the issue", "p", "present"],
         ["Καταλαβαίνετε", "Καταλαβαίνετε τις οδηγίες;", "Do you understand the instructions?", "p", "present"],
         ["Καταλαβαίνουν", "Καταλαβαίνουν την κατάσταση", "They understand the situation", "p", "present"],
 
         ["Κατάλαβα", "Κατάλαβα το λάθος μου", "I understood my mistake", "s", "past"],
         ["Κατάλαβες", "Κατάλαβες τι εννοούσα;", "Did you understand what I meant?", "s", "past"],
-        ["Κατάλαβε", "Κατάλαβε τη δυσκολία του έργου", "He/she understood the difficulty of the task", "s", "past"],
-        ["Κατάλαβε", "Κατάλαβε την κατάσταση γρήγορα", "He/she understood the situation quickly", "s", "past"],
+        ["Κατάλαβε", "Κατάλαβε τη δυσκολία του έργου", "She understood the difficulty of the task", "s", "past"],
+        ["Κατάλαβε", "Κατάλαβε την κατάσταση γρήγορα", "She understood the situation quickly", "s", "past"],
         ["Καταλάβαμε", "Καταλάβαμε το νόημα της συζήτησης", "We understood the meaning of the discussion", "p", "past"],
         ["Καταλάβατε", "Καταλάβατε την αλλαγή στο πρόγραμμα", "You understood the change in the schedule", "p", "past"],
         ["Κατάλαβαν", "Κατάλαβαν την αλήθεια μετά από καιρό", "They understood the truth after a long time", "p", "past"],
 
         ["Θα καταλάβω", "Θα καταλάβω την εξήγηση σου", "I will understand your explanation", "s", "future"],
         ["Θα καταλάβεις", "Θα καταλάβεις γιατί το έκανα", "You will understand why I did it", "s", "future"],
-        ["Θα καταλάβει", "Θα καταλάβει τη σημασία σύντομα", "He/she will understand the importance soon", "s", "future"],
+        ["Θα καταλάβει", "Θα καταλάβει τη σημασία σύντομα", "He will understand the importance soon", "s", "future"],
         ["Θα καταλάβουμε", "Θα καταλάβουμε το πρόβλημα μαζί", "We will understand the problem together", "p", "future"],
         ["Θα καταλάβετε", "Θα καταλάβετε το νόημα της ιστορίας", "You will understand the meaning of the story", "p", "future"],
         ["Θα καταλάβουν", "Θα καταλάβουν την κατάσταση τελικά", "They will understand the situation eventually", "p", "future"]
@@ -2354,22 +2322,22 @@
       "sentences": [
         ["Γνωρίζω", "Γνωρίζω τον καινούργιο σου φίλο", "I know your new friend", "s", "present"],
         ["Γνωρίζεις", "Γνωρίζεις καλά την πόλη μας", "You know our city well", "s", "present"],
-        ["Γνωρίζει", "Γνωρίζει την αλήθεια", "He/she knows the truth", "s", "present"],
+        ["Γνωρίζει", "Γνωρίζει την αλήθεια", "He knows the truth", "s", "present"],
         ["Γνωρίζουμε", "Γνωρίζουμε πολλούς ανθρώπους εδώ", "We know many people here", "p", "present"],
         ["Γνωρίζετε", "Γνωρίζετε τους κανόνες;", "Do you know the rules?", "p", "present"],
         ["Γνωρίζουν", "Γνωρίζουν τα μυστικά της επιτυχίας", "They know the secrets of success", "p", "present"],
 
         ["Γνώρισα", "Γνώρισα τον δάσκαλο χτες", "I met the teacher yesterday", "s", "past"],
         ["Γνώρισες", "Γνώρισες την καινούργια συνάδελφο", "You met the new colleague", "s", "past"],
-        ["Γνώρισε", "Γνώρισε πολλούς νέους φίλους", "He/she met many new friends", "s", "past"],
-        ["Γνώρισε", "Γνώρισε την πραγματικότητα", "He/she realized the reality", "s", "past"],
+        ["Γνώρισε", "Γνώρισε πολλούς νέους φίλους", "She met many new friends", "s", "past"],
+        ["Γνώρισε", "Γνώρισε την πραγματικότητα", "He realized the reality", "s", "past"],
         ["Γνωρίσαμε", "Γνωρίσαμε ωραία μέρη στις διακοπές", "We visited nice places on vacation", "p", "past"],
         ["Γνωρίσατε", "Γνωρίσατε νέους ανθρώπους στην εκδήλωση", "You met new people at the event", "p", "past"],
         ["Γνώρισαν", "Γνώρισαν τις δυσκολίες από κοντά", "They experienced the difficulties firsthand", "p", "past"],
 
         ["Θα γνωρίσω", "Θα γνωρίσω τον νέο διευθυντή αύριο", "I will meet the new manager tomorrow", "s", "future"],
         ["Θα γνωρίσεις", "Θα γνωρίσεις τη φίλη μου σύντομα", "You will meet my friend soon", "s", "future"],
-        ["Θα γνωρίσει", "Θα γνωρίσει πολλές νέες κουλτούρες", "He/she will experience many new cultures", "s", "future"],
+        ["Θα γνωρίσει", "Θα γνωρίσει πολλές νέες κουλτούρες", "He will experience many new cultures", "s", "future"],
         ["Θα γνωρίσουμε", "Θα γνωρίσουμε καλύτερα την ομάδα", "We will get to know the team better", "p", "future"],
         ["Θα γνωρίσετε", "Θα γνωρίσετε τους καλεσμένους", "You will meet the guests", "p", "future"],
         ["Θα γνωρίσουν", "Θα γνωρίσουν νέες εμπειρίες φέτος", "They will have new experiences this year", "p", "future"]
@@ -2407,22 +2375,22 @@
       "sentences": [
         ["Ανοίγω", "Ανοίγω το παράθυρο κάθε πρωί", "I open the window every morning", "s", "present"],
         ["Ανοίγεις", "Ανοίγεις την πόρτα για τους επισκέπτες", "You open the door for the guests", "s", "present"],
-        ["Ανοίγει", "Ανοίγει το βιβλίο για να διαβάσει", "He/she opens the book to read", "s", "present"],
+        ["Ανοίγει", "Ανοίγει το βιβλίο για να διαβάσει", "She opens the book to read", "s", "present"],
         ["Ανοίγουμε", "Ανοίγουμε το κατάστημα στις οκτώ", "We open the store at eight", "p", "present"],
         ["Ανοίγετε", "Ανοίγετε τα πακέτα με προσοχή", "You open the packages carefully", "p", "present"],
         ["Ανοίγουν", "Ανοίγουν τα παράθυρα για αερισμό", "They open the windows for ventilation", "p", "present"],
 
         ["Άνοιξα", "Άνοιξα το δώρο που πήρα", "I opened the gift I received", "s", "past"],
         ["Άνοιξες", "Άνοιξες την επιστολή χθες", "You opened the letter yesterday", "s", "past"],
-        ["Άνοιξε", "Άνοιξε την πόρτα για να μπει", "He/she opened the door to come in", "s", "past"],
-        ["Άνοιξε", "Άνοιξε το παράθυρο γιατί έκανε ζέστη", "He/she opened the window because it was hot", "s", "past"],
+        ["Άνοιξε", "Άνοιξε την πόρτα για να μπει", "She opened the door to come in", "s", "past"],
+        ["Άνοιξε", "Άνοιξε το παράθυρο γιατί έκανε ζέστη", "He opened the window because it was hot", "s", "past"],
         ["Ανοίξαμε", "Ανοίξαμε το μουσείο για το κοινό", "We opened the museum to the public", "p", "past"],
         ["Ανοίξατε", "Ανοίξατε το νέο κατάστημα στην πόλη", "You opened the new store in town", "p", "past"],
         ["Άνοιξαν", "Άνοιξαν τις πόρτες νωρίς το πρωί", "They opened the doors early in the morning", "p", "past"],
 
         ["Θα ανοίξω", "Θα ανοίξω το παράθυρο αργότερα", "I will open the window later", "s", "future"],
         ["Θα ανοίξεις", "Θα ανοίξεις το δώρο αύριο", "You will open the gift tomorrow", "s", "future"],
-        ["Θα ανοίξει", "Θα ανοίξει το βιβλίο για να διαβάσει", "He/she will open the book to read", "s", "future"],
+        ["Θα ανοίξει", "Θα ανοίξει το βιβλίο για να διαβάσει", "She will open the book to read", "s", "future"],
         ["Θα ανοίξουμε", "Θα ανοίξουμε το μαγαζί στις εννιά", "We will open the shop at nine", "p", "future"],
         ["Θα ανοίξετε", "Θα ανοίξετε την πόρτα για τους πελάτες", "You will open the door for the customers", "p", "future"],
         ["Θα ανοίξουν", "Θα ανοίξουν τα παράθυρα για αερισμό", "They will open the windows for ventilation", "p", "future"]
@@ -2454,6 +2422,318 @@
         ]
       },
       "verbType": "Τύπος Β"
+    },
+
+    "χρησιμοποιώ": {
+      "sentences": [
+        ["Χρησιμοποιώ", "Χρησιμοποιώ αυτό το πρόγραμμα κάθε μέρα", "I use this program every day", "s", "present"],
+        ["Χρησιμοποιείς", "Χρησιμοποιείς συχνά το ποδήλατό σου;", "Do you use your bicycle often?", "s", "present"],
+        ["Χρησιμοποιεί", "Χρησιμοποιεί πάντα το ίδιο λεξικό", "He always uses the same dictionary", "s", "present"],
+        ["Χρησιμοποιούμε", "Χρησιμοποιούμε ανακυκλώσιμα υλικά", "We use recyclable materials", "p", "present"],
+        ["Χρησιμοποιείτε", "Χρησιμοποιείτε σωστά τον εξοπλισμό;", "Are you using the equipment correctly?", "p", "present"],
+        ["Χρησιμοποιούν", "Χρησιμοποιούν νέες τεχνολογίες στην τάξη", "They use new technologies in the classroom", "p", "present"],
+
+        ["Χρησιμοποίησα", "Χρησιμοποίησα τον υπολογιστή μου όλο το απόγευμα", "I used my computer all afternoon", "s", "past"],
+        ["Χρησιμοποίησες", "Χρησιμοποίησες την εφαρμογή για να κάνεις κράτηση;", "Did you use the app to make a reservation?", "s", "past"],
+        ["Χρησιμοποίησε", "Χρησιμοποίησε το εισιτήριό του για την είσοδο", "He used his ticket for entry", "s", "past"],
+        ["Χρησιμοποιήσαμε", "Χρησιμοποιήσαμε παλιά βιβλία για το πρότζεκτ", "We used old books for the project", "p", "past"],
+        ["Χρησιμοποιήσατε", "Χρησιμοποιήσατε ποτέ αυτή τη μέθοδο;", "Have you ever used this method?", "p", "past"],
+        ["Χρησιμοποίησαν", "Χρησιμοποίησαν λάθος καλώδιο", "They used the wrong cable", "p", "past"],
+
+        ["Θα χρησιμοποιήσω", "Θα χρησιμοποιήσω αυτή τη φωτογραφία για την εργασία μου", "I will use this photo for my assignment", "s", "future"],
+        ["Θα χρησιμοποιήσεις", "Θα χρησιμοποιήσεις το καινούργιο πρόγραμμα;", "Will you use the new software?", "s", "future"],
+        ["Θα χρησιμοποιήσει", "Θα χρησιμοποιήσει το λεωφορείο για να πάει στη δουλειά", "He will use the bus to go to work", "s", "future"],
+        ["Θα χρησιμοποιήσουμε", "Θα χρησιμοποιήσουμε αυτό το εργαλείο αύριο", "We will use this tool tomorrow", "p", "future"],
+        ["Θα χρησιμοποιήσετε", "Θα χρησιμοποιήσετε αυτή τη μέθοδο στο πείραμα;", "Will you use this method in the experiment?", "p", "future"],
+        ["Θα χρησιμοποιήσουν", "Θα χρησιμοποιήσουν νέες στρατηγικές", "They will use new strategies", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "χρησιμοποιώ",
+          "χρησιμοποιείς",
+          "χρησιμοποιεί",
+          "χρησιμοποιούμε",
+          "χρησιμοποιείτε",
+          "χρησιμοποιούν"
+        ],
+        "past": [
+          "χρησιμοποίησα",
+          "χρησιμοποίησες",
+          "χρησιμοποίησε",
+          "χρησιμοποιήσαμε",
+          "χρησιμοποιήσατε",
+          "χρησιμοποίησαν"
+        ],
+        "future": [
+          "θα χρησιμοποιήσω",
+          "θα χρησιμοποιήσεις",
+          "θα χρησιμοποιήσει",
+          "θα χρησιμοποιήσουμε",
+          "θα χρησιμοποιήσετε",
+          "θα χρησιμοποιήσουν"
+        ]
+      },
+      "verbType": "Τύπος Β1"
+    },
+
+    "ξεκινάω": {
+      "sentences": [
+        ["Ξεκινάω", "Ξεκινάω τη δουλειά μου στις οκτώ", "I start my work at eight", "s", "present"],
+        ["Ξεκινάς", "Ξεκινάς πάντα νωρίς το πρωί;", "Do you always start early in the morning?", "s", "present"],
+        ["Ξεκινάει", "Ξεκινάει το μάθημα σε λίγα λεπτά", "He starts the class in a few minutes", "s", "present"],
+        ["Ξεκινάμε", "Ξεκινάμε το ταξίδι αύριο", "We start the trip tomorrow", "p", "present"],
+        ["Ξεκινάτε", "Ξεκινάτε το πρόγραμμα σήμερα;", "Are you starting the program today?", "p", "present"],
+        ["Ξεκινάνε", "Ξεκινάνε πάντα με πρωινή συνάντηση", "They always start with a morning meeting", "p", "present"],
+
+        ["Ξεκίνησα", "Ξεκίνησα να διαβάζω ένα καινούργιο βιβλίο", "I started reading a new book", "s", "past"],
+        ["Ξεκίνησες", "Ξεκίνησες να μαθαίνεις ισπανικά;", "Did you start learning Spanish?", "s", "past"],
+        ["Ξεκίνησε", "Ξεκίνησε τη νέα δουλειά την περασμένη εβδομάδα", "He started the new job last week", "s", "past"],
+        ["Ξεκινήσαμε", "Ξεκινήσαμε το έργο πριν από δύο μέρες", "We started the project two days ago", "p", "past"],
+        ["Ξεκινήσατε", "Ξεκινήσατε να εργάζεστε σε αυτό το σχέδιο;", "Did you start working on this plan?", "p", "past"],
+        ["Ξεκίνησαν", "Ξεκίνησαν να χτίζουν το σπίτι το καλοκαίρι", "They started building the house in the summer", "p", "past"],
+
+        ["Θα ξεκινήσω", "Θα ξεκινήσω την παρουσίαση στις δέκα", "I will start the presentation at ten", "s", "future"],
+        ["Θα ξεκινήσεις", "Θα ξεκινήσεις τη νέα σου δουλειά αύριο;", "Will you start your new job tomorrow?", "s", "future"],
+        ["Θα ξεκινήσει", "Θα ξεκινήσει τις διακοπές του την Παρασκευή", "He will start his vacation on Friday", "s", "future"],
+        ["Θα ξεκινήσουμε", "Θα ξεκινήσουμε το σεμινάριο στην ώρα του", "We will start the seminar on time", "p", "future"],
+        ["Θα ξεκινήσετε", "Θα ξεκινήσετε το σχέδιο την επόμενη εβδομάδα;", "Will you start the project next week?", "p", "future"],
+        ["Θα ξεκινήσουν", "Θα ξεκινήσουν τις εργασίες νωρίς το πρωί", "They will start the work early in the morning", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "ξεκινάω",
+          "ξεκινάς",
+          "ξεκινάει",
+          "ξεκινάμε",
+          "ξεκινάτε",
+          "ξεκινάνε"
+        ],
+        "past": [
+          "ξεκίνησα",
+          "ξεκίνησες",
+          "ξεκίνησε",
+          "ξεκινήσαμε",
+          "ξεκινήσατε",
+          "ξεκίνησαν"
+        ],
+        "future": [
+          "θα ξεκινήσω",
+          "θα ξεκινήσεις",
+          "θα ξεκινήσει",
+          "θα ξεκινήσουμε",
+          "θα ξεκινήσετε",
+          "θα ξεκινήσουν"
+        ]
+      },
+      "verbType": "Τύπος Β1"
+    },
+
+    "αρχίζω": {
+      "sentences": [
+        ["Αρχίζω", "Αρχίζω να γράφω το άρθρο μου τώρα", "I begin writing my article now", "s", "present"],
+        ["Αρχίζεις", "Αρχίζεις πάντα με πρόλογο;", "Do you always begin with an introduction?", "s", "present"],
+        ["Αρχίζει", "Αρχίζει η παράσταση σε πέντε λεπτά", "The performance begins in five minutes", "s", "present"],
+        ["Αρχίζουμε", "Αρχίζουμε το μάθημα με μια άσκηση", "We begin the lesson with an exercise", "p", "present"],
+        ["Αρχίζετε", "Αρχίζετε συχνά τόσο αργά;", "Do you often start this late?", "p", "present"],
+        ["Αρχίζουν", "Αρχίζουν πάντα τη μέρα με καφέ", "They always begin the day with coffee", "p", "present"],
+
+        ["Άρχισα", "Άρχισα να μαθαίνω γαλλικά τον Ιανουάριο", "I started learning French in January", "s", "past"],
+        ["Άρχισες", "Άρχισες να εργάζεσαι σε αυτό το πρότζεκτ;", "Did you start working on this project?", "s", "past"],
+        ["Άρχισε", "Άρχισε να βρέχει το απόγευμα", "It started raining in the afternoon", "s", "past"],
+        ["Αρχίσαμε", "Αρχίσαμε τη συνάντηση στις δέκα", "We started the meeting at ten", "p", "past"],
+        ["Αρχίσατε", "Αρχίσατε τις διακοπές σας χθες;", "Did you start your vacation yesterday?", "p", "past"],
+        ["Άρχισαν", "Άρχισαν να μιλούν για το νέο σχέδιο", "They started talking about the new plan", "p", "past"],
+
+        ["Θα αρχίσω", "Θα αρχίσω να διαβάζω μετά το δείπνο", "I will start reading after dinner", "s", "future"],
+        ["Θα αρχίσεις", "Θα αρχίσεις να τρέχεις ξανά;", "Will you start running again?", "s", "future"],
+        ["Θα αρχίσει", "Θα αρχίσει το μάθημα σε λίγο", "He will start the lesson shortly", "s", "future"],
+        ["Θα αρχίσουμε", "Θα αρχίσουμε την παρουσίαση στις έντεκα", "We will start the presentation at eleven", "p", "future"],
+        ["Θα αρχίσετε", "Θα αρχίσετε να εργάζεστε σύντομα;", "Will you start working soon?", "p", "future"],
+        ["Θα αρχίσουν", "Θα αρχίσουν τις δοκιμές αύριο", "They will start the tests tomorrow", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "αρχίζω",
+          "αρχίζεις",
+          "αρχίζει",
+          "αρχίζουμε",
+          "αρχίζετε",
+          "αρχίζουν"
+        ],
+        "past": [
+          "άρχισα",
+          "άρχισες",
+          "άρχισε",
+          "αρχίσαμε",
+          "αρχίσατε",
+          "άρχισαν"
+        ],
+        "future": [
+          "θα αρχίσω",
+          "θα αρχίσεις",
+          "θα αρχίσει",
+          "θα αρχίσουμε",
+          "θα αρχίσετε",
+          "θα αρχίσουν"
+        ]
+      },
+      "verbType": "Τύπος Β1"
+    },
+
+    "ζητάω": {
+      "sentences": [
+        ["Ζητάω", "Ζητάω βοήθεια όταν τη χρειάζομαι", "I ask for help when I need it", "s", "present"],
+        ["Ζητάς", "Ζητάς συχνά άδεια;", "Do you often ask for permission?", "s", "present"],
+        ["Ζητάει", "Ζητάει πάντα ειλικρίνεια από τους φίλους του", "He always asks for honesty from his friends", "s", "present"],
+        ["Ζητάμε", "Ζητάμε καλύτερες συνθήκες εργασίας", "We ask for better working conditions", "p", "present"],
+        ["Ζητάτε", "Ζητάτε πληροφορίες για το προϊόν;", "Are you requesting information about the product?", "p", "present"],
+        ["Ζητάνε", "Ζητάνε αυξήσεις στους μισθούς", "They are asking for salary raises", "p", "present"],
+
+        ["Ζήτησα", "Ζήτησα εξηγήσεις για την καθυστέρηση", "I asked for an explanation for the delay", "s", "past"],
+        ["Ζήτησες", "Ζήτησες βοήθεια από τη γραμματεία;", "Did you ask for help from the office?", "s", "past"],
+        ["Ζήτησε", "Ζήτησε μια χάρη από τον φίλο του", "He asked a favor from his friend", "s", "past"],
+        ["Ζητήσαμε", "Ζητήσαμε επιπλέον χρόνο για το έργο", "We asked for more time for the project", "p", "past"],
+        ["Ζητήσατε", "Ζητήσατε αλλαγή θέσης;", "Did you request a seat change?", "p", "past"],
+        ["Ζήτησαν", "Ζήτησαν συγγνώμη για το λάθος", "They asked for forgiveness for the mistake", "p", "past"],
+
+        ["Θα ζητήσω", "Θα ζητήσω άδεια για αύριο", "I will ask for leave for tomorrow", "s", "future"],
+        ["Θα ζητήσεις", "Θα ζητήσεις βοήθεια αν τη χρειαστείς;", "Will you ask for help if you need it?", "s", "future"],
+        ["Θα ζητήσει", "Θα ζητήσει πληροφορίες για το σεμινάριο", "He will request information about the seminar", "s", "future"],
+        ["Θα ζητήσουμε", "Θα ζητήσουμε διευκρινίσεις σύντομα", "We will request clarifications soon", "p", "future"],
+        ["Θα ζητήσετε", "Θα ζητήσετε τα αποτελέσματα αύριο;", "Will you ask for the results tomorrow?", "p", "future"],
+        ["Θα ζητήσουν", "Θα ζητήσουν τη γνώμη σου", "They will ask for your opinion", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "ζητάω",
+          "ζητάς",
+          "ζητάει",
+          "ζητάμε",
+          "ζητάτε",
+          "ζητάνε"
+        ],
+        "past": [
+          "ζήτησα",
+          "ζήτησες",
+          "ζήτησε",
+          "ζητήσαμε",
+          "ζητήσατε",
+          "ζήτησαν"
+        ],
+        "future": [
+          "θα ζητήσω",
+          "θα ζητήσεις",
+          "θα ζητήσει",
+          "θα ζητήσουμε",
+          "θα ζητήσετε",
+          "θα ζητήσουν"
+        ]
+      },
+      "verbType": "Τύπος Β1"
+    },
+
+    "πιάνω": {
+      "sentences": [
+        ["Πιάνω", "Πιάνω το μολύβι για να γράψω", "I grab the pencil to write", "s", "present"],
+        ["Πιάνεις", "Πιάνεις το τιμόνι πολύ σφιχτά", "You hold the steering wheel too tightly", "s", "present"],
+        ["Πιάνει", "Πιάνει το παιδί το χέρι της μητέρας του", "He holds the child's hand", "s", "present"],
+        ["Πιάνουμε", "Πιάνουμε δουλειά στις οκτώ κάθε μέρα", "We start work at eight every day", "p", "present"],
+        ["Πιάνετε", "Πιάνετε το ψάρι με τα χέρια σας;", "Do you catch the fish with your hands?", "p", "present"],
+        ["Πιάνουν", "Πιάνουν κουβέντα κάθε πρωί στο γραφείο", "They start chatting every morning at the office", "p", "present"],
+
+        ["Έπιασα", "Έπιασα το βιβλίο από το ράφι", "I grabbed the book from the shelf", "s", "past"],
+        ["Έπιασες", "Έπιασες το μπαλάκι στον αέρα;", "Did you catch the ball in the air?", "s", "past"],
+        ["Έπιασε", "Έπιασε τη δουλειά του πάλι μετά τις διακοπές", "He resumed his job after the holidays", "s", "past"],
+        ["Πιάσαμε", "Πιάσαμε κουβέντα στο ταξίδι", "We started chatting during the trip", "p", "past"],
+        ["Πιάσατε", "Πιάσατε το λάθος καλώδιο;", "Did you grab the wrong cable?", "p", "past"],
+        ["Έπιασαν", "Έπιασαν τον δράστη αργά το βράδυ", "They caught the perpetrator late at night", "p", "past"],
+
+        ["Θα πιάσω", "Θα πιάσω το λεωφορείο των οκτώ", "I will catch the eight o'clock bus", "s", "future"],
+        ["Θα πιάσεις", "Θα πιάσεις την ευκαιρία όταν παρουσιαστεί;", "Will you seize the opportunity when it comes?", "s", "future"],
+        ["Θα πιάσει", "Θα πιάσει βροχή το απόγευμα", "It will start raining in the afternoon", "s", "future"],
+        ["Θα πιάσουμε", "Θα πιάσουμε δουλειά νωρίς αύριο", "We will start work early tomorrow", "p", "future"],
+        ["Θα πιάσετε", "Θα πιάσετε το ζήτημα στη συνάντηση;", "Will you address the issue in the meeting?", "p", "future"],
+        ["Θα πιάσουν", "Θα πιάσουν ξανά κουβέντα στο διάλειμμα", "They will start chatting again during the break", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "πιάνω",
+          "πιάνεις",
+          "πιάνει",
+          "πιάνουμε",
+          "πιάνετε",
+          "πιάνουν"
+        ],
+        "past": [
+          "έπιασα",
+          "έπιασες",
+          "έπιασε",
+          "πιάσαμε",
+          "πιάσατε",
+          "έπιασαν"
+        ],
+        "future": [
+          "θα πιάσω",
+          "θα πιάσεις",
+          "θα πιάσει",
+          "θα πιάσουμε",
+          "θα πιάσετε",
+          "θα πιάσουν"
+        ]
+      },
+      "verbType": "Τύπος Α"
+    },
+
+    "πηγαίνω": {
+      "sentences": [
+        ["Πηγαίνω", "Πηγαίνω κάθε μέρα στο γραφείο", "I go to the office every day", "s", "present"],
+        ["Πηγαίνεις", "Πηγαίνεις συχνά για περπάτημα;", "Do you often go for a walk?", "s", "present"],
+        ["Πηγαίνει", "Πηγαίνει στο σχολείο με το ποδήλατο", "He goes to school by bike", "s", "present"],
+        ["Πηγαίνουμε", "Πηγαίνουμε στο γυμναστήριο κάθε πρωί", "We go to the gym every morning", "p", "present"],
+        ["Πηγαίνετε", "Πηγαίνετε σε αυτό το εστιατόριο;", "Do you go to that restaurant?", "p", "present"],
+        ["Πηγαίνουν", "Πηγαίνουν στην παραλία κάθε Σαββατοκύριακο", "They go to the beach every weekend", "p", "present"],
+
+        ["Πήγα", "Πήγα στο σούπερ μάρκετ χθες", "I went to the supermarket yesterday", "s", "past"],
+        ["Πήγες", "Πήγες στη δουλειά το πρωί;", "Did you go to work in the morning?", "s", "past"],
+        ["Πήγε", "Πήγε στο γιατρό την Τρίτη", "She went to the doctor on Tuesday", "s", "past"],
+        ["Πήγαμε", "Πήγαμε εκδρομή στο βουνό", "We went on a trip to the mountain", "p", "past"],
+        ["Πήγατε", "Πήγατε ποτέ στη Ρόδο;", "Have you ever been to Rhodes?", "p", "past"],
+        ["Πήγαν", "Πήγαν στον κινηματογράφο το βράδυ", "They went to the cinema in the evening", "p", "past"],
+
+        ["Θα πάω", "Θα πάω στο φαρμακείο αργότερα", "I will go to the pharmacy later", "s", "future"],
+        ["Θα πας", "Θα πας στο πάρτι απόψε;", "Will you go to the party tonight?", "s", "future"],
+        ["Θα πάει", "Θα πάει στο συνέδριο την επόμενη εβδομάδα", "He will go to the conference next week", "s", "future"],
+        ["Θα πάμε", "Θα πάμε για φαγητό μετά τη δουλειά", "We will go for food after work", "p", "future"],
+        ["Θα πάτε", "Θα πάτε διακοπές το καλοκαίρι;", "Will you go on vacation in the summer?", "p", "future"],
+        ["Θα πάνε", "Θα πάνε στο μουσείο το Σάββατο", "They will go to the museum on Saturday", "p", "future"]
+      ],
+      "conjugation": {
+        "present": [
+          "πηγαίνω",
+          "πηγαίνεις",
+          "πηγαίνει",
+          "πηγαίνουμε",
+          "πηγαίνετε",
+          "πηγαίνουν"
+        ],
+        "past": [
+          "πήγα",
+          "πήγες",
+          "πήγε",
+          "πήγαμε",
+          "πήγατε",
+          "πήγαν"
+        ],
+        "future": [
+          "θα πάω",
+          "θα πας",
+          "θα πάει",
+          "θα πάμε",
+          "θα πάτε",
+          "θα πάνε"
+        ]
+      },
+      "verbType": "Ανώμαλο"
     }
 
   }

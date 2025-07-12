@@ -109,6 +109,7 @@ function runApplication(externalData) {
 
     // 2. Create the label
     const label = document.createElement('label');
+    label.setAttribute('class', 'disable-verb-label');
     label.appendChild(newCheckbox);
     label.append(verbID);
     // 2-end

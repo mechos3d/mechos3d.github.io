@@ -6,8 +6,11 @@
     div {
       margin: 0 auto;
       /* TODO: Adding 70% to ALL the divs is stupid, need to remove it here, and add only to divs that really need it: */
-      width: 70%;
       text-align: left;
+    }
+
+    .width-70 {
+      width: 70%;
     }
 
     * {
@@ -58,18 +61,21 @@
   </style>
 </head>
 <body>
-  <div id="verb-show" style="font-size: 4em; font-family: Helvetica"></div>
-  <div id="verb-real" style="display: none"></div>
-  <div id="greek-sentence-show" style="font-size: 2.5em; font-family: Helvetica"></div>
-  <div id="greek-sentence-real" style="display: none"></div>
-  <div id="eng-sentence-show" style="font-size: 2.5em; font-family: Helvetica; color: #999999"></div>
+  <div class="width-70">
+    <div id="verb-show" style="font-size: 4em; font-family: Helvetica"></div>
+    <div id="verb-real" style="display: none"></div>
+    <div id="greek-sentence-show" style="font-size: 2.5em; font-family: Helvetica"></div>
+    <div id="greek-sentence-real" style="display: none"></div>
+    <div id="eng-sentence-show" style="font-size: 2.5em; font-family: Helvetica; color: #999999"></div>
 
-  <div style="margin: 10 0 20 0">
-    <div>
-      <input type="text" style="font-size: 1.5em" id="main-text-input" name="main-text-size">
-      </input>
-      <button class="btn-one" id="skip-example-btn">Skip example</button>
+    <div style="margin: 10 0 20 0">
+      <div>
+        <input type="text" style="font-size: 1.5em" id="main-text-input" name="main-text-size">
+        </input>
+        <button class="btn-one" id="skip-example-btn">Skip example</button>
+      </div>
     </div>
+
   </div>
 
   <div class="conjugations-container">
@@ -115,14 +121,27 @@
     <a href="/help.html">More instructions and notes</a>
   </div>
   </br>
-  <div id="verbs-list-container" style="width: 85%">
-    <p style="font-size: 1.2em" >All used verbs list:</p>
-    </br>
-  </div>
-  <div>
-    <button class="btn-one" id="disabled-verbs-enable-all">Enable all</button>
-    <button class="btn-one" id="disabled-verbs-disable-all">Disable all</button>
-  </div>
+
+
+  <div class="width-70">
+    <div style="display: inline-block; width: 20%; border-style: solid; padding: 10">
+      <div id="verbs-list-container">
+        <p style="font-size: 1.2em" >All used verbs list:</p>
+        </br>
+      </div>
+      <div>
+        </br>
+        <button class="btn-one" id="disabled-verbs-enable-all">Enable all</button>
+        <button class="btn-one" id="disabled-verbs-disable-all">Disable all</button>
+      </div>
+    </div>
+
+    <div style="display: inline-block; width: 50%; vertical-align: top; border-style: solid; padding: 10">
+      <input type="text" style="font-size: 1.5em" id="main-text-input" name="main-text-size">
+      </input>
+    </div>
+
+  </ div>
 
 </body>
 </html>

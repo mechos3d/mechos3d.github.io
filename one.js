@@ -53,7 +53,7 @@ function hideVerbInSentence(sentence, verb, replacement) {
 function runApplication(externalData) {
   const allSentences = [];
   const sentences = [];
-  const allVerbs = new Set([]);
+  const allVerbs = [];
 
   // TODO: probably better to rename these variables to something more descriptive
   const inputField = document.getElementById('main-text-input');
@@ -74,14 +74,29 @@ function runApplication(externalData) {
   const buttonDisableAllVerbs = document.getElementById('disabled-verbs-disable-all');
   const buttonEnableAllVerbs = document.getElementById('disabled-verbs-enable-all');
 
+  const tempAllVerbsSet = new Set([]);
+
   for (let key in externalData.verbs) {
     externalData.verbs[key].sentences.forEach(sntc => {
       let arr = [key, ...sntc];
       allSentences.push(arr);
 
-      allVerbs.add(key);
+      tempAllVerbsSet.add(key);
     });
   }
+
+  const tempArr = [...tempAllVerbsSet];
+
+  // ensures consistent sorting, ignoring accents and case.
+  function normalizeGreek(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  }
+
+  tempArr.sort((a, b) =>
+    normalizeGreek(a).localeCompare(normalizeGreek(b), 'el')
+  );
+
+  tempArr.forEach(verbID => { allVerbs.push(verbID) })
 
   // Draw checkboxes to allow enable/disable verbs :
   allVerbs.forEach(verbID => {

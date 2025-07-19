@@ -59,6 +59,8 @@ function hideVerbInSentence(sentence, verb, replacement) {
 }
 
 function runApplication(externalData) {
+  // TODO: check externalData validity first ( that all expected fields are present )
+
   const allSentences = [];
   const sentences = [];
   const allVerbs = [];
@@ -100,8 +102,6 @@ function runApplication(externalData) {
     });
   }
 
-  // console.log(JSON.stringify(engToGreekTranslations, null, 2));
-
   const tempArr = [...tempAllVerbsSet];
 
   tempArr.sort((a, b) =>
@@ -136,9 +136,17 @@ function runApplication(externalData) {
 
     // 2. Create the label
     const label = document.createElement('label');
-    label.setAttribute('class', 'disable-verb-label');
+    label.setAttribute('class', 'disable-verb-label tooltip');
     label.appendChild(newCheckbox);
-    label.append(verbID);
+
+    const tooltipSpan = document.createElement('span');
+    tooltipSpan.setAttribute('class', 'tooltiptext');
+    const tooltipText = externalData.verbs[verbID].engTranslations.join(", ");
+    tooltipSpan.append(tooltipText);
+
+    const labelText = verbID;
+    label.append(tooltipSpan);
+    label.append(labelText);
     // 2-end
 
     divAllVerbsListContainer.appendChild(label);
@@ -161,7 +169,6 @@ function runApplication(externalData) {
 
   let currentSentencesIndex = 0;
 
-  // TODO: check externalData validity first ( that all expected fields are present )
   function fillSentences() {
     sentences.length = 0;
 

@@ -52,7 +52,8 @@
         ]
       },
       "verbType": "Τύπος Α",
-      "specialType": "special"
+      "specialType": "special",
+      "engTranslations": ["do"]
     },
 
     "έχω": {
@@ -84,7 +85,8 @@
         "future": ["θα έχω", "θα έχεις", "θα έχει", "θα έχουμε", "θα έχετε", "θα έχουν"]
       },
       "verbType": "Τύπος Α",
-      "specialType": "special"
+      "specialType": "special",
+      "engTranslations": ["have"]
     },
 
     "έμαι": {
@@ -116,7 +118,8 @@
         "future": ["θα είμαι", "θα είσαι", "θα είναι", "θα είμαστε", "θα είστε", "θα είναι"]
       },
       "verbType": "Τύπος ?",
-      "specialType": "special"
+      "specialType": "special",
+      "engTranslations": ["be"]
     },
 
     "λέω": {
@@ -148,7 +151,8 @@
         "future": ["θα πω", "θα πεις", "θα πει", "θα πούμε", "θα πείτε", "θα πουν"]
       },
       "verbType": "Τύπος ΑΒ",
-      "specialType": "special"
+      "specialType": "special",
+      "engTranslations": ["say"]
     },
 
     "βλέπω": {
@@ -180,7 +184,8 @@
         "future": ["θα δω", "θα δεις", "θα δει", "θα δούμε", "θα δείτε", "θα δουν"]
       },
       "verbType": "Τύπος Α",
-      "specialType": "special"
+      "specialType": "special",
+      "engTranslations": ["see"]
     },
 
     "έρχομαι": {
@@ -212,7 +217,8 @@
         "future": ["θα έρθω", "θα έρθεις", "θα έρθει", "θα έρθουμε", "θα έρθετε", "θα έρθουν"]
       },
       "verbType": "Τύπος Γ1",
-      "specialType": "special"
+      "specialType": "special",
+      "engTranslations": ["come"]
     },
 
     "γίνομαι": {
@@ -244,7 +250,8 @@
         "future": ["θα γίνω", "θα γίνεις", "θα γίνει", "θα γίνουμε", "θα γίνετε", "θα γίνουν"]
       },
       "verbType": "Τύπος Γ1",
-      "specialType": "special"
+      "specialType": "special",
+      "engTranslations": ["become"]
     },
 
     "διαβάζω": {
@@ -297,7 +304,8 @@
         ]
       },
       "verbType": "Τύπος Α",
-      "specialType": "regular"
+      "specialType": "regular",
+      "engTranslations": ["read"]
     },
 
     "μιλάω": {
@@ -350,59 +358,8 @@
         ]
       },
       "verbType": "Τύπος Β",
-      "specialType": "regular"
-    },
-
-    "ανοίγω": {
-      "sentences": [
-        ["Ανοίγω", "Ανοίγω το παράθυρο κάθε πρωί", "I open the window every morning", "s","present"],
-        ["Ανοίγεις", "Ανοίγεις την τηλεόραση όταν γυρίζεις σπίτι", "You open the TV when you come home", "s","present"],
-        ["Ανοίγει", "Ανοίγει το κατάστημα στις 9", "She opens the store at 9", "s","present"],
-        ["Ανοίγουμε", "Ανοίγουμε τα δώρα τα Χριστούγεννα", "We open the presents at Christmas", "p","present"],
-        ["Ανοίγετε", "Ανοίγετε τα βιβλία σας στην τάξη", "You open your books in class", "p","present"],
-        ["Ανοίγουν", "Ανοίγουν τα μαγαζιά κάθε μέρα εκτός Κυριακής", "They open the shops every day except Sunday", "p","present"],
-
-        ["Άνοιξα", "Άνοιξα την πόρτα για τον σκύλο", "I opened the door for the dog", "s","past"],
-        ["Άνοιξες", "Άνοιξες το φως;", "Did you turn on the light?", "s","past"],
-        ["Άνοιξε", "Άνοιξε το παράθυρο για να μπει φρέσκος αέρας", "She opened the window to let fresh air in", "s","past"],
-        ["Ανοίξαμε", "Ανοίξαμε τα δώρα το πρωί", "We opened the presents in the morning", "p","past"],
-        ["Ανοίξατε", "Ανοίξατε τον υπολογιστή πριν φύγετε;", "Did you turn on the computer before you left?", "p","past"],
-        ["Άνοιξαν", "Άνοιξαν την πόρτα χωρίς να χτυπήσουν", "They opened the door without knocking", "p","past"],
-
-        ["Θα ανοίξω", "Θα ανοίξω το παράθυρο γιατί κάνει ζέστη", "I will open the window because it's hot", "s","future"],
-        ["Θα ανοίξεις", "Θα ανοίξεις την πόρτα για τη μαμά;", "Will you open the door for mom?", "s","future"],
-        ["Θα ανοίξει", "Θα ανοίξει το μαγαζί στις 8 το πρωί", "The shop will open at 8 a.m.", "s","future"],
-        ["Θα ανοίξουμε", "Θα ανοίξουμε ένα νέο κατάστημα τον Σεπτέμβριο", "We will open a new store in September", "p","future"],
-        ["Θα ανοίξετε", "Θα ανοίξετε τα βιβλία στη σελίδα 10;", "Will you open your books to page 10?", "p","future"],
-        ["Θα ανοίξουν", "Θα ανοίξουν τα σύνορα την επόμενη εβδομάδα", "They will open the borders next week", "p","future"]
-      ],
-      "conjugation": {
-        "present": [
-          "ανοίγω",
-          "ανοίγεις",
-          "ανοίγει",
-          "ανοίγουμε",
-          "ανοίγετε",
-          "ανοίγουν"
-        ],
-        "past": [
-          "άνοιξα",
-          "άνοιξες",
-          "άνοιξε",
-          "ανοίξαμε",
-          "ανοίξατε",
-          "άνοιξαν"
-        ],
-        "future": [
-          "θα ανοίξω",
-          "θα ανοίξεις",
-          "θα ανοίξει",
-          "θα ανοίξουμε",
-          "θα ανοίξετε",
-          "θα ανοίξουν"
-        ]
-      },
-      "verbType": "Τύπος Α"
+      "specialType": "regular",
+      "engTranslations": ["speak"]
     },
 
     "φτιάχνω": {
@@ -454,7 +411,8 @@
           "θα φτιάξουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["make", "fix"]
     },
 
     "κλείνω": {
@@ -506,7 +464,8 @@
           "θα κλείσουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["close"]
     },
 
     "γράφω": {
@@ -558,7 +517,8 @@
           "θα γράψουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["write"]
     },
 
     "αλλάζω": {
@@ -610,7 +570,8 @@
           "θα αλλάξουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["change"]
     },
 
     "περνάω": {
@@ -662,7 +623,8 @@
           "θα περάσουν"
         ]
       },
-      "verbType": "Τύπος Β1"
+      "verbType": "Τύπος Β1",
+      "engTranslations": ["pass"]
     },
 
     "μπορώ": {
@@ -714,7 +676,8 @@
           "θα μπορέσουν"
         ]
       },
-      "verbType": "Τύπος Γ"
+      "verbType": "Τύπος Γ",
+      "engTranslations": ["can"]
     },
 
     "καλώ": {
@@ -766,7 +729,8 @@
           "θα καλέσουν"
         ]
       },
-      "verbType": "Τύπος Β2"
+      "verbType": "Τύπος Β2",
+      "engTranslations": ["call"]
     },
 
     "αργώ": {
@@ -818,7 +782,8 @@
           "θα αργήσουν"
         ]
       },
-      "verbType": "Τύπος Β2"
+      "verbType": "Τύπος Β2",
+      "engTranslations": ["be late"]
     },
 
     "τρώω": {
@@ -870,7 +835,8 @@
           "θα φάνε"
         ]
       },
-      "verbType": "Τύπος Γ"
+      "verbType": "Τύπος Γ",
+      "engTranslations": ["eat"]
     },
 
     "χρειάζομαι": {
@@ -922,7 +888,8 @@
           "θα χρειαστούν"
         ]
       },
-      "verbType": "Μέσο-Παθητικό"
+      "verbType": "Μέσο-Παθητικό",
+      "engTranslations": ["need"]
     },
 
     "βρίσκομαι": {
@@ -974,7 +941,8 @@
           "θα βρεθούν"
         ]
       },
-      "verbType": "Μέσο-Παθητικό"
+      "verbType": "Μέσο-Παθητικό",
+      "engTranslations": ["be located", "be found", "be situated"]
     },
 
     "θυμάμαι": {
@@ -1026,7 +994,8 @@
           "θα θυμηθούν"
         ]
       },
-      "verbType": "Μέσο-Παθητικό"
+      "verbType": "Μέσο-Παθητικό",
+      "engTranslations": ["remember"]
     },
 
     "φοβάμαι": {
@@ -1078,7 +1047,8 @@
           "θα φοβηθούν"
         ]
       },
-      "verbType": "Μέσο-Παθητικό"
+      "verbType": "Μέσο-Παθητικό",
+      "engTranslations": ["be afraid", "fear"]
     },
 
     "κοιμάμαι": {
@@ -1130,7 +1100,8 @@
           "θα κοιμηθούν"
         ]
       },
-      "verbType": "Μέσο-Παθητικό"
+      "verbType": "Μέσο-Παθητικό",
+      "engTranslations": ["sleep"]
     },
 
     "βάζω": {
@@ -1182,7 +1153,8 @@
           "θα βάλουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["put"]
     },
 
     "βγάζω": {
@@ -1234,7 +1206,8 @@
           "θα βγάλουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["take out"]
     },
 
     "δίνω": {
@@ -1286,7 +1259,8 @@
           "θα δώσουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["give"]
     },
 
     "πίνω": {
@@ -1338,7 +1312,8 @@
           "θα πιουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["drink"]
     },
 
     "μαθαίνω": {
@@ -1390,7 +1365,8 @@
           "θα μάθουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["learn"]
     },
 
     "μένω": {
@@ -1442,7 +1418,8 @@
           "θα μείνουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["stay"]
     },
 
     "παίρνω": {
@@ -1494,7 +1471,8 @@
           "θα πάρουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["take"]
     },
 
     "φέρνω": {
@@ -1546,7 +1524,8 @@
           "θα φέρουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["bring"]
     },
 
     "φεύγω": {
@@ -1598,7 +1577,8 @@
           "θα φύγουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["leave"]
     },
 
     "πέφτω": {
@@ -1650,7 +1630,8 @@
           "θα πέσουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["fall"]
     },
 
     "πλένω": {
@@ -1702,7 +1683,8 @@
           "θα πλύνουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["wash"]
     },
 
     "στέλνω": {
@@ -1754,7 +1736,8 @@
           "θα στείλουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["send"]
     },
 
     "μπαίνω": {
@@ -1806,7 +1789,8 @@
           "θα μπουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["enter"]
     },
 
     "βγαίνω": {
@@ -1858,7 +1842,8 @@
           "θα βγουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["go out"]
     },
 
     "βρίσκω": {
@@ -1910,7 +1895,8 @@
           "θα βρουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["find"]
     },
 
     "ανεβαίνω": {
@@ -1962,7 +1948,8 @@
           "θα ανέβουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["go up", "climb up", "ascend"]
     },
 
     "κατεβαίνω": {
@@ -2014,7 +2001,8 @@
           "θα κατέβουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["go down", "descend"]
     },
 
     "περιμένω": {
@@ -2066,7 +2054,8 @@
           "θα περιμένουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["wait"]
     },
 
     "ξέρω": {
@@ -2118,7 +2107,8 @@
           "θα ξέρουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["know"]
     },
 
     "θέλω": {
@@ -2156,7 +2146,8 @@
           "?"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["want"]
     },
 
     "ακούω": {
@@ -2209,7 +2200,8 @@
           "θα ακούσουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["listen", "hear"]
     },
 
     "δουλεύω": {
@@ -2262,7 +2254,8 @@
           "θα δουλέψουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["work"]
     },
 
     "καταλαβαίνω": {
@@ -2315,7 +2308,8 @@
           "θα καταλάβουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["understand"]
     },
 
     "γνωρίζω": {
@@ -2368,7 +2362,8 @@
           "θα γνωρίσουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["know (person)"]
     },
 
     "ανοίγω": {
@@ -2421,7 +2416,8 @@
           "θα ανοίξουν"
         ]
       },
-      "verbType": "Τύπος Β"
+      "verbType": "Τύπος Β",
+      "engTranslations": ["open"]
     },
 
     "χρησιμοποιώ": {
@@ -2473,7 +2469,8 @@
           "θα χρησιμοποιήσουν"
         ]
       },
-      "verbType": "Τύπος Β1"
+      "verbType": "Τύπος Β1",
+      "engTranslations": ["use"]
     },
 
     "ξεκινάω": {
@@ -2525,7 +2522,8 @@
           "θα ξεκινήσουν"
         ]
       },
-      "verbType": "Τύπος Β1"
+      "verbType": "Τύπος Β1",
+      "engTranslations": ["start"]
     },
 
     "αρχίζω": {
@@ -2577,7 +2575,8 @@
           "θα αρχίσουν"
         ]
       },
-      "verbType": "Τύπος Β1"
+      "verbType": "Τύπος Β1",
+      "engTranslations": ["begin"]
     },
 
     "ζητάω": {
@@ -2629,7 +2628,8 @@
           "θα ζητήσουν"
         ]
       },
-      "verbType": "Τύπος Β1"
+      "verbType": "Τύπος Β1",
+      "engTranslations": ["request"]
     },
 
     "πιάνω": {
@@ -2681,7 +2681,8 @@
           "θα πιάσουν"
         ]
       },
-      "verbType": "Τύπος Α"
+      "verbType": "Τύπος Α",
+      "engTranslations": ["grab", "catch"]
     },
 
     "πηγαίνω": {
@@ -2733,7 +2734,8 @@
           "θα πάνε"
         ]
       },
-      "verbType": "Ανώμαλο"
+      "verbType": "Ανώμαλο",
+      "engTranslations": ["go"]
     }
 
   }

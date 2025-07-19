@@ -27,6 +27,9 @@ const sentenceObjTenseIndicator = 5;
 // TODO: change this to Set instead of an array :
 const enabledTenses = ["present", "past", "future"];
 const disabledVerbs = new Set([]);
+// focusedVerb higher priority than 'disabledVerbs'. If it's not empty - then only examples with this verb will be shown.
+// ( was done mostly to QUICKLY show conjugation for a specific verb )
+let focusedVerb = null;
 
 function setupSentenceIndexes(sentences) {
   sentenceIndexes.length = 0;
@@ -42,6 +45,11 @@ function hideVerb() {
   return (val <= hideVerbProbability)
 }
 
+// ensures consistent sorting, ignoring accents and case.
+function normalizeGreek(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
 // this didn't work on sentence "δεν έκανα τίποτα όλη μέρα" for some reason
 function hideVerbInSentence(sentence, verb, replacement) {
   // TODO: HACK: better not to lowercase the whole string. Now the process of hiding the verb-
@@ -54,6 +62,7 @@ function runApplication(externalData) {
   const allSentences = [];
   const sentences = [];
   const allVerbs = [];
+  const engToGreekTranslations = {};
 
   // TODO: probably better to rename these variables to something more descriptive
   const inputField = document.getElementById('main-text-input');
@@ -74,6 +83,8 @@ function runApplication(externalData) {
   const buttonDisableAllVerbs = document.getElementById('disabled-verbs-disable-all');
   const buttonEnableAllVerbs = document.getElementById('disabled-verbs-enable-all');
 
+  const focusedVerbInput = document.getElementById('focused-verb-input');
+
   const tempAllVerbsSet = new Set([]);
 
   for (let key in externalData.verbs) {
@@ -83,14 +94,15 @@ function runApplication(externalData) {
 
       tempAllVerbsSet.add(key);
     });
+
+    externalData.verbs[key].engTranslations.forEach(engTrans => {
+      engToGreekTranslations[engTrans.toLowerCase()] = key
+    });
   }
+
+  // console.log(JSON.stringify(engToGreekTranslations, null, 2));
 
   const tempArr = [...tempAllVerbsSet];
-
-  // ensures consistent sorting, ignoring accents and case.
-  function normalizeGreek(str) {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-  }
 
   tempArr.sort((a, b) =>
     normalizeGreek(a).localeCompare(normalizeGreek(b), 'el')
@@ -156,6 +168,18 @@ function runApplication(externalData) {
     allSentences.forEach(sntc => {
       const tense = sntc[sentenceObjTenseIndicator];
       if (enabledTenses.includes(tense)) {
+        if (focusedVerb != null) {
+
+          // sntc[sentenceObjVerbID]
+
+          if (normalizeGreek(focusedVerb) !== normalizeGreek(sntc[sentenceObjVerbID])) {
+            return; // skip this sentence
+          } else {
+            // gTODO: this is a temporary else branch, only to test/debug
+            console.log("Focused verb is set to: " + focusedVerb + "--" + sntc[sentenceObjVerbID]);
+          }
+        };
+
         if (disabledVerbs.size > 0 && disabledVerbs.has(sntc[sentenceObjVerbID])) {
           return; // skip this sentence
         }
@@ -262,9 +286,11 @@ function runApplication(externalData) {
     return str.replace(";", "");
   }
 
-  inputField.addEventListener('keyup', () => {
+  inputField.addEventListener('keyup', (event) => {
+    const el = event.target;
     const inputValue = removeQuestionMark(
-      inputField.value.trim().toLowerCase()
+      // inputField.value.trim().toLowerCase()
+      el.value.trim().toLowerCase()
     );
 
     let valueToMatch;
@@ -287,6 +313,24 @@ function runApplication(externalData) {
       showWord();
     } else if (inputValue === skipWord) {
       nextWord("skip");
+    }
+  });
+
+  focusedVerbInput.addEventListener('keyup', (event) => {
+    const el = event.target;
+    const inputValue = el.value.trim().toLowerCase()
+    if (inputValue.length === 0) {
+      focusedVerb = null;
+      fillSentences();
+      return;
+    } else {
+      const fromEngTranslation = engToGreekTranslations[inputValue]
+      if (fromEngTranslation !== undefined) {
+        focusedVerb = fromEngTranslation;
+      } else {
+        focusedVerb = inputValue;
+      };
+      fillSentences();
     }
   });
 

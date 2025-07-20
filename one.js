@@ -13,7 +13,7 @@ const hideVerbProbability = 1.00; // always hide the verb.
 
 // NOTE: possible values: 'full_sentence_match', 'only_verb_match'
 let matchMode = "full_sentence_match";
-const skipWord = "σκιπ";
+let hideConjugations = false;
 
 const sentenceIndexes = [];
 
@@ -30,6 +30,8 @@ const disabledVerbs = new Set([]);
 // focusedVerb higher priority than 'disabledVerbs'. If it's not empty - then only examples with this verb will be shown.
 // ( was done mostly to QUICKLY show conjugation for a specific verb )
 let focusedVerb = null;
+
+let currentVerbID;
 
 function setupSentenceIndexes(sentences) {
   sentenceIndexes.length = 0;
@@ -177,13 +179,8 @@ function runApplication(externalData) {
       if (enabledTenses.includes(tense)) {
         if (focusedVerb != null) {
 
-          // sntc[sentenceObjVerbID]
-
           if (normalizeGreek(focusedVerb) !== normalizeGreek(sntc[sentenceObjVerbID])) {
             return; // skip this sentence
-          } else {
-            // gTODO: this is a temporary else branch, only to test/debug
-            console.log("Focused verb is set to: " + focusedVerb + "--" + sntc[sentenceObjVerbID]);
           }
         };
 
@@ -259,29 +256,30 @@ function runApplication(externalData) {
     verbRealDiv.innerHTML = realVerb;
     greekSentenceRealDiv.innerHTML = realGreekSentence;
 
-    const verbID = val[sentenceObjVerbID];
+    // const verbID = val[sentenceObjVerbID];
+    currentVerbID = val[sentenceObjVerbID];
 
-    let conjugation
+    showConjugations();
 
-    // NOTE: can also hide the verb in the conjugation section too, but for now I chose not to do it :
-    // if (hideVerbVar) {
-    if (false) {
-      conjugation = {
-        "present": ["_"],
-        "past": ["_"],
-        "future": ["_"]
-      }
-    } else {
-      conjugation = externalData.verbs[verbID].conjugation
-    }
+    divVerbType.innerHTML = externalData.verbs[currentVerbID].verbType;
+  }
+
+  function showConjugations() {
+    const conjugation = externalData.verbs[currentVerbID].conjugation
+
     // TODO: can add them as separate divs, not just text joined with br.
     // add class to each div - and then js can update the style of particular words
     // ( to highlight current active verb form , for example )
-    divConjugationPresent.innerHTML = conjugation["present"].join("</br>") ;
-    divConjugationPast.innerHTML = conjugation["past"].join("</br>") ;
-    divConjugationFuture.innerHTML = conjugation["future"].join("</br>") ;
-    divVerbType.innerHTML = externalData.verbs[verbID].verbType;
-  }
+    if (hideConjugations) {
+      divConjugationPresent.innerHTML = conjugation["present"][0];
+      divConjugationPast.innerHTML = "";
+      divConjugationFuture.innerHTML = "";
+    } else {
+      divConjugationPresent.innerHTML = conjugation["present"].join("</br>") ;
+      divConjugationPast.innerHTML = conjugation["past"].join("</br>") ;
+      divConjugationFuture.innerHTML = conjugation["future"].join("</br>") ;
+    };
+  };
 
   setupSentenceIndexes(sentences);
 
@@ -316,9 +314,12 @@ function runApplication(externalData) {
       console.log("Match on " + valueToMatch);
 
       nextWord("word_matched");
-    } else if (inputValue.length === 3 && inputValue[0] === inputValue[1] && inputValue[1] === inputValue[2]) {
+    } else if (inputValue === "11") {
       showWord();
-    } else if (inputValue === skipWord) {
+    } else if (inputValue === "22") {
+      swithcHideConjugationMode();
+      inputField.value = "";
+    } else if (inputValue === "33") {
       nextWord("skip");
     }
   });
@@ -341,11 +342,17 @@ function runApplication(externalData) {
     }
   });
 
+  function swithcHideConjugationMode() {
+    hideConjugations = !hideConjugations;
+    showConjugations();
+  };
+
   const presentTenseSwitch = document.getElementById('enable-present-tense');
   const pastTenseSwitch = document.getElementById('enable-past-tense');
   const futureTenseSwitch = document.getElementById('enable-future-tense');
 
   const matchModeSwitch = document.getElementById('only-verb-match-mode');
+  const hideConjugationModeSwitch = document.getElementById('hide-conjugations');
 
   function addTense(tenseName) {
     let index = enabledTenses.indexOf(tenseName);
@@ -392,6 +399,17 @@ function runApplication(externalData) {
     } else {
       matchMode = "full_sentence_match";
     }
+  });
+
+  hideConjugationModeSwitch.addEventListener("change", function(event) {
+    const el = event.target;
+    if (el.checked) {
+      hideConjugations = true;
+    } else {
+      hideConjugations = false;
+    }
+
+    showConjugations();
   });
 
   const skipBtn = document.getElementById('skip-example-btn');

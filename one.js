@@ -14,6 +14,7 @@ const hideVerbProbability = 1.00; // always hide the verb.
 // NOTE: possible values: 'full_sentence_match', 'only_verb_match'
 let matchMode = "full_sentence_match";
 let hideConjugations = false;
+let onlyRegularVerbsMode = false;
 
 const sentenceIndexes = [];
 
@@ -116,6 +117,16 @@ function runApplication(externalData) {
   allVerbs.forEach(verbID => {
     const el = 'foo-bar: ' + verbID;
 
+    const spType = externalData.verbs[verbID].specialType;
+    let spTypeClass;
+    if (spType === "regular") {
+      spTypeClass = "all-verbs-list-regular";
+    } else if (spType === "special") {
+      spTypeClass = "all-verbs-list-special";
+    } else {
+      throw new Error("Unknown specialType: " + spType);
+    }
+
     // 1. Create the checkbox for including/excluding the verb
     const newCheckbox = document.createElement('input');
     newCheckbox.type = 'checkbox';
@@ -138,7 +149,7 @@ function runApplication(externalData) {
 
     // 2. Create the label
     const label = document.createElement('label');
-    label.setAttribute('class', 'disable-verb-label tooltip');
+    label.setAttribute('class', ('disable-verb-label tooltip ' + spTypeClass));
     label.appendChild(newCheckbox);
 
     const tooltipSpan = document.createElement('span');
@@ -176,15 +187,23 @@ function runApplication(externalData) {
 
     allSentences.forEach(sntc => {
       const tense = sntc[sentenceObjTenseIndicator];
+
+      const verbID = sntc[sentenceObjVerbID];
+      const specialType = externalData.verbs[verbID].specialType;
+
+      if (onlyRegularVerbsMode && specialType !== "regular") {
+        return; // skip this sentence
+      };
+
       if (enabledTenses.includes(tense)) {
         if (focusedVerb != null) {
 
-          if (normalizeGreek(focusedVerb) !== normalizeGreek(sntc[sentenceObjVerbID])) {
+          if (normalizeGreek(focusedVerb) !== normalizeGreek(verbID)) {
             return; // skip this sentence
           }
         };
 
-        if (disabledVerbs.size > 0 && disabledVerbs.has(sntc[sentenceObjVerbID])) {
+        if (disabledVerbs.size > 0 && disabledVerbs.has(verbID)) {
           return; // skip this sentence
         }
         sentences.push(sntc);
@@ -294,7 +313,6 @@ function runApplication(externalData) {
   inputField.addEventListener('keyup', (event) => {
     const el = event.target;
     const inputValue = removeQuestionMark(
-      // inputField.value.trim().toLowerCase()
       el.value.trim().toLowerCase()
     );
 
@@ -353,6 +371,7 @@ function runApplication(externalData) {
 
   const matchModeSwitch = document.getElementById('only-verb-match-mode');
   const hideConjugationModeSwitch = document.getElementById('hide-conjugations');
+  const onlyRegularVerbsModeSwitch = document.getElementById('only-regular-verbs-mode');
 
   function addTense(tenseName) {
     let index = enabledTenses.indexOf(tenseName);
@@ -411,6 +430,18 @@ function runApplication(externalData) {
 
     showConjugations();
   });
+
+  onlyRegularVerbsModeSwitch.addEventListener("change", function(event) {
+    const el = event.target;
+    if (el.checked) {
+      onlyRegularVerbsMode = true;
+    } else {
+      onlyRegularVerbsMode = false;
+    }
+
+    fillSentences();
+  });
+
 
   const skipBtn = document.getElementById('skip-example-btn');
   skipBtn.addEventListener('click', () => {

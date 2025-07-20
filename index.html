@@ -97,6 +97,13 @@
       opacity: 1;
     }
 
+    .all-verbs-list-special {
+      color: blue;
+    }
+
+    .all-verbs-list-regular {
+    }
+
   </style>
 </head>
 <body>
@@ -152,6 +159,9 @@
   <div style="font-size: 1em; width: 85%">
     <input id="hide-conjugations" type="checkbox">Hide conjugations</input>
   </div>
+  <div style="font-size: 1em; width: 85%">
+    <input id="only-regular-verbs-mode" type="checkbox">Only regular verbs</input>
+  </div>
   <div style="height: 10"></div>
   <div style="font-size: 0.8em; width: 85%">
     To show the verb: type 11 </br>
@@ -169,7 +179,7 @@
   <div class="width-70">
     <div style="display: inline-block; width: 20%; border-style: solid; padding: 10">
       <div id="verbs-list-container">
-        <p style="font-size: 1.2em" >All used verbs list:</p>
+        <p style="font-size: 1.2em" >All used verbs list (blue - irregular ones) :</p>
         </br>
       </div>
       <div>
@@ -180,7 +190,7 @@
     </div>
 
     <div style="display: inline-block; width: 50%; vertical-align: top; border-style: solid; padding: 10">
-      Focused verb
+      Focused verb (greek or english)
       <input type="text" style="font-size: 1.5em" id="focused-verb-input" name="main-text-size">
       </input>
     </div>

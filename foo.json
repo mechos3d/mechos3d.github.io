@@ -412,6 +412,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "regular",
       "engTranslations": ["make", "fix"]
     },
 
@@ -465,6 +466,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "regular",
       "engTranslations": ["close"]
     },
 
@@ -518,6 +520,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "regular",
       "engTranslations": ["write"]
     },
 
@@ -571,6 +574,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "regular",
       "engTranslations": ["change"]
     },
 
@@ -624,6 +628,7 @@
         ]
       },
       "verbType": "Τύπος Β1",
+      "specialType": "special",
       "engTranslations": ["pass"]
     },
 
@@ -677,6 +682,7 @@
         ]
       },
       "verbType": "Τύπος Γ",
+      "specialType": "regular",
       "engTranslations": ["can"]
     },
 
@@ -730,6 +736,7 @@
         ]
       },
       "verbType": "Τύπος Β2",
+      "specialType": "regular",
       "engTranslations": ["call"]
     },
 
@@ -783,6 +790,7 @@
         ]
       },
       "verbType": "Τύπος Β2",
+      "specialType": "regular",
       "engTranslations": ["be late"]
     },
 
@@ -836,6 +844,7 @@
         ]
       },
       "verbType": "Τύπος Γ",
+      "specialType": "special",
       "engTranslations": ["eat"]
     },
 
@@ -889,6 +898,7 @@
         ]
       },
       "verbType": "Μέσο-Παθητικό",
+      "specialType": "special",
       "engTranslations": ["need"]
     },
 
@@ -942,6 +952,7 @@
         ]
       },
       "verbType": "Μέσο-Παθητικό",
+      "specialType": "special",
       "engTranslations": ["be located", "be found", "be situated"]
     },
 
@@ -995,6 +1006,7 @@
         ]
       },
       "verbType": "Μέσο-Παθητικό",
+      "specialType": "special",
       "engTranslations": ["remember"]
     },
 
@@ -1048,6 +1060,7 @@
         ]
       },
       "verbType": "Μέσο-Παθητικό",
+      "specialType": "special",
       "engTranslations": ["be afraid", "fear"]
     },
 
@@ -1101,6 +1114,7 @@
         ]
       },
       "verbType": "Μέσο-Παθητικό",
+      "specialType": "regular",
       "engTranslations": ["sleep"]
     },
 
@@ -1154,6 +1168,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "special",
       "engTranslations": ["put"]
     },
 
@@ -1207,6 +1222,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "special",
       "engTranslations": ["take out"]
     },
 
@@ -1260,6 +1276,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["give"]
     },
 
@@ -1313,6 +1330,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "special",
       "engTranslations": ["drink"]
     },
 
@@ -1366,6 +1384,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "special",
       "engTranslations": ["learn"]
     },
 
@@ -1419,6 +1438,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["stay"]
     },
 
@@ -1472,6 +1492,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["take"]
     },
 
@@ -1525,6 +1546,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["bring"]
     },
 
@@ -1578,6 +1600,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["leave"]
     },
 
@@ -1631,6 +1654,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["fall"]
     },
 
@@ -1684,6 +1708,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["wash"]
     },
 
@@ -1737,6 +1762,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["send"]
     },
 
@@ -1790,6 +1816,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["enter"]
     },
 
@@ -1843,6 +1870,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["go out"]
     },
 
@@ -1896,6 +1924,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["find"]
     },
 
@@ -1949,6 +1978,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "regular",
       "engTranslations": ["go up", "climb up", "ascend"]
     },
 
@@ -2002,6 +2032,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "regular",
       "engTranslations": ["go down", "descend"]
     },
 
@@ -2055,6 +2086,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["wait"]
     },
 
@@ -2108,6 +2140,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "special",
       "engTranslations": ["know"]
     },
 
@@ -2147,6 +2180,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "special",
       "engTranslations": ["want"]
     },
 
@@ -2201,6 +2235,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "regular",
       "engTranslations": ["listen", "hear"]
     },
 
@@ -2255,6 +2290,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "regular",
       "engTranslations": ["work"]
     },
 
@@ -2309,6 +2345,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "special",
       "engTranslations": ["understand"]
     },
 
@@ -2363,6 +2400,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "regular",
       "engTranslations": ["know (person)"]
     },
 
@@ -2417,6 +2455,7 @@
         ]
       },
       "verbType": "Τύπος Β",
+      "specialType": "special",
       "engTranslations": ["open"]
     },
 
@@ -2470,6 +2509,7 @@
         ]
       },
       "verbType": "Τύπος Β1",
+      "specialType": "special",
       "engTranslations": ["use"]
     },
 
@@ -2523,6 +2563,7 @@
         ]
       },
       "verbType": "Τύπος Β1",
+      "specialType": "regular",
       "engTranslations": ["start"]
     },
 
@@ -2576,6 +2617,7 @@
         ]
       },
       "verbType": "Τύπος Β1",
+      "specialType": "regular",
       "engTranslations": ["begin"]
     },
 
@@ -2629,6 +2671,7 @@
         ]
       },
       "verbType": "Τύπος Β1",
+      "specialType": "regular",
       "engTranslations": ["request"]
     },
 
@@ -2682,6 +2725,7 @@
         ]
       },
       "verbType": "Τύπος Α",
+      "specialType": "regular",
       "engTranslations": ["grab", "catch"]
     },
 
@@ -2735,6 +2779,7 @@
         ]
       },
       "verbType": "Ανώμαλο",
+      "specialType": "special",
       "engTranslations": ["go"]
     }
 

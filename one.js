@@ -87,6 +87,8 @@ function runApplication(externalData) {
 
   const buttonDisableAllVerbs = document.getElementById('disabled-verbs-disable-all');
   const buttonEnableAllVerbs = document.getElementById('disabled-verbs-enable-all');
+  const buttonEnableOnlyRegulars = document.getElementById('disabled-verbs-enable-regulars');
+  const buttonEnableOnlyIrregulars = document.getElementById('disabled-verbs-enable-irregulars');
 
   const focusedVerbInput = document.getElementById('focused-verb-input');
 
@@ -119,6 +121,7 @@ function runApplication(externalData) {
 
     const spType = externalData.verbs[verbID].specialType;
     let spTypeClass;
+
     if (spType === "regular") {
       spTypeClass = "all-verbs-list-regular";
     } else if (spType === "special") {
@@ -133,6 +136,7 @@ function runApplication(externalData) {
     newCheckbox.id = `disable-verb-checkbox-${verbID}`;
     newCheckbox.checked = true;
     newCheckbox.setAttribute('data-verb-id', verbID);
+    newCheckbox.setAttribute('data-verb-regularity', spType);
 
     newCheckbox.addEventListener('change', function (event) {
       const el = event.target;
@@ -176,6 +180,28 @@ function runApplication(externalData) {
   buttonEnableAllVerbs.addEventListener('click', function (event) {
     divAllVerbsListContainer.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
       checkbox.checked = true; // enable all verbs
+      checkbox.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  });
+
+  buttonEnableOnlyRegulars.addEventListener('click', function (event) {
+    divAllVerbsListContainer.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+      if (checkbox.dataset.verbRegularity === "regular") {
+        checkbox.checked = true;
+      } else {
+        checkbox.checked = false;
+      }
+      checkbox.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  });
+
+  buttonEnableOnlyIrregulars.addEventListener('click', function (event) {
+    divAllVerbsListContainer.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+      if (checkbox.dataset.verbRegularity === "regular") {
+        checkbox.checked = false;
+      } else {
+        checkbox.checked = true;
+      }
       checkbox.dispatchEvent(new Event('change', { bubbles: true }));
     });
   });
@@ -371,7 +397,6 @@ function runApplication(externalData) {
 
   const matchModeSwitch = document.getElementById('only-verb-match-mode');
   const hideConjugationModeSwitch = document.getElementById('hide-conjugations');
-  const onlyRegularVerbsModeSwitch = document.getElementById('only-regular-verbs-mode');
 
   function addTense(tenseName) {
     let index = enabledTenses.indexOf(tenseName);
@@ -430,18 +455,6 @@ function runApplication(externalData) {
 
     showConjugations();
   });
-
-  onlyRegularVerbsModeSwitch.addEventListener("change", function(event) {
-    const el = event.target;
-    if (el.checked) {
-      onlyRegularVerbsMode = true;
-    } else {
-      onlyRegularVerbsMode = false;
-    }
-
-    fillSentences();
-  });
-
 
   const skipBtn = document.getElementById('skip-example-btn');
   skipBtn.addEventListener('click', () => {

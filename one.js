@@ -237,6 +237,8 @@ function runApplication(externalData) {
     });
 
     setupSentenceIndexes(sentences);
+
+    currentSentencesIndex = -1;
     nextWord("sentences_updated");
   };
 
@@ -253,6 +255,8 @@ function runApplication(externalData) {
       setupSentenceIndexes(sentences);
       currentSentencesIndex = 0;
     };
+
+    console.log("All sentences size:" + sentences.length + ". Current index: " + currentSentencesIndex);
 
     updateTextFieldValue(currentSentencesIndex, false);
   }

@@ -1,0 +1,134 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="/stuff2.js"></script>
+  <style>
+    div {
+      margin: 0 auto;
+      /* TODO: Adding 70% to ALL the divs is stupid, need to remove it here, and add only to divs that really need it: */
+      text-align: left;
+    }
+
+    .width-70 {
+      width: 70%;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #main-text-input {
+      width: 100%;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ccc;
+      /* text-align: center; */
+      text-align: left;
+    }
+
+    .column:nth-child(2) {
+      background-color: #f8d7da;
+    }
+
+    .column:nth-child(3) {
+      background-color: #d1ecf1;
+    }
+
+    .column:nth-child(4) {
+      background-color: #d4edda;
+    }
+
+    .btn-one {
+      font-size: 1em;
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .all-verbs-list-special {
+      color: blue;
+    }
+
+    .all-verbs-list-regular {
+    }
+
+  </style>
+</head>
+<body>
+  <div class="width-70">
+    <div id="verb-show" style="font-size: 4em; font-family: Helvetica"></div>
+    <div id="verb-real" style="display: none"></div>
+    <div id="greek-sentence-show" style="font-size: 2.5em; font-family: Helvetica"></div>
+    <div id="greek-sentence-real" style="display: none"></div>
+    <div id="eng-sentence-show" style="font-size: 2.5em; font-family: Helvetica; color: #999999"></div>
+    <div id="sentence-metadata" style="font-size: 1.5em; font-family: Helvetica; color: #999999"></div>
+
+    <div style="margin: 10 0 20 0">
+      <div>
+        <input type="text" style="font-size: 1.5em" id="main-text-input" name="main-text-size">
+        </input>
+        <button class="btn-one" id="skip-example-btn">Skip example</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="height: 10"></div>
+  <div style="font-size: 0.8em; width: 85%">
+    To show the answer: type 11 </br>
+  </div>
+  <div style="font-size: 0.8em; width: 85%">
+    To skip to the next one: type '33' (or press the 'Skip example' button)
+  </div>
+  <div style="font-size: 0.8em; width: 85%">
+    <a href="/help.html">More instructions and notes</a>
+  </div>
+  </br>
+
+</body>
+</html>

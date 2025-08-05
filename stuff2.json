@@ -1,0 +1,6 @@
+{
+  "sentences": [
+    [ "ο πατέρας", "Ο πατέρας μου δουλεύει σε νοσοκομείο.", "My father works at a hospital.", { "gender": "masculine", "count": "singular", "case": "nominative" }],
+    ["του πατέρα", "Το βιβλίο του πατέρα είναι στο τραπέζι", "The father’s book is on the table.", { "gender": "masculine", "count": "singular", "case": "genitive" }]
+  ]
+}

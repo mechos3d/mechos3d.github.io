@@ -1,6 +1,60 @@
 {
   "sentences": [
-    [ "ο πατέρας", "Ο πατέρας μου δουλεύει σε νοσοκομείο.", "My father works at a hospital.", { "gender": "masculine", "count": "singular", "case": "nominative" }],
-    ["του πατέρα", "Το βιβλίο του πατέρα είναι στο τραπέζι", "The father’s book is on the table.", { "gender": "masculine", "count": "singular", "case": "genitive" }]
+    ["ο πατέρας", "Ο πατέρας μου δουλεύει σε νοσοκομείο.", "My father works at a hospital.", { "gender": "masculine", "count": "singular", "case": "nominative" }],
+    ["τον πατέρα", "Βλέπω τον πατέρα κάθε Σαββατοκύριακο.", "I see the father every weekend.", { "gender": "masculine", "count": "singular", "case": "accusative" }],
+    ["του πατέρα", "Το βιβλίο του πατέρα είναι στο τραπέζι.", "The father’s book is on the table.", { "gender": "masculine", "count": "singular", "case": "genitive" }],
+    ["οι πατέρες", "Οι πατέρες περιμένουν έξω από το σχολείο.", "The fathers are waiting outside the school.", { "gender": "masculine", "count": "plural", "case": "nominative" }],
+    ["τους πατέρες", "Συνάντησα τους πατέρες στο πάρκο.", "I met the fathers in the park.", { "gender": "masculine", "count": "plural", "case": "accusative" }],
+    ["των πατέρων", "Οι απόψεις των πατέρων διαφέρουν.", "The fathers’ opinions differ.", { "gender": "masculine", "count": "plural", "case": "genitive" }],
+
+    ["ο μαθητής", "Ο μαθητής διαβάζει για το διαγώνισμα.", "The student is studying for the test.", { "gender": "masculine", "count": "singular", "case": "nominative" }],
+    ["τον μαθητή", "Η δασκάλα βοηθάει τον μαθητή.", "The teacher helps the student.", { "gender": "masculine", "count": "singular", "case": "accusative" }],
+    ["του μαθητή", "Το τετράδιο του μαθητή είναι κόκκινο.", "The student’s notebook is red.", { "gender": "masculine", "count": "singular", "case": "genitive" }],
+    ["οι μαθητές", "Οι μαθητές έφτασαν νωρίς.", "The students arrived early.", { "gender": "masculine", "count": "plural", "case": "nominative" }],
+    ["τους μαθητές", "Η δασκάλα διδάσκει τους μαθητές.", "The teacher teaches the students.", { "gender": "masculine", "count": "plural", "case": "accusative" }],
+    ["των μαθητών", "Τα βιβλία των μαθητών είναι στο θρανίο.", "The students' books are on the desk.", { "gender": "masculine", "count": "plural", "case": "genitive" }],
+
+    ["ο φίλος", "Ο φίλος μου είναι πολύ ευγενικός.", "My friend is very polite.", { "gender": "masculine", "count": "singular", "case": "nominative" }],
+    ["τον φίλο", "Περιμένω τον φίλο μου στο σταθμό.", "I am waiting for my friend at the station.", { "gender": "masculine", "count": "singular", "case": "accusative" }],
+    ["του φίλου", "Το αυτοκίνητο του φίλου είναι καινούριο.", "The friend’s car is new.", { "gender": "masculine", "count": "singular", "case": "genitive" }],
+    ["οι φίλοι", "Οι φίλοι ταξιδεύουν μαζί.", "The friends are traveling together.", { "gender": "masculine", "count": "plural", "case": "nominative" }],
+    ["τους φίλους", "Κάλεσα όλους τους φίλους στο πάρτι.", "I invited all the friends to the party.", { "gender": "masculine", "count": "plural", "case": "accusative" }],
+    ["των φίλων", "Οι γονείς των φίλων μένουν εδώ κοντά.", "The parents of the friends live nearby.", { "gender": "masculine", "count": "plural", "case": "genitive" }],
+
+    ["η σοκολάτα", "Η σοκολάτα είναι γλυκιά.", "The chocolate is sweet.", { "gender": "feminine", "count": "singular", "case": "nominative" }],
+    ["την σοκολάτα", "Θέλω να φάω την σοκολάτα τώρα.", "I want to eat the chocolate now.", { "gender": "feminine", "count": "singular", "case": "accusative" }],
+    ["της σοκολάτας", "Η γεύση της σοκολάτας είναι υπέροχη.", "The taste of the chocolate is wonderful.", { "gender": "feminine", "count": "singular", "case": "genitive" }],
+    ["οι σοκολάτες", "Οι σοκολάτες βρίσκονται στο ντουλάπι.", "The chocolates are in the cupboard.", { "gender": "feminine", "count": "plural", "case": "nominative" }],
+    ["τις σοκολάτες", "Αγόρασα τις σοκολάτες από το σούπερ μάρκετ.", "I bought the chocolates from the supermarket.", { "gender": "feminine", "count": "plural", "case": "accusative" }],
+    ["των σοκολατών", "Οι συσκευασίες των σοκολατών είναι χρωματιστές.", "The packages of the chocolates are colorful.", { "gender": "feminine", "count": "plural", "case": "genitive" }],
+
+    ["η κόρη", "Η κόρη της Μαρίας είναι όμορφη.", "Maria’s daughter is beautiful.", { "gender": "feminine", "count": "singular", "case": "nominative" }],
+    ["την κόρη", "Είδα την κόρη σου στην αγορά.", "I saw your daughter at the market.", { "gender": "feminine", "count": "singular", "case": "accusative" }],
+    ["της κόρης", "Το παιχνίδι της κόρης είναι χαλασμένο.", "The daughter’s toy is broken.", { "gender": "feminine", "count": "singular", "case": "genitive" }],
+    ["οι κόρες", "Οι κόρες τους σπουδάζουν στο εξωτερικό.", "Their daughters are studying abroad.", { "gender": "feminine", "count": "plural", "case": "nominative" }],
+    ["τις κόρες", "Φρόντισε τις κόρες της με αγάπη.", "She cared for her daughters with love.", { "gender": "feminine", "count": "plural", "case": "accusative" }],
+    ["των κοριών", "Τα όνειρα των κοριών είναι διαφορετικά.", "The dreams of the daughters are different.", { "gender": "feminine", "count": "plural", "case": "genitive" }],
+
+    ["το νερό", "Το νερό είναι απαραίτητο για τη ζωή.", "Water is essential for life.", { "gender": "neuter", "count": "singular", "case": "nominative" }],
+    ["το νερό", "Πίνω το νερό αμέσως μόλις ξυπνήσω.", "I drink the water as soon as I wake up.", { "gender": "neuter", "count": "singular", "case": "accusative" }],
+    ["του νερού", "Η θερμοκρασία του νερού είναι χαμηλή.", "The temperature of the water is low.", { "gender": "neuter", "count": "singular", "case": "genitive" }],
+    ["τα νερά", "Τα νερά της θάλασσας είναι καθαρά.", "The waters of the sea are clean.", { "gender": "neuter", "count": "plural", "case": "nominative" }],
+    ["τα νερά", "Μάζεψα τα νερά με πετσέτα.", "I mopped up the water with a towel.", { "gender": "neuter", "count": "plural", "case": "accusative" }],
+    ["των νερών", "Η ποιότητα των νερών ελέγχεται τακτικά.", "The quality of the waters is regularly checked.", { "gender": "neuter", "count": "plural", "case": "genitive" }],
+
+    ["το όνομα", "Το όνομα του παιδιού είναι Γιώργος.", "The name of the child is George.", { "gender": "neuter", "count": "singular", "case": "nominative" }],
+    ["το όνομα", "Ξέχασα το όνομα του καινούριου καθηγητή.", "I forgot the name of the new teacher.", { "gender": "neuter", "count": "singular", "case": "accusative" }],
+    ["του ονόματος", "Η προφορά του ονόματος είναι δύσκολη.", "The pronunciation of the name is difficult.", { "gender": "neuter", "count": "singular", "case": "genitive" }],
+    ["τα ονόματα", "Τα ονόματα των παιδιών γράφτηκαν στον πίνακα.", "The children's names were written on the board.", { "gender": "neuter", "count": "plural", "case": "nominative" }],
+    ["τα ονόματα", "Άκουσα τα ονόματα στη λίστα.", "I heard the names on the list.", { "gender": "neuter", "count": "plural", "case": "accusative" }],
+    ["των ονομάτων", "Η σημασία των ονομάτων είναι πολιτιστική.", "The meaning of the names is cultural.", { "gender": "neuter", "count": "plural", "case": "genitive" }],
+
+    ["το σπίτι", "Το σπίτι είναι μεγάλο και φωτεινό.", "The house is big and bright.", { "gender": "neuter", "count": "singular", "case": "nominative" }],
+    ["το σπίτι", "Καθαρίζω το σπίτι κάθε Σάββατο.", "I clean the house every Saturday.", { "gender": "neuter", "count": "singular", "case": "accusative" }],
+    ["του σπιτιού", "Η σκεπή του σπιτιού είναι κόκκινη.", "The roof of the house is red.", { "gender": "neuter", "count": "singular", "case": "genitive" }],
+    ["τα σπίτια", "Τα σπίτια στην περιοχή είναι όμορφα.", "The houses in the area are beautiful.", { "gender": "neuter", "count": "plural", "case": "nominative" }],
+    ["τα σπίτια", "Έβαψαν τα σπίτια χτες.", "They painted the houses yesterday.", { "gender": "neuter", "count": "plural", "case": "accusative" }],
+    ["των σπιτιών", "Οι αυλές των σπιτιών είναι καθαρές.", "The yards of the houses are clean.", { "gender": "neuter", "count": "plural", "case": "genitive" }]
+
   ]
 }

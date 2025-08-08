@@ -46,7 +46,7 @@
 
     ["τα νερά", "Τα νερά της θάλασσας είναι καθαρά.", "The waters of the sea are clean.", { "gender": "neuter", "count": "plural", "case": "nominative", "ind": "definite" }],
     ["των νερών", "Η ποιότητα των νερών ελέγχεται τακτικά.", "The quality of the waters is regularly checked.", { "gender": "neuter", "count": "plural", "case": "genitive", "ind": "definite" }],
-    ["τα νερά", "Μάζεψα τα νερά με πετσέτα.", "I mopped up the water with a towel.", { "gender": "neuter", "count": "plural", "case": "accusative", "ind": "definite" }],
+    ["τα νερά", "Μάζεψα τα νερά με πετσέτα.", "I mopped up the waters with a towel.", { "gender": "neuter", "count": "plural", "case": "accusative", "ind": "definite" }],
 
     ["το όνομα", "Το όνομα του παιδιού είναι Γιώργος.", "The name of the child is George.", { "gender": "neuter", "count": "singular", "case": "nominative", "ind": "definite" }],
     ["του ονόματος", "Η προφορά του ονόματος είναι δύσκολη.", "The pronunciation of the name is difficult.", { "gender": "neuter", "count": "singular", "case": "genitive", "ind": "definite" }],

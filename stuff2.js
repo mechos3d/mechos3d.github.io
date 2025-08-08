@@ -137,7 +137,7 @@ function runApplication(externalData) {
     }
 
     const metadata = val[sentenceObjMetadata];
-    const metadataFormatted = metadata.gender + " | " + metadata.count + " | " + metadata.case;
+    const metadataFormatted = metadata.gender + " | " + metadata.count + " | " + metadata.case + " | " + metadata.ind;
 
     textOneDiv.innerHTML = showVerb;
     textTwoDiv.innerHTML = showGreekSentence;

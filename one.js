@@ -34,6 +34,8 @@ let focusedVerb = null;
 
 let currentVerbID;
 
+let wordMatched = false;
+
 function setupSentenceIndexes(sentences) {
   sentenceIndexes.length = 0;
   for (let i = 0; i < sentences.length; i++) {
@@ -258,6 +260,8 @@ function runApplication(externalData) {
 
     console.log("All sentences size:" + sentences.length + ". Current index: " + currentSentencesIndex);
 
+    inputField.classList.remove('main-text-input-border-success');
+    wordMatched = false;
     updateTextFieldValue(currentSentencesIndex, false);
   }
 
@@ -340,7 +344,22 @@ function runApplication(externalData) {
     return str.replace(";", "");
   }
 
+  inputField.addEventListener('beforeinput', function(event) {
+    if (wordMatched && event.key !== 'Enter') {
+      event.preventDefault(); // cancel the input
+    }
+  });
+
   inputField.addEventListener('keyup', (event) => {
+    if (wordMatched) {
+      if (event.key === 'Enter') {
+        nextWord("word_matched");
+      } else {
+        // this should be impossible case..
+        return;
+      }
+    }
+
     const el = event.target;
     const inputValue = removeQuestionMark(
       el.value.trim().toLowerCase()
@@ -359,9 +378,9 @@ function runApplication(externalData) {
     }
 
     if (inputValue === valueToMatch) {
-      console.log("Match on " + valueToMatch);
-
-      nextWord("word_matched");
+      // only paint the input green and then wait for 'Enter' key to be pressed.
+      inputField.classList.add('main-text-input-border-success');
+      wordMatched = true;
     } else if (inputValue === "11") {
       showWord();
     } else if (inputValue === "22") {

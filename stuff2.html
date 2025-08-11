@@ -27,6 +27,14 @@
       width: 100%;
     }
 
+    .main-text-input-border-ordinary {
+      border: 10px solid #ccc;
+    }
+
+    .main-text-input-border-success {
+      border: 10px solid #79E827;
+    }
+
     .column {
       flex: 1;
       padding: 20px;
@@ -110,9 +118,9 @@
 
     <div style="margin: 10 0 20 0">
       <div>
-        <input type="text" style="font-size: 1.5em" id="main-text-input" name="main-text-size">
+        <input type="text" style="font-size: 1.5em" id="main-text-input" class="main-text-input-border-ordinary" name="main-text-size">
         </input>
-        <button class="btn-one" id="skip-example-btn">Skip example</button>
+        <button class="btn-one" id="skip-example-btn">Next example</button>
       </div>
     </div>
 
@@ -123,7 +131,7 @@
     To show the answer: type 11 </br>
   </div>
   <div style="font-size: 0.8em; width: 85%">
-    To skip to the next one: type '33' (or press the 'Skip example' button)
+    To skip to the next one: type '33' (or press the 'Next example' button)
   </div>
   <div style="font-size: 0.8em; width: 85%">
     <a href="/help.html">More instructions and notes</a>

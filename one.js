@@ -73,7 +73,7 @@ function runApplication(externalData) {
 
   // TODO: probably better to rename these variables to something more descriptive
   const inputField = document.getElementById('main-text-input');
-  const textOneDiv = document.getElementById('verb-show');
+  // const textOneDiv = document.getElementById('verb-show');
   const textTwoDiv = document.getElementById('greek-sentence-show');
   const textThreeDiv = document.getElementById('eng-sentence-show');
 
@@ -296,7 +296,7 @@ function runApplication(externalData) {
       showGreekSentence = hideVerbInSentence(realGreekSentence, realVerb, '_');
     }
 
-    textOneDiv.innerHTML = showVerb;
+    // textOneDiv.innerHTML = showVerb;
     textTwoDiv.innerHTML = showGreekSentence;
 
     var pluralStr = "";

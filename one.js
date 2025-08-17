@@ -247,7 +247,7 @@ function runApplication(externalData) {
   fillSentences();
 
   function showWord() {
-    updateTextFieldValue(currentSentencesIndex, true);
+    updateTextFieldValue(currentSentencesIndex, true, false);
   };
 
   function nextWord(statusCode) {
@@ -262,11 +262,13 @@ function runApplication(externalData) {
 
     inputField.classList.remove('main-text-input-border-success');
     wordMatched = false;
-    updateTextFieldValue(currentSentencesIndex, false);
+    updateTextFieldValue(currentSentencesIndex, false, false);
   }
 
-  function updateTextFieldValue(idx, forceNoHidingVerb) {
-    inputField.value = "";
+  function updateTextFieldValue(idx, forceNoHidingVerb, noInputFieldUpdate) {
+    if (!noInputFieldUpdate) {
+      inputField.value = "";
+    }
 
     if (sentences.length === 0) {
       return;
@@ -336,7 +338,7 @@ function runApplication(externalData) {
 
   setupSentenceIndexes(sentences);
 
-  updateTextFieldValue(currentSentencesIndex, false);
+  updateTextFieldValue(currentSentencesIndex, false, false);
 
   const removeQuestionMark = function(str) {
     // Need to remove the greek question mark, because it's not that easy to type it on
@@ -380,6 +382,7 @@ function runApplication(externalData) {
     if (inputValue === valueToMatch) {
       // only paint the input green and then wait for 'Enter' key to be pressed.
       inputField.classList.add('main-text-input-border-success');
+      updateTextFieldValue(currentSentencesIndex, true, true);
       wordMatched = true;
     } else if (inputValue === "11") {
       showWord();
